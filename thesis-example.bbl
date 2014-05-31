@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{federal2008assessment}
+{\sc Commission, F. E.~R., et~al.}
+\newblock Assessment of demand response and advanced metering.
+
+\bibitem{dean2008mapreduce}
+{\sc Dean, J., and Ghemawat, S.}
+\newblock Mapreduce: simplified data processing on large clusters.
+\newblock {\em Communications of the ACM 51}, 1 (2008), 107--113.
+
+\bibitem{farhangi2010path}
+{\sc Farhangi, H.}
+\newblock The path of the smart grid.
+\newblock {\em Power and Energy Magazine, IEEE 8}, 1 (2010), 18--28.
+
+\bibitem{grijalva2011prosumer}
+{\sc Grijalva, S., and Tariq, M.~U.}
+\newblock Prosumer-based smart grid architecture enables a flat, sustainable
+  electricity industry.
+\newblock In {\em Innovative Smart Grid Technologies (ISGT), 2011 IEEE PES\/}
+  (2011), IEEE, pp.~1--6.
+
+\end{thebibliography}

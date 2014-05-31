@@ -1,0 +1,27 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  31 MAY 2014 16:19
+entering extended mode
+**C:/IDBM/Sentiment*Analysis/CIVIS/documentation/Thesis*Report/thesispohja41/so
+urces.bib
+
+("C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja41/so
+urces.bib"
+Overfull \hbox (23.4959pt too wide) in paragraph at lines 1--7
+[]\tenrm @articlefederal2008assessment, ti-tle=Assessment of de-mand re-sponse 
+and ad-vanced me-ter-ing, au-thor=Federal|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+)
+*
+! Emergency stop.
+<*> ...ion/Thesis*Report/thesispohja41/sources.bib
+                                                  
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
