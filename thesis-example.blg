@@ -1,17 +1,15 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis-example.aux
 The style file: acm.bst
 Database file #1: sources.bib
-Warning--I didn't find a database entry for "ThesisInstructions"
-Warning--I didn't find a database entry for "ThesisGrading"
-Warning--I didn't find a database entry for "howfindinfo"
-Warning--I didn't find a database entry for "bibinstructions"
-Warning--I didn't find a database entry for "HaapasaloThesis"
-Warning--I didn't find a database entry for "becker:1996:mvbt"
-Warning--I didn't find a database entry for "haapasalo:2009:tmvbt"
-Warning--I didn't find a database entry for "TeXLive"
-Warning--I didn't find a database entry for "MiKTeX"
-Warning--I didn't find a database entry for "TeXlipse"
-Warning--I didn't find a database entry for "Eclipse"
-Warning--I didn't find a database entry for "FerryProblem"
+I was expecting a `,' or a `}'---line 35 of file sources.bib
+ :   
+ :   month=  06
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 43 of file sources.bib
+ :   
+ :   month=  12
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in federal2008assessment
-(There were 13 warnings)
+(There were 2 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  31 MAY 2014 16:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  1 JUN 2014 23:23
 entering extended mode
 **thesis-example.tex
 
@@ -877,16 +877,7 @@ Chapter 1.
 [6
 
 
-] [7]
-
-Package natbib Warning: Citation `ThesisInstructions' on page 8 undefined on in
-put line 30.
-
-
-Package natbib Warning: Citation `ThesisGrading' on page 8 undefined on input l
-ine 32.
-
-[8])
+] [7] [8])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\2b
 ackground.tex" [9]
 Chapter 2.
@@ -899,78 +890,29 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [11]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+ [11] [12]
+<images/3Vs.png, id=217, 479.54156pt x 449.42906pt>
+File: images/3Vs.png Graphic file (type png)
+ <use images/3Vs.png>
+Package pdftex.def Info: images/3Vs.png used on input line 54.
+(pdftex.def)             Requested size: 272.99881pt x 255.8549pt.
 
-Package natbib Warning: Citation `howfindinfo' on page 12 undefined on input li
-ne 68.
-
-[12]
-
-Package natbib Warning: Citation `bibinstructions' on page 13 undefined on inpu
-t line 95.
-
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 13 undefined on inpu
-t line 114.
-
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 13 undefined on inpu
-t line 124.
-
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 13 undefined on inpu
-t line 131.
-
-
-Package natbib Warning: Citation `becker:1996:mvbt' on page 13 undefined on inp
-ut line 147.
-
-
-Package natbib Warning: Citation `haapasalo:2009:tmvbt' on page 13 undefined on
- input line 147.
-
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 13 undefined on inpu
-t line 147.
-
-[13]
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 14 undefined on inpu
-t line 157.
-
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 14 undefined on inpu
-t line 171.
-
-)
+[13])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\3e
-nvironment.tex" [14]
+nvironment.tex" [14 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Repo
+rt/thesispohja41/images/3Vs.png>]
 Chapter 3.
-
-Package natbib Warning: Citation `TeXLive' on page 15 undefined on input line 2
-2.
-
-
-Package natbib Warning: Citation `MiKTeX' on page 15 undefined on input line 28
-.
-
-
-Package natbib Warning: Citation `TeXlipse' on page 15 undefined on input line 
-38.
-
-
-Package natbib Warning: Citation `Eclipse' on page 15 undefined on input line 3
-8.
-
 [15
 
-] <images/indica_model.pdf, id=225, 261.97874pt x 88.33pt>
+] <images/indica_model.pdf, id=247, 261.97874pt x 88.33pt>
 File: images/indica_model.pdf Graphic file (type pdf)
 
 <use images/indica_model.pdf>
 Package pdftex.def Info: images/indica_model.pdf used on input line 67.
 (pdftex.def)             Requested size: 390.0pt x 131.49863pt.
- <images/ihaa.jpg, id=227, 401.5pt x 293.4965pt>
+ <images/ihaa.jpg, id=249, 401.5pt x 293.4965pt>
 File: images/ihaa.jpg Graphic file (type jpg)
 
 <use images/ihaa.jpg>
@@ -1043,14 +985,6 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 17 undefined on inpu
-t line 122.
-
-
-Package natbib Warning: Citation `HaapasaloThesis' on page 17 undefined on inpu
-t line 122.
-
 \graphdotsize=\skip65
 \graphgridsize=\skip66
 
@@ -1059,16 +993,7 @@ ages/obstruction-grouped.tex"
 \oggs=\skip67
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\im
-ages/general-star-graphs.tex")
-
-Package natbib Warning: Citation `FerryProblem' on page 17 undefined on input l
-ine 148.
-
-
-Package natbib Warning: Citation `FerryProblem' on page 17 undefined on input l
-ine 148.
-
-)
+ages/general-star-graphs.tex"))
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\4m
 ethods.tex" [17 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/t
 hesispohja41/images/ihaa.jpg>] [18]
@@ -1101,39 +1026,35 @@ Chapter 8.
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\th
 esis-example.bbl" [24
 
+] [25
+
 ])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\ap
-pendices.tex" [25
-
-]
+pendices.tex" [26]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
 Package pdftex.def Info: images/aalto-logo-en.pdf used on input line 11.
 (pdftex.def)             Requested size: 312.00119pt x 137.19974pt.
 
-<images/aalto-logo-fi.pdf, id=295, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=342, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
 Package pdftex.def Info: images/aalto-logo-fi.pdf used on input line 12.
 (pdftex.def)             Requested size: 312.00119pt x 145.97571pt.
 
-<images/aalto-logo-se.pdf, id=296, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=343, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-se.pdf>
 Package pdftex.def Info: images/aalto-logo-se.pdf used on input line 13.
 (pdftex.def)             Requested size: 312.00119pt x 131.45084pt.
-)
-
-Package natbib Warning: There were undefined citations.
-
-
+) 
 AED: lastpage setting LastPage
-[26
+[27
 
-] [27 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja
+] [28 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja
 41/images/aalto-logo-fi.pdf> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Th
 esis Report/thesispohja41/images/aalto-logo-se.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
@@ -1144,13 +1065,13 @@ esis-example.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `thesis-example.out' has not changed.
-(rerunfilecheck)             Checksum: 7063CEA4FEFF177359B23B10D5C7EF48;1398.
+(rerunfilecheck)             Checksum: 79652FC778DBAA6A2FA14DF3C656969C;1366.
  ) 
 Here is how much of TeX's memory you used:
- 19306 strings out of 493921
- 366690 string characters out of 3147273
- 525525 words of memory out of 3000000
- 22082 multiletter control sequences out of 15000+200000
+ 19360 strings out of 493921
+ 367682 string characters out of 3147273
+ 526053 words of memory out of 3000000
+ 22118 multiletter control sequences out of 15000+200000
  16932 words of font info for 60 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  56i,12n,73p,1471b,1044s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1169,9 +1090,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmtt12.pfb>
-Output written on thesis-example.pdf (27 pages, 371645 bytes).
+Output written on thesis-example.pdf (28 pages, 602985 bytes).
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 91 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

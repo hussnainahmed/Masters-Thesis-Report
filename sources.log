@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  31 MAY 2014 16:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  1 JUN 2014 23:10
 entering extended mode
 **C:/IDBM/Sentiment*Analysis/CIVIS/documentation/Thesis*Report/thesispohja41/so
 urces.bib
@@ -17,11 +17,47 @@ and ad-vanced me-ter-ing, au-thor=Federal|
 .\tenrm t
 .etc.
 
-)
-*
+
+Overfull \hbox (15.48218pt too wide) in paragraph at lines 46--56
+[]\tenrm @articlehart1992nonintrusive, ti-tle=Nonintrusive ap-pli-ance load mon
+-i-tor-ing, au-thor=Hart, George William,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+
+Overfull \hbox (11.1348pt too wide) in paragraph at lines 72--82
+[]\tenrm @articledean2008mapreduce, ti-tle=MapReduce: sim-pli-fied data pro-ces
+s-ing on large clus-ters, au-thor=Dean,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm a
+.\tenrm r
+.\tenrm t
+.etc.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.92 @misc{ipdcforum_
+                     def,
+? 
 ! Emergency stop.
-<*> ...ion/Thesis*Report/thesispohja41/sources.bib
-                                                  
+<inserted text> 
+                $
+<to be read again> 
+                   _
+l.92 @misc{ipdcforum_
+                     def,
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!
