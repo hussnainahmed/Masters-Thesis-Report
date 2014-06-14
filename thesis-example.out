@@ -7,17 +7,24 @@
 \BOOKMARK [1][-]{section.1.3}{1.3 Structure of the Thesis}{chapter.1}% 7
 \BOOKMARK [0][]{chapter.2}{2 Background}{}% 8
 \BOOKMARK [1][-]{section.2.1}{2.1 Smart grids }{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{2.2 CIVIS Poject}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{2.3 Green Campus Initiative}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.4}{2.4 Big Data Analytics}{chapter.2}% 12
-\BOOKMARK [0][]{chapter.3}{3 Environment}{}% 13
-\BOOKMARK [1][-]{section.3.1}{3.1 LaTeX working environments}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Environment}{section.3.1}% 15
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Editor}{section.3.1}% 16
-\BOOKMARK [1][-]{section.3.2}{3.2 Graphics}{chapter.3}% 17
-\BOOKMARK [0][]{chapter.4}{4 Methods}{}% 18
-\BOOKMARK [0][]{chapter.5}{5 Implementation}{}% 19
-\BOOKMARK [0][]{chapter.6}{6 Evaluation}{}% 20
-\BOOKMARK [0][]{chapter.7}{7 Discussion}{}% 21
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 22
-\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 23
+\BOOKMARK [1][-]{section.2.2}{2.2 CIVIS project}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{2.3 Green campus initiative}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{2.4 Big data analytics}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Parallel batch processing with MapReduce and Hadoop}{section.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 \040Real time big data processing }{section.2.4}% 14
+\BOOKMARK [3][-]{subsubsection.2.4.2.1}{2.4.2.1 \040Lambda architecture}{subsection.2.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.4.2.2}{2.4.2.2 Massively parallel processing - MPP databases and query engines}{subsection.2.4.2}% 16
+\BOOKMARK [1][-]{section.2.5}{2.5 Energy efficiency and eco-effeciency}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.6}{2.6 Daily consumption patterns, base load and user load}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.7}{2.7 Energy consumption seasonal patterns}{chapter.2}% 19
+\BOOKMARK [0][]{chapter.3}{3 Environment}{}% 20
+\BOOKMARK [1][-]{section.3.1}{3.1 LaTeX working environments}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Environment}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Editor}{section.3.1}% 23
+\BOOKMARK [1][-]{section.3.2}{3.2 Graphics}{chapter.3}% 24
+\BOOKMARK [0][]{chapter.4}{4 Methods}{}% 25
+\BOOKMARK [0][]{chapter.5}{5 Implementation}{}% 26
+\BOOKMARK [0][]{chapter.6}{6 Evaluation}{}% 27
+\BOOKMARK [0][]{chapter.7}{7 Discussion}{}% 28
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 29
+\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 30

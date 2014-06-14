@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  1 JUN 2014 23:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  12 JUN 2014 23:04
 entering extended mode
 **C:/IDBM/Sentiment*Analysis/CIVIS/documentation/Thesis*Report/thesispohja41/so
 urces.bib
@@ -43,21 +43,13 @@ s-ing on large clus-ters, au-thor=Dean,|
 .\tenrm t
 .etc.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-<to be read again> 
-                   _
-l.92 @misc{ipdcforum_
-                     def,
+! Undefined control sequence.
+l.92   url = "\url
+                  {http://lambda-architecture.net/}",
 ? 
 ! Emergency stop.
-<inserted text> 
-                $
-<to be read again> 
-                   _
-l.92 @misc{ipdcforum_
-                     def,
+l.92   url = "\url
+                  {http://lambda-architecture.net/}",
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!

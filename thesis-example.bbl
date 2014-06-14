@@ -1,21 +1,24 @@
 \begin{thebibliography}{10}
 
-\bibitem{ThesisGrading}
-{\sc {Aalto University, Helsinki University of Technology, Committee on
-  Academic Affairs}}.
-\newblock Guidelines for master's thesis evaluation, December 4 2008.
-\newblock
-  \url{http://www.tkk.fi/fi/opinnot/opintohallinto/paatokset/guidelinemastersthesisevaluation.pdf}
-  (in English),
-  \url{http://www.tkk.fi/fi/opinnot/opintohallinto/paatokset/diplomityoarviointiohje.pdf}
-  (in Finnish).
+\bibitem{clouderaimpala}
+Cloudera impala.
 
-\bibitem{ThesisInstructions}
-{\sc {Aalto-yliopisto, Degree programme of Computer Science and Engineering}}.
-\newblock Instruction pages: Diplomity�, 2010.
-\newblock \url{http://information.tkk.fi/fi/opinnot/tietotekniikka/diplomityo/}
-  (in Finnish), \url{http://information.tkk.fi/en/studies/cse/thesis/} (in
-  English). Accessed 9.2.2011.
+\bibitem{eu2012ee}
+Directive 2012/27/eu of the european parliament and of the council of 25
+  october 2012 on energy efficiency.
+\newblock
+  \url{http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:315:0001:0056:EN:PDF}.
+\newblock Accessed: 2014-06-10.
+
+\bibitem{lambdaarch}
+{Lambda Architecture} what is the lambda architecture.
+\newblock Accessed: 2014-06-09.
+
+\bibitem{arundel2009measuring}
+{\sc Arundel, A., and Kemp, R.}
+\newblock Measuring eco-innovation.
+\newblock {\em United Nations University Working Paper Series}, 2009/017
+  (2009), 1--40.
 
 \bibitem{MiKTeX}
 {\sc {Christian Schenk}}.
@@ -40,6 +43,11 @@
 {\sc Farhangi, H.}
 \newblock The path of the smart grid.
 \newblock {\em Power and Energy Magazine, IEEE 8}, 1 (2010), 18--28.
+
+\bibitem{forsstrommeasuring}
+{\sc Forsstr{\"o}m, J., Lahti, P., Pursiheimo, E., R{\"a}m{\"a}, M., Shemeikka,
+  J., Sipil{\"a}, K., Tuominen, P., and Wahlgren, I.}
+\newblock Measuring energy efficiency.
 
 \bibitem{grijalva2011prosumer}
 {\sc Grijalva, S., and Tariq, M.~U.}
@@ -81,10 +89,21 @@
 \newblock 3d data management: Controlling data volume, velocity and variety.
 \newblock {\em META Group Research Note 6\/} (2001).
 
+\bibitem{marz2013big}
+{\sc Marz, N., and Warren, J.}
+\newblock {\em Big Data: Principles and best practices of scalable realtime
+  data systems}.
+\newblock O'Reilly Media, 2013.
+
 \bibitem{russom2011big}
 {\sc Russom, P., et~al.}
 \newblock Big data analytics.
 \newblock {\em TDWI Best Practices Report, Fourth Quarter\/} (2011).
+
+\bibitem{stonebraker1986case}
+{\sc Stonebraker, M.}
+\newblock The case for shared nothing.
+\newblock {\em IEEE Database Eng. Bull. 9}, 1 (1986), 4--9.
 
 \bibitem{TeXLive}
 {\sc {TeX Users Group}}.
@@ -95,5 +114,11 @@
 {\sc {The Eclipse Foundation}}.
 \newblock {Eclipse}, 2011.
 \newblock \url{http://eclipse.org/}. Accessed 25.2.2011.
+
+\bibitem{wikisn}
+{\sc Wikipedia}.
+\newblock Shared nothing architecture --- wikipedia{,} the free encyclopedia,
+  2014.
+\newblock [Online; accessed 9-June-2014].
 
 \end{thebibliography}

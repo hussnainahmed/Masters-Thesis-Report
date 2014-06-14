@@ -11,5 +11,13 @@ I was expecting a `,' or a `}'---line 43 of file sources.bib
  :   month=  12
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 126 of file sources.bib
+ :   title = {Cloudera Impala} 
+ :                             Open Source, Interactive SQL for Hadoop},
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in lambdaarch
+Warning--to sort, need author or key in clouderaimpala
+Warning--to sort, need author or key in eu2012ee
 Warning--empty journal in federal2008assessment
-(There were 2 error messages)
+Warning--empty journal in forsstrommeasuring
+(There were 3 error messages)
