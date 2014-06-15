@@ -84,10 +84,23 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 {\sc {Janne Peltonen}}.
 \newblock Presentation on vtt otaniemi greencampus summary, 2013.
 
+\bibitem{khan2013fault}
+{\sc Khan, I., Capozzoli, A., Corgnati, S.~P., and Cerquitelli, T.}
+\newblock Fault detection analysis of building energy consumption using data
+  mining techniques.
+\newblock {\em Energy Procedia 42\/} (2013), 557--566.
+
 \bibitem{laney20013d}
 {\sc Laney, D.}
 \newblock 3d data management: Controlling data volume, velocity and variety.
 \newblock {\em META Group Research Note 6\/} (2001).
+
+\bibitem{li2010classification}
+{\sc Li, X., Bowers, C.~P., and Schnier, T.}
+\newblock Classification of energy consumption in buildings with outlier
+  detection.
+\newblock {\em Industrial Electronics, IEEE Transactions on 57}, 11 (2010),
+  3639--3644.
 
 \bibitem{marz2013big}
 {\sc Marz, N., and Warren, J.}
@@ -115,10 +128,21 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock {Eclipse}, 2011.
 \newblock \url{http://eclipse.org/}. Accessed 25.2.2011.
 
+\bibitem{tso2003study}
+{\sc Tso, G.~K., and Yau, K.~K.}
+\newblock A study of domestic energy usage patterns in hong kong.
+\newblock {\em Energy 28}, 15 (2003), 1671--1682.
+
 \bibitem{wikisn}
 {\sc Wikipedia}.
 \newblock Shared nothing architecture --- wikipedia{,} the free encyclopedia,
   2014.
 \newblock [Online; accessed 9-June-2014].
+
+\bibitem{yohanis2008real}
+{\sc Yohanis, Y.~G., Mondol, J.~D., Wright, A., and Norton, B.}
+\newblock Real-life energy use in the uk: How occupancy and dwelling
+  characteristics affect domestic electricity use.
+\newblock {\em Energy and Buildings 40}, 6 (2008), 1053--1059.
 
 \end{thebibliography}
