@@ -131,11 +131,56 @@ In scope of our research we have also analysed the seasonal trends. It was not h
 
 Previously, there have been many studies for both daily and seasonal trends in energy consumption. Due to regional differences in trends, many of these studies focused on consumption patterns within a country. Geoffrey K.F. Tso et. all, 2003\cite{tso2003study} and Yigzaw G. Yohanis et. all 2007\cite{yohanis2008real} study the energy consumption pattern in Hong Kong and United Kingdom respectively. Buildings units e.g. residential houses apartments and commercial offices etc were considered as basic unit of analysis. Yigzaw G. Yohanis et. all methodology resembles most to our approach as they considered ecological factor along with energy efficiency calculated in similar way as equation 2.1 and 2.2. As discussed before, the main purpose of VTT's green campus initiative under EcoCampus 2030 plan is to develop a highly efficient model ecosystem for energy production, distribution and consumption that can be expanded further to any scale. Alligned to this goal, we have attempted to provide a data analysis model that is not specific to certain geographic locations. However detailed study is required for adapting such generic models to region specific requirements. In our research we have also attempted to classify the buildings on basis energy efficiency that is explained in next section.
 
-\section{Classification of building based on energy efficiency}
+\section{Classification of buildings based on energy efficiency}
 
-Earlier we mentioned that quantifiable energy efficiency can be used as a metric for benchmarking and comparison. For energy service providers, governmental energy regulatory agencies or research institute like VTT, it is very important to identify the problematic consumption units in larger number of highly optimized or average performing consumption units.classification of these units into similarly performing groups can help them to narrow down the focus to only problematic units. Sometimes it can also help in understanding the good practices applied by certain consumptions unit that has improved their energy efficiency performance.
+Earlier we mentioned that quantifiable energy efficiency through equation 2.1 and 2.2 can be used as a metric for benchmarking and comparison. For energy service providers, governmental energy regulatory agencies or research institute like VTT, it is very important to identify the problematic consumption units in larger number of highly optimized or average performing consumption units.classification of these units into similarly performing groups can help them to narrow down the focus to only problematic units. Sometimes it can also help in understanding the good practices applied by certain consumptions unit that has improved their energy efficiency performance.
   
-Classification for fault detection analysis of a building energy consumption has been used previously as well. Xiaoli Li et. all, 2010 used classification along with outlier detection mechnism to identify the energy inefficient building \cite{li2010classification}.They provide a step wise approach to extract the features (types of energy, trends etc) from the data collected as a time series. Then detect identify the daily usage patterns using auto regression technique and pass the results to benchmark against any outlying data point that can refer to faulty behaviour. Imran Khan et all. 2013, proposes different clustering techniques to group building with similar level of energy efficiency together\cite{khan2013fault}. In our research we used a hybrid method using feature extraction and trend detection techniques like \cite{li2010classification} and then applied a clustering technique proposed in \cite{khan2013fault}. The clustering technique that used is called K-means clustering. It is explained in the next subsection of this article.   
+Classification for fault detection analysis of a building energy consumption has been used previously as well. Xiaoli Li et. all, 2010 used classification along with outlier detection mechnism to identify the energy inefficient building \cite{li2010classification}.They provide a step wise approach to extract the features (types of energy, trends etc) from the data collected as a time series. Then detect identify the daily usage patterns using auto regression technique and pass the results to benchmark against any outlying data point that can refer to faulty behaviour. Imran Khan et all. 2013, proposes different clustering techniques to group building with similar level of energy efficiency together\cite{khan2013fault}. In our research we used a hybrid method using feature extraction and trend detection techniques like \cite{li2010classification} and then applied a clustering technique proposed in \cite{khan2013fault}. The clustering technique that used is called K-means clustering. It is explained in the next subsection of this article. 
+
+\subsection{K-means clustering}
+K-means is an algorithm for cluster analysis. In context to machine learning cluster analysis or clustering is an unsupervised task of grouping a set of objects in a way that objects in same group are similar to each other more than the objects in other group. K-means algorithm clusters the set of objects i.e. energy efficiency values in our case into predefined number of classes. We shall term these values as data points. K represents the number  of cluster and groups that we can set in start of the process. K-means means algorithm was first proposed by Stuart Llyod in 1957\cite{lloyd1982least} but the k-means term was first used by James Mcqueen in 1967\cite{macqueen1967some}. There have many  adaptations and optimizations in Lloyd's basic algorithm. K-means algorithm today has many variants like Fuzzy C-means clustering, k-medoids and spherical means etc. Even for original Lloyd's algorithm there has been some modification in methodology. Two very commonly used methods are Forgy method \cite{forgy1965cluster} and Hartigan-Wong method\cite{hartigan1979algorithm}. In our approach we are using Hartigon-Wong method. We shall also use some references from Forgy method when explaining the K-means algorithm. 
+
+K-means groups the data points in cluster with a logical centre point. The aim of the K-means algorithm is to divide data points in certain dimensions into K clusters so that the within-cluster sum of squares is minimized \cite{hartigan1979algorithm}. Lets assume if we want have K cluster for data points  D = \(\{x_1,x_2,\dotsc,x_n\}\) in d dimensions then
+\begin{align*}
+x_{i}& \in R ^{d}
+\end{align*}
+ 
+K-means algorithm uses following steps to cluster data into groups\cite{ng2000cs229}.
+\begin{enumerate}
+  \item Initialize the centroids randomly for each K i.e. for each group. 
+  \item Data points are assigned to closest centroid.
+  \item Move the centroids to the mean of the data points assigned to that cetroid in step 2.
+  \item Repeat 2 and 3 till convergence Convergence means that values stop changing in further iterations.
+\end{enumerate} 
+
+Mathematically randomly initialized centroid are  
+$${\mu_1,\mu_2,\dotsc,\mu_k}  \in R^{n}$$
+
+
+If \(c^{i}\) is the distance of centroid to assigned data point then Step 2 and 3 with recursive distance minimization and mean adjustment can be explained as 
+
+For every i, set 
+\begin{equation}
+c^{i} := \arg\min_j || x^{i} - \mu_j||^2
+\end{equation}  
+
+For every j, set
+\begin{equation}
+\mu_{j} := \frac{\sum\limits_{i=1}^n 1\{c^{i} =j\}x^{i}}{\sum\limits_{i=1}^n 1\{c^{i}=j\}}
+\end{equation}
+
+The input to k-means is a set of feature vectors along with the number of clusters required. In our case we shall be have two feature hence two dimensional matrix of energy efficiency values for electricity and electricity used for heating. Before inserting data to k-means it is required to set the similar scale for features as well set the standard variance to avoid errors in the results. We required to classify pilot site buildings into four groups with High efficiency, moderate efficiency, low efficiency and poor efficiency classes. So we have set K value as 4.
+
+\subsection{Forecasting the energy consumption}
+Estimating equipment specific energy consumption has been a key focus area for energy service providers. It can help in demand planning, load forecasting, and understanding end user behaviour. Based on this such estimating energy service providers can design better service offerings for their consumers. Unit energy consumption (UEC) is a term generally used for estimating equipment specific energy consumption. It is the average annual amount of energy consumed by a user device. Conditional demand analysis (CDA) model has been one the most commonly used method for UEC estimations. K. H. Tiedemann, 2007 explain CDA as a multivariate regression technique which combines utility billing data with weather information and customer survey data to produce robust end-use energy consumption estimates\cite{tiedemann2007using}.     
+  
+
+
+
+
+
+
 
  
+
 

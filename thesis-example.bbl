@@ -44,6 +44,12 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock The path of the smart grid.
 \newblock {\em Power and Energy Magazine, IEEE 8}, 1 (2010), 18--28.
 
+\bibitem{forgy1965cluster}
+{\sc Forgy, E.~W.}
+\newblock Cluster analysis of multivariate data: efficiency versus
+  interpretability of classifications.
+\newblock {\em Biometrics 21\/} (1965), 768--769.
+
 \bibitem{forsstrommeasuring}
 {\sc Forsstr{\"o}m, J., Lahti, P., Pursiheimo, E., R{\"a}m{\"a}, M., Shemeikka,
   J., Sipil{\"a}, K., Tuominen, P., and Wahlgren, I.}
@@ -74,6 +80,11 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock Nonintrusive appliance load monitoring.
 \newblock {\em Proceedings of the IEEE 80}, 12 (1992), 1870--1891.
 
+\bibitem{hartigan1979algorithm}
+{\sc Hartigan, J.~A., and Wong, M.~A.}
+\newblock Algorithm as 136: A k-means clustering algorithm.
+\newblock {\em Applied statistics\/} (1979), 100--108.
+
 \bibitem{TeXlipse}
 {\sc Hupponen, T., Karlsson, K., Laitinen, J., Ojala, O., Pirinen, A.,
   Seuranen, E., Takkinen, L., von Loesch, B., and Vestb�, T.~A.}
@@ -102,11 +113,29 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock {\em Industrial Electronics, IEEE Transactions on 57}, 11 (2010),
   3639--3644.
 
+\bibitem{lloyd1982least}
+{\sc Lloyd, S.}
+\newblock Least squares quantization in pcm.
+\newblock {\em Information Theory, IEEE Transactions on 28}, 2 (1982),
+  129--137.
+
+\bibitem{macqueen1967some}
+{\sc MacQueen, J., et~al.}
+\newblock Some methods for classification and analysis of multivariate
+  observations.
+\newblock In {\em Proceedings of the fifth Berkeley symposium on mathematical
+  statistics and probability\/} (1967), vol.~1, California, USA, p.~14.
+
 \bibitem{marz2013big}
 {\sc Marz, N., and Warren, J.}
 \newblock {\em Big Data: Principles and best practices of scalable realtime
   data systems}.
 \newblock O'Reilly Media, 2013.
+
+\bibitem{ng2000cs229}
+{\sc Ng, A.}
+\newblock Cs229 lecture notes.
+\newblock {\em CS229 Lecture notes 1}, 1 (2000), 1--3.
 
 \bibitem{russom2011big}
 {\sc Russom, P., et~al.}
