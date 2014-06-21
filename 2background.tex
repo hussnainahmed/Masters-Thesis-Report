@@ -171,10 +171,91 @@ For every j, set
 
 The input to k-means is a set of feature vectors along with the number of clusters required. In our case we shall be have two feature hence two dimensional matrix of energy efficiency values for electricity and electricity used for heating. Before inserting data to k-means it is required to set the similar scale for features as well set the standard variance to avoid errors in the results. We required to classify pilot site buildings into four groups with High efficiency, moderate efficiency, low efficiency and poor efficiency classes. So we have set K value as 4.
 
-\subsection{Forecasting the energy consumption}
-Estimating equipment specific energy consumption has been a key focus area for energy service providers. It can help in demand planning, load forecasting, and understanding end user behaviour. Based on this such estimating energy service providers can design better service offerings for their consumers. Unit energy consumption (UEC) is a term generally used for estimating equipment specific energy consumption. It is the average annual amount of energy consumed by a user device. Conditional demand analysis (CDA) model has been one the most commonly used method for UEC estimations. K. H. Tiedemann, 2007 explain CDA as a multivariate regression technique which combines utility billing data with weather information and customer survey data to produce robust end-use energy consumption estimates\cite{tiedemann2007using}.     
-  
+\section{Forecasting the energy consumption}
+Estimating equipment specific energy consumption has been a key focus area for energy service providers. It can help in demand planning, load forecasting, and understanding end user behaviour.  Energy service providers can design better service offerings for their consumers. Unit energy consumption (UEC) is a term generally used for estimating equipment specific energy consumption. It is the average annual amount of energy consumed by a user device. Conditional demand analysis (CDA) model has been one the most commonly used method for UEC estimations. K. H. Tiedemann, 2007 explain CDA as a multivariate regression technique which combines utility billing data with weather information and customer survey data to produce robust end-use energy consumption estimates\cite{tiedemann2007using}. As part of the green campus project VTT has installed used state of the art nonintrusive load monitoring (NIALM)\cite{hart1992nonintrusive} devices that can distinguish between the usage of different electric devices on basis of changes in voltage and electricity. 
 
+We are using the data collected by a NIALM device installed in one of a residential apartment included in VTT's pilot test sites. In our analysis of this data we are not using CDA. However we shall be using auto regression along with concept of moving averages in form of a model known as ARMA model to estimate the future consumption of a device depending on the previous usage. This is an example of quantitative forecasting. Before we go to discuss about ARMA models it is important that we briefly discuss the basic conditions for quantitative forecasting and the time series analysis as foundation for prediction model based on ARMA.
+\subsection{Main conditions and Steps for Quantitative Forecasting}\label{conditions}
+Rob Hyndman et all, 2014 discuss two main conditions for application of quantitative forecasting\cite{hyndman2014forecasting} in their book ``Forecasting: Principles and Practice''.
+\begin{enumerate}
+\item numerical information about the past is available.
+\item it is reasonable to assume that some aspects of the past patterns will continue into the future.
+\end{enumerate}
+In case the conditions can't be met then qualitative forecasting is the only option. However, the qualitative forecasting is not in scope of our research for this thesis. In the same book authors mention following five step approach for solving forecasting problems.
+\begin{enumerate}
+\item Problem definition
+\item Information gathering that includes statistical data collection.
+\item Exploratory analysis of the data to evaluate the structure of the data and observing relationship between different variables.
+\item Choosing and fitting the forecasting model. The model depends upon the relationships of variables. Every model has its own construct. So data needs to be fitted to that construct before applying that model. We shall discuss it more in data analysis part of tis document.
+\item Using and evaluating forecasting model. It generally includes comparison of results after applying different models.  
+\end{enumerate}    
+
+\subsection{Time Series Analysis}
+Time series is the sequence of a random variable collected over time. Among other examples of time series data, energy consumption data from metering devices can also be collected periodically hence constituting a time series. Comparison of a single time series at different point in times is termed as time series analysis \cite{box1976time}. A time series usually consists of a deterministic component and a random component\cite{mujumdarstochastic}. So if \(X_{t}\) is a time series data then we can have 
+
+\begin{equation}
+X_{t}= d_{t}\;+\;\epsilon_{t} 
+\end{equation}  
+
+where \(d_{t}\) is the deterministic component and \(\epsilon_{t}\) is the random component. The deterministic component itself can be in form of trends, periods, and jumps etc. Figure ~\ref{fig:time_series} illustrates the examples of different time series. In each illustration there is atleast one stochastic random component with and without deterministic components. 
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.8\textwidth]{images/time_series.png}
+    \caption{ Time Series types\cite{mujumdarstochastic}.}
+    \label{fig:time_series}
+  \end{center}
+\end{figure}  
+
+In figure ~\ref{fig:time_series} illustrations 2,3 and 4 contain a deterministic component with a random component. In terms of prediction even the random component can be estimated using the deterministic component. However for stochastic random time series data without any deterministic component it is very hard to predict anything accurately. The time series with no predictable pattern is generally termed as stationary time series. We shall be discussing this in details during the  analysis part of this document.  
+
+ 
+\subsection{Autoregression, Moving Averages and ARIMA Models}     
+ Rob Hyndman's book ``Forecasting: Principles and Practice''\cite{hyndman2014forecasting} is the main reference for this section. 
+ \subsubsection{Regression}The concept behind basic regression techniques for forecasting is that we try to forecast a variable `y' on the basis of another variable `x'. For example a liner regression model forecast y assuming it has a linear relationship with  variable x e.g. as in equation below.
+ $$ y = \beta_{0}\;+\;\beta_{1}x\;+\;\epsilon $$
+ Parameter \(\beta_0\) and \(\beta_1\) represents the intercept and slope respectively for the line representing  the linear relationship.\(\beta_0\) represents the predicted value when x is 0. Linear regression for time series analysis can be written as 
+ $$ Y_{t} = \beta_{0}\;+\;\beta_{1}x_{t-1}\;+\;\epsilon $$
+ Here \(Y_{t}\) is the estimate with past value of \(x_{t}\) i.e. \(\{x_1,x_2,\dotsc, x_{t-1}\}\) . using differencing\footnote{he differences between consecutive observations} error \(e_{t}\) in estimation can be calculated as
+ \begin{equation}
+ e_{t}\;=\; X_{t}\; -\; Y_{t}\;=\; x_{t}\; -\;\beta_{0}\;-\;\beta_{1}x_{t-1}\;-\;\epsilon
+ \end{equation}
+ \subsubsection{Autoregression}  
+ Autoregressive model is based on the concept of a variable regressing on itself. For autoregression we can drive equation as
+  \begin{equation}
+  x_{t}\; =\;\beta_{0}\;+\;\beta_{1}x_{t-1}\;+\;e_{t}\;+\;\epsilon
+  \end{equation} 
+  The aim for good estimation is to select value of \(\beta_0\) and \(\beta_1\) that can minimize the sum of square of errors. Above equation can be used to estimate the value based on first previous value. But in case we want to estimate based on multiple previous values e.g. `p' values then we can write it as 
+ \begin{equation} \label{AR}
+  x_{t}\; =\;c\;+\;\beta_{1}x_{t-1}\;+\;\beta_{2}x_{t-2}\;+\;\dotsc\;+\;\beta_{p}x_{t-p}\;+\;e_{t}\;+\;\epsilon
+ \end{equation}
+ 
+ We just replaced \(\beta_0\) with a constant c as it is a constant value. Adding the summation to the historic values we can write 
+ 
+$$
+x_{t}\; =\;c\;+\;e_{t}\;+\;\sum\limits_{i=1}^p\beta_{i}x_{t-i}
+$$
+we have also taken out the random component \(\epsilon\) that does  not meet the basic conditions for forecasting as described in subsection \ref{conditions}. The model presented  in equation \ref{AR} is referd to as AR\((p)\) model. 
+\subsubsection{Moving Averages}
+ Moving averages model use past forecast errors in regression like manner to forecast future time series values instead of using past time series values as in autoregression. Matehmatically model can be explained as
+ \begin{equation}\label{MA}
+ y_{t}\; =\;c\;+\;e_{t}\;+\;\theta_{1}e_{t-1}\;+\;\theta_{2}e_{t-2}\;+\;\dotsc\;+\;\theta_{q}e_{t-q}
+\end{equation}
+OR
+$$
+y_{t}\; =\;c\;+\;e_{t}\;+\;\sum\limits_{i=1}^q\theta_{i}e_{t-i}
+$$
+The model presented  in equation \ref{MA} is termed as MA\((q)\) model.In this model each value of \(y_t\) can be thought of as a weighted moving average of the past few forecast errors.
+\subsubsection{ARIMA Model}
+ARIMA stands for Auto-Regressive Integrated Moving Average. As the name suggests it is the combination of autorgresion and moving average models. ARIMA is one of the most commonly used forecasting technique. ARIMA model can handle time series data with and without seasonality. We shall be discussing non-seasonal ARIMA because of the nature of the data we shall be processing in our analysis. The nature of the data will be discussed in data analysis part of this document. So combining the autoregression and moving averages using equation \ref{AR} and \ref{MA} we can have 
+\begin{equation}\label{ARIMA1}
+ y^\prime_{t}\; =\;c\\;+\;e_{t}\;+\;\phi_{1}y^\prime_{t-1}\;+\;\dotsc\;+\;\phi_{p}y^\prime_{t-p}\;+\;\theta_{1}e_{t-1}\;+\;\dotsc\;+\;\theta_{q}e_{t-q}
+\end{equation}
+In this equation \(y^\prime_t\) is the difference series
+
+
+
+ 
+  
 
 
 

@@ -20,6 +20,11 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock {\em United Nations University Working Paper Series}, 2009/017
   (2009), 1--40.
 
+\bibitem{box1976time}
+{\sc Box, G.~E., and Jenkins, G.~M.}
+\newblock {\em Time series analysis: forecasting and control, revised ed}.
+\newblock Holden-Day, 1976.
+
 \bibitem{MiKTeX}
 {\sc {Christian Schenk}}.
 \newblock {MiKTeX}, 2010.
@@ -91,6 +96,11 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock {TeXlipse plugin for {E}clipse}, 2010.
 \newblock \url{http://texlipse.sourceforge.net/}. Accessed 25.2.2011.
 
+\bibitem{hyndman2014forecasting}
+{\sc Hyndman, R.~J., and Athanasopoulos, G.}
+\newblock {\em Forecasting: principles and practice}.
+\newblock 2014.
+
 \bibitem{greencampus}
 {\sc {Janne Peltonen}}.
 \newblock Presentation on vtt otaniemi greencampus summary, 2013.
@@ -132,6 +142,10 @@ Directive 2012/27/eu of the european parliament and of the council of 25
   data systems}.
 \newblock O'Reilly Media, 2013.
 
+\bibitem{mujumdarstochastic}
+{\sc Mujumdar, P.}
+\newblock Stochastic hydrology-video course.
+
 \bibitem{ng2000cs229}
 {\sc Ng, A.}
 \newblock Cs229 lecture notes.
@@ -156,6 +170,12 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 {\sc {The Eclipse Foundation}}.
 \newblock {Eclipse}, 2011.
 \newblock \url{http://eclipse.org/}. Accessed 25.2.2011.
+
+\bibitem{tiedemann2007using}
+{\sc Tiedemann, K.}
+\newblock Using conditional demand analysis to estimate residential energy use
+  and energy savings.
+\newblock {\em Proceedings of the CDEEE\/} (2007).
 
 \bibitem{tso2003study}
 {\sc Tso, G.~K., and Yau, K.~K.}

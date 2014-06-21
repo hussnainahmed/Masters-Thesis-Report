@@ -15,10 +15,16 @@ I was expecting a `,' or a `}'---line 126 of file sources.bib
  :   title = {Cloudera Impala} 
  :                             Open Source, Interactive SQL for Hadoop},
 I'm skipping whatever remains of this entry
+Repeated entry---line 260 of file sources.bib
+ : @article{hart1992nonintrusive
+ :                              ,
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in lambdaarch
 Warning--to sort, need author or key in clouderaimpala
 Warning--to sort, need author or key in eu2012ee
 Warning--empty journal in federal2008assessment
 Warning--empty journal in forsstrommeasuring
+Warning--empty publisher in hyndman2014forecasting
 Warning--can't use both volume and number fields in macqueen1967some
-(There were 3 error messages)
+Warning--empty journal in mujumdarstochastic
+(There were 4 error messages)
