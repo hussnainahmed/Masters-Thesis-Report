@@ -27,14 +27,12 @@
 \BOOKMARK [3][-]{subsubsection.2.9.3.2}{2.9.3.2 Autoregression}{subsection.2.9.3}% 27
 \BOOKMARK [3][-]{subsubsection.2.9.3.3}{2.9.3.3 Moving Averages}{subsection.2.9.3}% 28
 \BOOKMARK [3][-]{subsubsection.2.9.3.4}{2.9.3.4 ARIMA Model}{subsection.2.9.3}% 29
-\BOOKMARK [0][]{chapter.3}{3 Environment}{}% 30
-\BOOKMARK [1][-]{section.3.1}{3.1 LaTeX working environments}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Environment}{section.3.1}% 32
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Editor}{section.3.1}% 33
-\BOOKMARK [1][-]{section.3.2}{3.2 Graphics}{chapter.3}% 34
-\BOOKMARK [0][]{chapter.4}{4 Methods}{}% 35
-\BOOKMARK [0][]{chapter.5}{5 Implementation}{}% 36
-\BOOKMARK [0][]{chapter.6}{6 Evaluation}{}% 37
-\BOOKMARK [0][]{chapter.7}{7 Discussion}{}% 38
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 39
-\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 40
+\BOOKMARK [0][]{chapter.3}{3 Methodology}{}% 30
+\BOOKMARK [1][-]{section.3.1}{3.1 Kumiega-Van Vliet Model}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.2}{3.2 Adaptation of Kumiega- Van Vliet Model}{chapter.3}% 32
+\BOOKMARK [0][]{chapter.4}{4 Methods}{}% 33
+\BOOKMARK [0][]{chapter.5}{5 Implementation}{}% 34
+\BOOKMARK [0][]{chapter.6}{6 Evaluation}{}% 35
+\BOOKMARK [0][]{chapter.7}{7 Discussion}{}% 36
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 37
+\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 38

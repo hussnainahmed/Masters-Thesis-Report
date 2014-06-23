@@ -111,6 +111,12 @@ Directive 2012/27/eu of the european parliament and of the council of 25
   mining techniques.
 \newblock {\em Energy Procedia 42\/} (2013), 557--566.
 
+\bibitem{kumiega2008software}
+{\sc Kumiega, A., and Van~Vliet, B.}
+\newblock A software development methodology for research and prototyping in
+  financial markets.
+\newblock {\em arXiv preprint arXiv:0803.0162\/} (2008).
+
 \bibitem{laney20013d}
 {\sc Laney, D.}
 \newblock 3d data management: Controlling data volume, velocity and variety.
@@ -135,6 +141,12 @@ Directive 2012/27/eu of the european parliament and of the council of 25
   observations.
 \newblock In {\em Proceedings of the fifth Berkeley symposium on mathematical
   statistics and probability\/} (1967), vol.~1, California, USA, p.~14.
+
+\bibitem{martin2003agile}
+{\sc Martin, R.~C.}
+\newblock {\em Agile software development: principles, patterns, and
+  practices}.
+\newblock Prentice Hall PTR, 2003.
 
 \bibitem{marz2013big}
 {\sc Marz, N., and Warren, J.}

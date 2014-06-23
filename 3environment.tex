@@ -1,152 +1,31 @@
-\chapter{Environment}
-\label{chapter:environment}
+\chapter{Methodology}
+\label{Methodology}
+In previous chapters we introduced our research problem, listed and explained the solution options with the theoretical background. In this chapter we shall try to explain our practical approach for carrying out the research along with the software development required to support the experimentation and data analysis for our research. On a practical level following were some major tasks that were required to fulfil scope of our research.
+\begin{itemize}
+\item Understanding energy efficiency, smart grids and available data.
+\item Requirement engineering and use case preparation.
+\item Understanding Data Analytics ecosystem, evaluating the big data tools and solutions.
+\item Exploratory data analysis and selection of algorithms and data analysis tools with respect to use cases. 
+\item Developing an end to end big data analytics platform.
+\item Data collection, storage and preprocessing.
+\item Use case specific data analysis and evaluation of results.
+\item Visualization of results 
+\item Documentation of the research, process, software development and results.
+\end{itemize}
+Some of these tasks were required to be performed in a sequential way e.g. requirement engineering and evaluation of big data tools were required before developing the big data analytics platform or selecting the algorithms. Similarly we need to have results before visualizations could be created. On the other hand some of the tasks could have been executed in parallel. For example the documentation was an ongoing process along with all other tasks. Similarly literature review for understanding each component of our research was also an ongoing process through the time line for this thesis. The regardless of sequential and parallel tasks we need to iterate for continuous improvement.
 
-A problem instance is rarely totally independent of its environment.
-Most often you need to describe the environment you work in, what
-limits there are and so on. This is a good place to do that. First we
-tell you about the LaTeX working environments and then is an example
-from an thesis written some years ago.
+To tackle these challenges we needed a methodology that can support sequential and parallel task execution with support for iterations to improve. Like most of scientific researches, fail fast and small to succeed was the key for us. In the list of tasks mentioned above. Most of them requires conceptualization and tested quickly using rapid prototyping. Taking it as a software development task initially, we had some candidate models such as water fall model,agile development model, spiral model and incremental model etc. Here we shall briefly discuss the advantages and disadvantages in context to our research project. 
+\begin{itemize}
+\item \textbf{Waterfall model} offered the simplest approach of requirement engineering, design, implement, test and operate our research. How ever it is inherently sequential and had weak support for iterations.
+\item \textbf{Agile development model} Agile methodology\cite{martin2003agile} is rapid, iterative and supports quick prototyping but it requires additional communication and management overhead like scrum meetings. Managing it along with stakeholders like VTT and CIVIS projects was very hard.
+\item \textbf{Spiral Model} is a risk driven process model.It supports prototyping, provides good way of avoiding major failure risks, it is iterative. However it needs a lot of resources during planning phase specially when the spiral keeps growing in size. It is usually very successful for large projects but it has over heads for small projects like our thesis research. We shall be discussing more about using parts of the spiral model later in this chapter.
+\item \textbf{Incremental model} relies on small incremental steps with each step consist of independent design, implement and test phase. In the begining, Incremental model was the best fit among other candidate models for our thesis research.We were able to prototype small functional units of the big data analytics platform very quickly while independently working on the use cases. However during platform development and data analysis part. It has started creating integration over heads. For example integrating two different data processing tools together for a single use case becomes difficult  when they were configured in two different incremental steps.  
+\end{itemize}
+Learning from the problems that we face from  incremental model we altered our approach to adapted version of another very flexible software research and development methodology known as ``Kumiega-Van Vliet Trading System Development Methodology''\cite{kumiega2008software}.
 
+\section{Kumiega-Van Vliet Model}   
+      
+Kumiega-Van Vliet Trading System Development Methodology \((K|V)\) was developed in 2008 for software development required specifically for trading systems. It is the combination of three general purpose software and new product development models i.e. waterfall model, spiral model and stage gate model. We have already explained the waterfall and spiral models. Stage gate model consists of stages e.g. scoping, development, implementation, testing etc. Each stage or combination of stages can be controlled with an approval gate. Process can not move from a stage to other stage if the gate in between them is not approved.This model provides a good control over the development model to ensure quality. However it may cause delays because of the organizational hierarchies dictating the gates.
 
-\section{LaTeX working environments}
-\label{sec:environments}
-
-To create \LaTeX\ documents you need two things: a \LaTeX\ environment for
-compiling your documents and a text editor for writing them.
-
-\subsection{Environment}
-
-Fortunately \LaTeX\ can nowadays be found for any (modern) computer
-environment, be it Linux, Windows, or Macintosh.
-For Linuxes (and other Unix clones) and Macs, I'd recommend \emph{TeX
-Live}~\cite{TeXLive}, which is the current default \LaTeX\ distribution for
-many Linux flavors such as Fedora, Debian, Ubuntu, and Gentoo.
-TeX Live is the replacement for the older \emph{teTeX}, which is
-no longer developed.
-
-TeX Live works also for Windows machines (at least according to their web
-site); however, I have used \emph{MiKTeX}~\cite{MiKTeX} and can recommend it
-for Windows. 
-MiKTeX has a nice package manager and automatically fetches missing packages
-for you.
-
-\subsection{Editor}
-
-You can write \LaTeX\ documents with any text editor you like, but having
-syntax coloring options and such really helps a lot.
-My personal favourite for editing \LaTeX\ is the
-\emph{TeXlipse}~\cite{TeXlipse} plugin for the Eclipse IDE~\cite{Eclipse}. 
-Eclipse is an open-source integrated development environment (IDE) initially
-created for writing Java code, but it currently has support for editing
-languages such as C, C++, JavaScript, XML, HTML, and many more. 
-The TeXlipse plugin allows you to edit and compile \LaTeX\ documents directly
-in Eclipse, and compilation errors and warnings are shown in the Eclipse
-\emph{Problems} dialog so that you can locate and fix the issues easily.
-The plugin also supports reference traversal so that you can locate the source
-line where a label or a citation is defined.
-
-Eclipse is an entire development environment, so it may feel a bit heavy-weight
-for editing a document. 
-If you are looking for a more light-weight option, check out TeXworks. 
-TeXworks is a \LaTeX\ editor that is packaged with the newer MiKTeX
-distributions, and it can be acquired from \url{http://www.tug.org/texworks/}.
-
-And if you are attached to your \emph{emacs} or \emph{vim} editor, you
-can of course edit your \LaTeX\ documents with them. 
-Emacs at least has syntax coloring and you can compile your document with a key
-binding, so this may be a good option if you prefer working with the standard
-Linux text editors.
-
-\section{Graphics}
-
-When you use \texttt{pdflatex} to render your thesis, you can include PDF images
-directly, as shown by Figure~\ref{fig:indica_model} below.
-
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=\textwidth]{images/indica_model.pdf}
-    \caption{The INDICA two-layered value chain model.}
-    \label{fig:indica_model}
-  \end{center}
-\end{figure}
-
-You can also include JPEG or PNG files, as shown by Figure~\ref{fig:eeyore}.
-
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=9cm]{images/ihaa.jpg}
-    \caption{Eeyore, or Ihaa, a very sad donkey.}
-    \label{fig:eeyore}
-  \end{center}
-\end{figure}
-
-You can create PDF files out of practically anything. 
-In Windows, you can download PrimoPDF or CutePDF (or some such) and install a
-printing driver so that you can print directly to PDF files from any
-application. There are also tools that allow you to upload documents in common
-file formats and convert them to the PDF format.
-If you have PS or EPS files, you can use the tools \texttt{ps2pdf} or
-\texttt{epspdf} to convert your PS and EPS files to PDF\@.
-
-% Comment: If your sentence ends in a capital letter, like here, you should
-% write \@ before the period; otherwise LaTeX will assume that this is not
-% really an end of the sentence and will not put a large enough space after the
-% period. That is, LaTeX assumes that you are (for example), enumerating using
-% capital roman numerals, like I. do something, II. do something else. In this
-% case, the periods do not end the sentence.
-
-% Similarly, if you do need a normal space after a period (instead of
-% the longer sentence separator), use \  (backslash and space) after the
-% period. Like so: a.\ first item, b.\ second item.
-
-Furthermore, most newer editor programs allow you to save directly to the PDF
-format. For vector editing, you could try Inkscape, which is a new open source
-WYSIWYG vector editor that allows you to save directly to PDF\@. 
-For graphs, either export/print your graphs from OpenOffice Calc/Microsoft
-Excel to PDF format, and then add them; or use \texttt{gnuplot}, which can
-create PDF files directly (at least the new versions can).
-The terminal type is \emph{pdf}, so the first line of your plot file should be
-something like \texttt{set term pdf \ldots}.
-
-To get the most professional-looking graphics, you can encode them using the
-TikZ package (TikZ is a frontend for the PGF graphics formatting system).
-You can create practically any kind of technical images with TikZ, but it has a
-rather steep learning curve. Locate the manual (\texttt{pgfmanual.pdf}) from
-your \LaTeX\ distribution and check it out. An example of TikZ-generated
-graphics is shown in Figure~\ref{fig:page-merge}.
-
-\begin{figure}[ht]
-  \begin{center}
-    \input{images/page-merge.tex}
-    \caption{Example of a multiversion database page merge. This figure has
-    been taken from the PhD thesis of Haapasalo~\cite{HaapasaloThesis}.}
-    \label{fig:page-merge}
-  \end{center}
-\end{figure}
-
-Another example of graphics created with TikZ is shown in
-Figure~\ref{fig:tikz-examples}. 
-These show how graphs can be drawn and labeled. 
-You can consult the example images and the PGF manual for more examples of what
-kinds figures you can draw with TikZ. 
-
-% These definitions are only used in the example images; you will not 
-% need them for your thesis...
-\newlength{\graphdotsize}
-\setlength{\graphdotsize}{1.7pt}
-\newlength{\graphgridsize}
-\setlength{\graphgridsize}{1.2em}
-\begin{figure}[ht]
-\begin{center}
-\subfigure[Examples of obstruction graphs for the Ferry Problem]{
-  \input{images/obstruction-grouped.tex}
-}
-\subfigure[Examples of star graphs]{
-  \input{images/general-star-graphs.tex}
-}
-\caption{Examples of graphs draw with TikZ. These figures have been taken from a
-course report for the graph theory course~\cite{FerryProblem}.}
-\label{fig:tikz-examples}
-\end{center}
-\end{figure}
-
+ \((K|V)\) model tries to overcome the short comings of these three models by combining them to a single paradigm for trading system development\cite{kumiega2008software}. In spiral model in start smaller time is allocated to four basic steps i.e. research planning implementation and test. These four steps can be performed again and again in cycles. To avoid spiral to grow two much after each cycle a stage gate controls if process can be passed to next stage or it needs to be sent back to perform another cycle in same stage. Just like waterfall there can be number of stages. But for continuous improvements process there is an iteration channel available unlike traditional waterfall model.
+ \section{Adaptation of Kumiega- Van Vliet Model}

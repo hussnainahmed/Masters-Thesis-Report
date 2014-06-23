@@ -209,7 +209,7 @@ where \(d_{t}\) is the deterministic component and \(\epsilon_{t}\) is the rando
 In figure ~\ref{fig:time_series} illustrations 2,3 and 4 contain a deterministic component with a random component. In terms of prediction even the random component can be estimated using the deterministic component. However for stochastic random time series data without any deterministic component it is very hard to predict anything accurately. The time series with no predictable pattern is generally termed as stationary time series. We shall be discussing this in details during the  analysis part of this document.  
 
  
-\subsection{Autoregression, Moving Averages and ARIMA Models}     
+\subsection{Autoregression, Moving Averages and ARIMA Models} \label{ARIMA}    
  Rob Hyndman's book ``Forecasting: Principles and Practice''\cite{hyndman2014forecasting} is the main reference for this section. 
  \subsubsection{Regression}The concept behind basic regression techniques for forecasting is that we try to forecast a variable `y' on the basis of another variable `x'. For example a liner regression model forecast y assuming it has a linear relationship with  variable x e.g. as in equation below.
  $$ y = \beta_{0}\;+\;\beta_{1}x\;+\;\epsilon $$
@@ -250,7 +250,30 @@ ARIMA stands for Auto-Regressive Integrated Moving Average. As the name suggests
 \begin{equation}\label{ARIMA1}
  y^\prime_{t}\; =\;c\\;+\;e_{t}\;+\;\phi_{1}y^\prime_{t-1}\;+\;\dotsc\;+\;\phi_{p}y^\prime_{t-p}\;+\;\theta_{1}e_{t-1}\;+\;\dotsc\;+\;\theta_{q}e_{t-q}
 \end{equation}
-In this equation \(y^\prime_t\) is the difference series
+In this equation \(y^\prime_t\) is the difference series. This constitutes ARIMA\((p,d,q)\) model where
+\begin{itemize}
+\item p is the order of autoregression.
+\item d is the number of non seasonal differences.
+\item q is the order of moving averages.
+\end{itemize}
+Now to simplify the complex time series equation back shift notations are usually used e.g. \(y_t-1\) can be denoted by \(By_t\) i.e.
+$$By_{t} = y_{t-1}$$
+AND
+$$B(By_{t}) = B^2y{t} = y_{t-2}  $$
+AND 
+$$ y_{t}\; -\; y_{t-2}\;=\; (1\;-\;B)y_{t}  $$
+In general a dth order difference is written as 
+$$ (1\;-\;B)^d y_{t} $$
+
+Rearranging equation \ref{ARIMA1} and using backshift notations we can have following equation with labeled p,d and q for ARIMA model.
+$$
+\underbrace{1\;-\;\phi_{1}B\;-\;\dotsc\;-\;\phi_{p}B^p}_\text{AR(p)}\quad \underbrace{(1\;-\;B)^d y_{t}}_\text{d differences}\;=\;c\;+\;\underbrace{(1\;+\;\theta_{1}B\;+\;\dotsc\;+\;\theta{q}B^q)e_{t}}_\text{MA(q)}
+$$
+
+Explanation and the equations used in section \ref{ARIMA} were cherry picked from Rob Hyndman's book ``Forecasting: Principles and Practice''\cite{hyndman2014forecasting} as refernce to theorey related to our research.For further details please refer to chapter 5 and chapter 8 of this book.
+
+Fitting the ARIMA model and estimating the future time series values need intensive computation. We shall be using software e.g. R to solve these equations for our use cases. 
+
 
 
 
