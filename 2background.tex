@@ -162,7 +162,8 @@ If \(c^{i}\) is the distance of centroid to assigned data point then Step 2 and 
 For every i, set 
 \begin{equation}
 c^{i} := \arg\min_j || x^{i} - \mu_j||^2
-\end{equation}  
+\end{equation} 
+The equation above used Euclidean distance formula for calculating distance between centroid and data point. 
 
 For every j, set
 \begin{equation}
@@ -215,7 +216,7 @@ In figure ~\ref{fig:time_series} illustrations 2,3 and 4 contain a deterministic
  $$ y = \beta_{0}\;+\;\beta_{1}x\;+\;\epsilon $$
  Parameter \(\beta_0\) and \(\beta_1\) represents the intercept and slope respectively for the line representing  the linear relationship.\(\beta_0\) represents the predicted value when x is 0. Linear regression for time series analysis can be written as 
  $$ Y_{t} = \beta_{0}\;+\;\beta_{1}x_{t-1}\;+\;\epsilon $$
- Here \(Y_{t}\) is the estimate with past value of \(x_{t}\) i.e. \(\{x_1,x_2,\dotsc, x_{t-1}\}\) . using differencing\footnote{he differences between consecutive observations} error \(e_{t}\) in estimation can be calculated as
+ Here \(Y_{t}\) is the estimate with past value of \(x_{t}\) i.e. \(\{x_1,x_2,\dotsc, x_{t-1}\}\) . using differencing\footnote{The differences between consecutive observations} error \(e_{t}\) in estimation can be calculated as
  \begin{equation}
  e_{t}\;=\; X_{t}\; -\; Y_{t}\;=\; x_{t}\; -\;\beta_{0}\;-\;\beta_{1}x_{t-1}\;-\;\epsilon
  \end{equation}
