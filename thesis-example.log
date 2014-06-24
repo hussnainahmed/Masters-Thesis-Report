@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  24 JUN 2014 00:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  25 JUN 2014 00:33
 entering extended mode
 **thesis-example.tex
 
@@ -849,7 +849,7 @@ esis-example.out")
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<images/aalto-logo-en.pdf, id=166, 302.3837pt x 132.96776pt>
+<images/aalto-logo-en.pdf, id=206, 302.3837pt x 132.96776pt>
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-en.pdf>
@@ -898,7 +898,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
  [12] [13]
-<images/3Vs.png, id=292, 479.54156pt x 449.42906pt>
+<images/3Vs.png, id=342, 479.54156pt x 449.42906pt>
 File: images/3Vs.png Graphic file (type png)
  <use images/3Vs.png>
 Package pdftex.def Info: images/3Vs.png used on input line 54.
@@ -906,7 +906,7 @@ Package pdftex.def Info: images/3Vs.png used on input line 54.
 
 [14] [15 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispo
 hja41/images/3Vs.png>] [16] [17]
-<images/lambda.png, id=327, 216.81pt x 123.5817pt>
+<images/lambda.png, id=377, 216.81pt x 123.5817pt>
 File: images/lambda.png Graphic file (type png)
  <use images/lambda.png>
 Package pdftex.def Info: images/lambda.png used on input line 80.
@@ -914,7 +914,7 @@ Package pdftex.def Info: images/lambda.png used on input line 80.
 
 [18 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja41
 /images/lambda.png>] [19]
-<images/eco-effeciency.png, id=354, 469.755pt x 319.1925pt>
+<images/eco-effeciency.png, id=404, 469.755pt x 319.1925pt>
 File: images/eco-effeciency.png Graphic file (type png)
 
 <use images/eco-effeciency.png>
@@ -926,7 +926,7 @@ Overfull \hbox (9.08582pt too wide) in paragraph at lines 115--115
  |[]\OT1/cmr/bx/n/17.28 Daily con-sump-tion pat-terns, base load and
  []
 
-<images/baseload.png, id=370, 441.14813pt x 248.42813pt>
+<images/baseload.png, id=420, 441.14813pt x 248.42813pt>
 File: images/baseload.png Graphic file (type png)
 
 <use images/baseload.png>
@@ -934,7 +934,7 @@ Package pdftex.def Info: images/baseload.png used on input line 119.
 (pdftex.def)             Requested size: 312.00119pt x 175.70667pt.
  [21] [22 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesisp
 ohja41/images/baseload.png>] [23] [24] [25] [26]
-<images/time_series.png, id=446, 430.60875pt x 322.20375pt>
+<images/time_series.png, id=496, 430.60875pt x 322.20375pt>
 File: images/time_series.png Graphic file (type png)
 
 <use images/time_series.png>
@@ -952,64 +952,72 @@ nvironment.tex" [30]
 Chapter 3.
 [31
 
-] [32] <images/kv_method.pdf, id=498, 542.025pt x 722.7pt>
+] [32] [33] <images/kv_method.pdf, id=554, 542.025pt x 722.7pt>
 File: images/kv_method.pdf Graphic file (type pdf)
 
 <use images/kv_method.pdf>
-Package pdftex.def Info: images/kv_method.pdf used on input line 34.
+Package pdftex.def Info: images/kv_method.pdf used on input line 37.
 (pdftex.def)             Requested size: 390.0pt x 520.01277pt.
-)
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34]
+
+LaTeX Warning: Text page 35 contains only floats.
+
+[35 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja41
+/images/kv_method.pdf>] [36] [37])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\4m
-ethods.tex" [33] [34 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Rep
-ort/thesispohja41/images/kv_method.pdf>]
+ethods.tex" [38]
 Chapter 4.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\5i
-mplementation.tex" [35
+mplementation.tex" [39
 
-] [36]
+] [40]
 Chapter 5.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\6e
-valuation.tex" [37
+valuation.tex" [41
 
 ]
 Chapter 6.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\7d
-iscussion.tex" [38
+iscussion.tex" [42
 
 ]
 Chapter 7.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\8c
-onclusions.tex" [39
+onclusions.tex" [43
 
 ]
 Chapter 8.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\th
-esis-example.bbl" [40
+esis-example.bbl" [44
 
-] [41
+] [45
 
-] [42])
+] [46])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\ap
-pendices.tex" [43]
+pendices.tex" [47]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
 Package pdftex.def Info: images/aalto-logo-en.pdf used on input line 11.
 (pdftex.def)             Requested size: 312.00119pt x 137.19974pt.
 
-<images/aalto-logo-fi.pdf, id=583, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=679, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
 Package pdftex.def Info: images/aalto-logo-fi.pdf used on input line 12.
 (pdftex.def)             Requested size: 312.00119pt x 145.97571pt.
 
-<images/aalto-logo-se.pdf, id=584, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=680, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-se.pdf>
@@ -1017,9 +1025,9 @@ Package pdftex.def Info: images/aalto-logo-se.pdf used on input line 13.
 (pdftex.def)             Requested size: 312.00119pt x 131.45084pt.
 ) 
 AED: lastpage setting LastPage
-[44
+[48
 
-] [45 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja
+] [49 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja
 41/images/aalto-logo-fi.pdf> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Th
 esis Report/thesispohja41/images/aalto-logo-se.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
@@ -1030,13 +1038,13 @@ esis-example.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `thesis-example.out' has not changed.
-(rerunfilecheck)             Checksum: 18324E2719AA05A9C721C29C076C4FC3;2891.
+(rerunfilecheck)             Checksum: 5F3798A00BA4F89E97B9EB54432E9903;3815.
  ) 
 Here is how much of TeX's memory you used:
- 18984 strings out of 493921
- 359793 string characters out of 3147273
- 471553 words of memory out of 3000000
- 21679 multiletter control sequences out of 15000+200000
+ 19023 strings out of 493921
+ 360335 string characters out of 3147273
+ 471887 words of memory out of 3000000
+ 21695 multiletter control sequences out of 15000+200000
  13069 words of font info for 47 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  56i,12n,57p,2123b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1056,9 +1064,9 @@ onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmtt12.pfb>
-Output written on thesis-example.pdf (45 pages, 772172 bytes).
+Output written on thesis-example.pdf (49 pages, 1017452 bytes).
 PDF statistics:
- 693 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
