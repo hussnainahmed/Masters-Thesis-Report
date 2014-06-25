@@ -4,48 +4,68 @@
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{Abbreviations and Acronyms}{4}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Problem statement}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Helpful hints}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Structure of the Thesis}{10}{section.1.3}
-\contentsline {chapter}{\numberline {2}Background}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Smart grids }{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}CIVIS project}{12}{section.2.2}
-\contentsline {section}{\numberline {2.3}Green campus initiative}{13}{section.2.3}
-\contentsline {section}{\numberline {2.4}Big data analytics}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Parallel batch processing with MapReduce and Hadoop}{16}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2} Real time big data processing }{17}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1} Lambda architecture}{17}{subsubsection.2.4.2.1}
-\contentsline {subsubsection}{\numberline {2.4.2.2}Massively parallel processing - MPP databases and query engines}{18}{subsubsection.2.4.2.2}
-\contentsline {section}{\numberline {2.5}Energy efficiency and eco-effeciency}{19}{section.2.5}
-\contentsline {section}{\numberline {2.6}Daily consumption patterns, base load and user load}{21}{section.2.6}
-\contentsline {section}{\numberline {2.7}Energy consumption seasonal patterns}{21}{section.2.7}
-\contentsline {section}{\numberline {2.8}Classification of buildings based on energy efficiency}{23}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}K-means clustering}{23}{subsection.2.8.1}
-\contentsline {section}{\numberline {2.9}Forecasting the energy consumption}{25}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Main conditions and Steps for Quantitative Forecasting}{26}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Time Series Analysis}{26}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Autoregression, Moving Averages and ARIMA Models}{27}{subsection.2.9.3}
-\contentsline {subsubsection}{\numberline {2.9.3.1}Regression}{28}{subsubsection.2.9.3.1}
-\contentsline {subsubsection}{\numberline {2.9.3.2}Autoregression}{28}{subsubsection.2.9.3.2}
-\contentsline {subsubsection}{\numberline {2.9.3.3}Moving Averages}{29}{subsubsection.2.9.3.3}
-\contentsline {subsubsection}{\numberline {2.9.3.4}ARIMA Model}{29}{subsubsection.2.9.3.4}
-\contentsline {chapter}{\numberline {3}Methodology}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}Kumiega-Van Vliet Model}{33}{section.3.1}
-\contentsline {section}{\numberline {3.2}Adaptation of Kumiega- Van Vliet Model}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}Stages, steps and cycles}{34}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Stage 1. Conceptualization }{36}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Step 1. Understanding}{36}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Step 2. Research quantitative methods}{37}{subsubsection.3.3.1.2}
-\contentsline {subsubsection}{\numberline {3.3.1.3}Step 3. Conceptual Model}{37}{subsubsection.3.3.1.3}
-\contentsline {subsubsection}{\numberline {3.3.1.4}Step 4. Evaluation of Tools}{37}{subsubsection.3.3.1.4}
-\contentsline {subsubsection}{\numberline {3.3.1.5}Delivearbles of stage 1}{37}{subsubsection.3.3.1.5}
-\contentsline {subsubsection}{\numberline {3.3.1.6}Stage 1 cycles}{37}{subsubsection.3.3.1.6}
-\contentsline {subsection}{\numberline {3.3.2}Stage 2. Implementation}{37}{subsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.2.1}Use case definition}{38}{subsubsection.3.3.2.1}
-\contentsline {chapter}{\numberline {4}Methods}{39}{chapter.4}
-\contentsline {chapter}{\numberline {5}Implementation}{41}{chapter.5}
-\contentsline {chapter}{\numberline {6}Evaluation}{42}{chapter.6}
-\contentsline {chapter}{\numberline {7}Discussion}{43}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{44}{chapter.8}
-\contentsline {chapter}{\numberline {A}First appendix}{48}{appendix.A}
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem statement}{10}{section.1.1}
+\contentsline {section}{\numberline {1.2}Helpful hints}{10}{section.1.2}
+\contentsline {section}{\numberline {1.3}Structure of the Thesis}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2}Background}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Smart grids }{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}CIVIS project}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Green campus initiative}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Big data analytics}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Parallel batch processing with MapReduce and Hadoop}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2} Real time big data processing }{18}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1} Lambda architecture}{18}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Massively parallel processing - MPP databases and query engines}{19}{subsubsection.2.4.2.2}
+\contentsline {section}{\numberline {2.5}Energy efficiency and eco-effeciency}{20}{section.2.5}
+\contentsline {section}{\numberline {2.6}Daily consumption patterns, base load and user load}{22}{section.2.6}
+\contentsline {section}{\numberline {2.7}Energy consumption seasonal patterns}{22}{section.2.7}
+\contentsline {section}{\numberline {2.8}Classification of buildings based on energy efficiency}{24}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}K-means clustering}{24}{subsection.2.8.1}
+\contentsline {section}{\numberline {2.9}Forecasting the energy consumption}{26}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Main conditions and Steps for Quantitative Forecasting}{27}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Time Series Analysis}{27}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.3}Autoregression, Moving Averages and ARIMA Models}{28}{subsection.2.9.3}
+\contentsline {subsubsection}{\numberline {2.9.3.1}Regression}{29}{subsubsection.2.9.3.1}
+\contentsline {subsubsection}{\numberline {2.9.3.2}Autoregression}{29}{subsubsection.2.9.3.2}
+\contentsline {subsubsection}{\numberline {2.9.3.3}Moving Averages}{30}{subsubsection.2.9.3.3}
+\contentsline {subsubsection}{\numberline {2.9.3.4}ARIMA Model}{30}{subsubsection.2.9.3.4}
+\contentsline {chapter}{\numberline {3}Methodology}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Kumiega-Van Vliet Model}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}Adaptation of Kumiega- Van Vliet Model}{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}Stages, steps and cycles}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Stage 1. Conceptualization }{37}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Step 1. Understanding}{37}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Step 2. Research quantitative methods}{38}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Step 3. Conceptual Model}{38}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Step 4. Evaluation of Tools}{38}{subsubsection.3.3.1.4}
+\contentsline {subsubsection}{\numberline {3.3.1.5}Delivearbles of stage 1}{38}{subsubsection.3.3.1.5}
+\contentsline {subsubsection}{\numberline {3.3.1.6}Stage 1 cycles}{38}{subsubsection.3.3.1.6}
+\contentsline {subsection}{\numberline {3.3.2}Stage 2. Implementation}{38}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Use case definition}{39}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Data Analytics Platform Prototype}{39}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3}Data Collection}{39}{subsubsection.3.3.2.3}
+\contentsline {subsubsection}{\numberline {3.3.2.4}Prototype testing with sample data}{40}{subsubsection.3.3.2.4}
+\contentsline {subsubsection}{\numberline {3.3.2.5}Stage 2 deliverables}{40}{subsubsection.3.3.2.5}
+\contentsline {subsubsection}{\numberline {3.3.2.6}Stage 2 cycles}{41}{subsubsection.3.3.2.6}
+\contentsline {subsection}{\numberline {3.3.3}Data Analysis}{41}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}Tight integration of the platform components}{41}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Evaluation and Selection of Algorithms}{41}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}Applying Analytics}{41}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.4}Result Visualization}{41}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.3.5}Stage 3 deliverables}{41}{subsubsection.3.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.3.6}Stage 3 Cycles}{41}{subsubsection.3.3.3.6}
+\contentsline {subsection}{\numberline {3.3.4}Documentation}{41}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Problem statement vs. results review}{41}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Document Integration}{41}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Process Review and discussion}{41}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Document Finalization}{41}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}Stage 4 deliverables}{41}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}Stage 4 Cycles}{41}{subsubsection.3.3.4.6}
+\contentsline {section}{\numberline {3.4}Iterations}{41}{section.3.4}
+\contentsline {chapter}{\numberline {4}Concept and Implementation of Big Data Platform}{42}{chapter.4}
+\contentsline {chapter}{\numberline {5}Data Analysis and Results}{43}{chapter.5}
+\contentsline {chapter}{\numberline {6}Discussion}{44}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{45}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{46}{chapter.8}
+\contentsline {chapter}{\numberline {A}First appendix}{50}{appendix.A}

@@ -83,9 +83,59 @@ In this step, Based on the knowledge gained from stage 1. we decomposed our prob
 \item Understanding characteristics of building using daily energy consumption pattern.
 \item Calculate the base load of the building to identify non user consumption of buildings
 \item Classify building on basis of energy efficiency and analyse seasonal shifts in this classification.
-\item Predict daily energy consumption of various house hold devices on basis of previous consumption pattern. 
+\item Predict daily energy consumption of various house hold devices on basis of previous consumption pattern.
 \end{enumerate}
- 
+\subsubsection{Data Analytics Platform Prototype}
+This step involved the practical implementation of platform concept. It covered installation, configuration, customization and integration of selected components as a proof of concept for an end to end big data platform that can collect, store, process, analyse and visualize data. Details of the components and implementation will be discussed in next chapter.
+\subsubsection{Data Collection}
+As mentioned before, real life energy consumption data was provided by VTT. This data was collected by VTT from the smart metering devices installed on test sites. We had prepared our prototype platform to collect this from VTT data repositories continuously in real time. However due to some policy constraints we were not allowed to integrate our platform with VTT's data repositories. The data was provided to us initially via file transfer from a FTP\footnote{The File Transfer Protocol (FTP) is a standard network protocol used to transfer computer files from one host to another host over a TCP-based network, such as the Internet.} server. In later a web sevice was opened for us to collect the data. the details of the data will be provided later in the document however two types of data were collected during different iterations.
+\begin{enumerate}
+\item Hourly consumption of electricity, electricity used for heating, water, and reactive power in set of buildings as part of VTT's green campus initiative.
+\item Device level electricity consumption data of home appliances used in two apartments of Aalto Univerity campus residential housing blocks as test cases for VTT's green campus initiative.
+Real time data was also collected using the same platform to support some CIVIS projects objectives. However the real time data was not included in scope of analysis presented in this document.  
+\end{enumerate}
+\subsubsection{Prototype testing with sample data}
+This step was only used during first cycle of this stage and first iteration of whole process. The purpose of this stage was to test the full flow from data collection to data visualization using the developed prototype. The sample data was the randomly selected records from hourly consumption data set. Although in this step we started with smaller sample and then kept on increasing it. The complete data set was also tested. In testing following functionalities were tested.
+\begin{enumerate}
+\item Data collection.
+\item Raw data storage
+\item Data cleaning to produce tidy data set.
+\item Data pre-processing. Reducing the large data volume without losing insights. 
+\item Storing pre-processed data into databases.
+\item Testing of advance analytics tools integrated within our prototype.
+\item Data visualization.  
+\end{enumerate}
+\subsubsection{Stage 2 deliverables}
+Following were two deliverables of implementation stage.
+\begin{enumerate}
+\item Use case definition
+\item Working Prototype of big data platform concept.
+\end{enumerate}
+\subsubsection{Stage 2 cycles}
+Stage went through two additional cycles on top of the first mandatory cycle. Within two additional cycles all the steps were performed except data collection that was collected once during the this stage for first cycle. However data collection was repeated within iteration that will be discussed in later in this chapter.
+The major revisions inside cycles includes alteration in use cases e.g. effect of external temperature on seasonal energy pattern was identified during one of the review sessions. Within prototype and protype testing the alterations were required the adapt for changes in use cases
+
+\subsection{Data Analysis}
+\subsubsection{Tight integration of the platform components}
+\subsubsection{Evaluation and Selection of Algorithms}
+\subsubsection{Applying Analytics}
+\subsubsection{Result Visualization}
+\subsubsection{Stage 3 deliverables}
+\subsubsection{Stage 3 Cycles}
+\subsection{Documentation}
+\subsubsection{Problem statement vs. results review}
+\subsubsection{Document Integration}
+\subsubsection{Process Review and discussion}
+\subsubsection{Document Finalization}
+\subsubsection{Stage 4 deliverables}
+\subsubsection{Stage 4 Cycles}
+to be written in end
+\section{Iterations}
+
+
+
+
+  
 
   
 

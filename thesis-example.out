@@ -40,9 +40,29 @@
 \BOOKMARK [3][-]{subsubsection.3.3.1.6}{3.3.1.6 Stage 1 cycles}{subsection.3.3.1}% 40
 \BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Stage 2. Implementation}{section.3.3}% 41
 \BOOKMARK [3][-]{subsubsection.3.3.2.1}{3.3.2.1 Use case definition}{subsection.3.3.2}% 42
-\BOOKMARK [0][]{chapter.4}{4 Methods}{}% 43
-\BOOKMARK [0][]{chapter.5}{5 Implementation}{}% 44
-\BOOKMARK [0][]{chapter.6}{6 Evaluation}{}% 45
-\BOOKMARK [0][]{chapter.7}{7 Discussion}{}% 46
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 47
-\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 48
+\BOOKMARK [3][-]{subsubsection.3.3.2.2}{3.3.2.2 Data Analytics Platform Prototype}{subsection.3.3.2}% 43
+\BOOKMARK [3][-]{subsubsection.3.3.2.3}{3.3.2.3 Data Collection}{subsection.3.3.2}% 44
+\BOOKMARK [3][-]{subsubsection.3.3.2.4}{3.3.2.4 Prototype testing with sample data}{subsection.3.3.2}% 45
+\BOOKMARK [3][-]{subsubsection.3.3.2.5}{3.3.2.5 Stage 2 deliverables}{subsection.3.3.2}% 46
+\BOOKMARK [3][-]{subsubsection.3.3.2.6}{3.3.2.6 Stage 2 cycles}{subsection.3.3.2}% 47
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Data Analysis}{section.3.3}% 48
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{3.3.3.1 Tight integration of the platform components}{subsection.3.3.3}% 49
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{3.3.3.2 Evaluation and Selection of Algorithms}{subsection.3.3.3}% 50
+\BOOKMARK [3][-]{subsubsection.3.3.3.3}{3.3.3.3 Applying Analytics}{subsection.3.3.3}% 51
+\BOOKMARK [3][-]{subsubsection.3.3.3.4}{3.3.3.4 Result Visualization}{subsection.3.3.3}% 52
+\BOOKMARK [3][-]{subsubsection.3.3.3.5}{3.3.3.5 Stage 3 deliverables}{subsection.3.3.3}% 53
+\BOOKMARK [3][-]{subsubsection.3.3.3.6}{3.3.3.6 Stage 3 Cycles}{subsection.3.3.3}% 54
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Documentation}{section.3.3}% 55
+\BOOKMARK [3][-]{subsubsection.3.3.4.1}{3.3.4.1 Problem statement vs. results review}{subsection.3.3.4}% 56
+\BOOKMARK [3][-]{subsubsection.3.3.4.2}{3.3.4.2 Document Integration}{subsection.3.3.4}% 57
+\BOOKMARK [3][-]{subsubsection.3.3.4.3}{3.3.4.3 Process Review and discussion}{subsection.3.3.4}% 58
+\BOOKMARK [3][-]{subsubsection.3.3.4.4}{3.3.4.4 Document Finalization}{subsection.3.3.4}% 59
+\BOOKMARK [3][-]{subsubsection.3.3.4.5}{3.3.4.5 Stage 4 deliverables}{subsection.3.3.4}% 60
+\BOOKMARK [3][-]{subsubsection.3.3.4.6}{3.3.4.6 Stage 4 Cycles}{subsection.3.3.4}% 61
+\BOOKMARK [1][-]{section.3.4}{3.4 Iterations}{chapter.3}% 62
+\BOOKMARK [0][]{chapter.4}{4 Concept and Implementation of Big Data Platform}{}% 63
+\BOOKMARK [0][]{chapter.5}{5 Data Analysis and Results}{}% 64
+\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 65
+\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 66
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 67
+\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 68
