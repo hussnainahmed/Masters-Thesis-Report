@@ -25,11 +25,6 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock {\em Time series analysis: forecasting and control, revised ed}.
 \newblock Holden-Day, 1976.
 
-\bibitem{MiKTeX}
-{\sc {Christian Schenk}}.
-\newblock {MiKTeX}, 2010.
-\newblock \url{http://miktex.org/}. Accessed 25.2.2011.
-
 \bibitem{federal2008assessment}
 {\sc Commission, F. E.~R., et~al.}
 \newblock Assessment of demand response and advanced metering.
@@ -67,19 +62,6 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock In {\em Innovative Smart Grid Technologies (ISGT), 2011 IEEE PES\/}
   (2011), IEEE, pp.~1--6.
 
-\bibitem{FerryProblem}
-{\sc G��s, M., Haapasalo, T., and Moisio, L.}
-\newblock Finding hard instances of the ferry problem.
-\newblock Course report for the course {T-79.5203/S-72.2420} {G}raph theory,
-  Aalto {SCI}, 2010.
-
-\bibitem{HaapasaloThesis}
-{\sc Haapasalo, T.}
-\newblock {\em Accessing Multiversion Data in Database Transactions}.
-\newblock PhD thesis, Department of Computer Science and Engineering, Aalto
-  University School of Science and Technology, Espoo, Finland, 2010.
-\newblock \url{http://lib.tkk.fi/Diss/2010/isbn9789526033600/}.
-
 \bibitem{hart1992nonintrusive}
 {\sc Hart, G.~W.}
 \newblock Nonintrusive appliance load monitoring.
@@ -89,12 +71,6 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 {\sc Hartigan, J.~A., and Wong, M.~A.}
 \newblock Algorithm as 136: A k-means clustering algorithm.
 \newblock {\em Applied statistics\/} (1979), 100--108.
-
-\bibitem{TeXlipse}
-{\sc Hupponen, T., Karlsson, K., Laitinen, J., Ojala, O., Pirinen, A.,
-  Seuranen, E., Takkinen, L., von Loesch, B., and Vestb�, T.~A.}
-\newblock {TeXlipse plugin for {E}clipse}, 2010.
-\newblock \url{http://texlipse.sourceforge.net/}. Accessed 25.2.2011.
 
 \bibitem{hyndman2014forecasting}
 {\sc Hyndman, R.~J., and Athanasopoulos, G.}
@@ -158,6 +134,13 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 {\sc Mujumdar, P.}
 \newblock Stochastic hydrology-video course.
 
+\bibitem{neville2012referencing}
+{\sc Neville, C., Gatti, P.~J., Sekhon, B.~S., Patil, J., Korachagaon, A.,
+  Shiralashetti, S., Marapur, S., Archana, R., Basavaraj, B., Bharath, S.,
+  et~al.}
+\newblock Referencing: Principles, practice and problems.
+\newblock {\em RGUHS J Pharm Sci 2\/} (2012), 1--8.
+
 \bibitem{ng2000cs229}
 {\sc Ng, A.}
 \newblock Cs229 lecture notes.
@@ -173,16 +156,6 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \newblock The case for shared nothing.
 \newblock {\em IEEE Database Eng. Bull. 9}, 1 (1986), 4--9.
 
-\bibitem{TeXLive}
-{\sc {TeX Users Group}}.
-\newblock {TeX Live}, 2010.
-\newblock \url{http://www.tug.org/texlive/}. Accessed 25.2.2011.
-
-\bibitem{Eclipse}
-{\sc {The Eclipse Foundation}}.
-\newblock {Eclipse}, 2011.
-\newblock \url{http://eclipse.org/}. Accessed 25.2.2011.
-
 \bibitem{tiedemann2007using}
 {\sc Tiedemann, K.}
 \newblock Using conditional demand analysis to estimate residential energy use
@@ -193,12 +166,6 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 {\sc Tso, G.~K., and Yau, K.~K.}
 \newblock A study of domestic energy usage patterns in hong kong.
 \newblock {\em Energy 28}, 15 (2003), 1671--1682.
-
-\bibitem{wikisn}
-{\sc Wikipedia}.
-\newblock Shared nothing architecture --- wikipedia{,} the free encyclopedia,
-  2014.
-\newblock [Online; accessed 9-June-2014].
 
 \bibitem{yohanis2008real}
 {\sc Yohanis, Y.~G., Mondol, J.~D., Wright, A., and Norton, B.}

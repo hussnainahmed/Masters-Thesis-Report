@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  25 JUN 2014 21:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  26 JUN 2014 00:31
 entering extended mode
 **thesis-example.tex
 
@@ -889,60 +889,60 @@ Chapter 2.
 [12
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
  [13] [14]
-<images/3Vs.png, id=446, 479.54156pt x 449.42906pt>
+<images/3Vs.png, id=448, 479.54156pt x 449.42906pt>
 File: images/3Vs.png Graphic file (type png)
  <use images/3Vs.png>
-Package pdftex.def Info: images/3Vs.png used on input line 54.
+Package pdftex.def Info: images/3Vs.png used on input line 45.
 (pdftex.def)             Requested size: 272.99881pt x 255.8549pt.
 
 [15] [16 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispo
 hja41/images/3Vs.png>] [17] [18]
-<images/lambda.png, id=481, 216.81pt x 123.5817pt>
+<images/lambda.png, id=483, 216.81pt x 123.5817pt>
 File: images/lambda.png Graphic file (type png)
  <use images/lambda.png>
-Package pdftex.def Info: images/lambda.png used on input line 80.
+Package pdftex.def Info: images/lambda.png used on input line 71.
 (pdftex.def)             Requested size: 390.0pt x 222.32805pt.
 
 [19 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja41
 /images/lambda.png>] [20]
-<images/eco-effeciency.png, id=508, 469.755pt x 319.1925pt>
+<images/eco-effeciency.png, id=510, 469.755pt x 319.1925pt>
 File: images/eco-effeciency.png Graphic file (type png)
 
 <use images/eco-effeciency.png>
-Package pdftex.def Info: images/eco-effeciency.png used on input line 98.
+Package pdftex.def Info: images/eco-effeciency.png used on input line 89.
 (pdftex.def)             Requested size: 312.00119pt x 212.0022pt.
  [21 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja4
 1/images/eco-effeciency.png>]
-Overfull \hbox (9.08582pt too wide) in paragraph at lines 115--115
+Overfull \hbox (9.08582pt too wide) in paragraph at lines 106--106
  |[]\OT1/cmr/bx/n/17.28 Daily con-sump-tion pat-terns, base load and
  []
 
-<images/baseload.png, id=524, 441.14813pt x 248.42813pt>
+<images/baseload.png, id=523, 441.14813pt x 248.42813pt>
 File: images/baseload.png Graphic file (type png)
 
 <use images/baseload.png>
-Package pdftex.def Info: images/baseload.png used on input line 119.
+Package pdftex.def Info: images/baseload.png used on input line 110.
 (pdftex.def)             Requested size: 312.00119pt x 175.70667pt.
  [22] [23 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesisp
-ohja41/images/baseload.png>] [24] [25] [26] [27]
-<images/time_series.png, id=600, 430.60875pt x 322.20375pt>
+ohja41/images/baseload.png>] [24] [25] [26]
+<images/time_series.png, id=585, 430.60875pt x 322.20375pt>
 File: images/time_series.png Graphic file (type png)
 
 <use images/time_series.png>
-Package pdftex.def Info: images/time_series.png used on input line 204.
+Package pdftex.def Info: images/time_series.png used on input line 195.
 (pdftex.def)             Requested size: 312.00119pt x 233.46144pt.
- [28 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja4
-1/images/time_series.png>] [29] [30]
-Overfull \hbox (4.63043pt too wide) detected at line 272
+ [27] [28 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesisp
+ohja41/images/time_series.png>] [29] [30]
+Overfull \hbox (4.63043pt too wide) detected at line 263
 []  []  \OT1/cmr/m/n/12 =  \OML/cmm/m/it/12 c  \OT1/cmr/m/n/12 +  []
  []
 
@@ -952,7 +952,7 @@ nvironment.tex" [31]
 Chapter 3.
 [32
 
-] [33] [34] <images/kv_method.pdf, id=658, 542.025pt x 722.7pt>
+] [33] [34] <images/kv_method.pdf, id=657, 542.025pt x 722.7pt>
 File: images/kv_method.pdf Graphic file (type pdf)
 
 <use images/kv_method.pdf>
@@ -1010,14 +1010,14 @@ File: images/aalto-logo-en.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/aalto-logo-en.pdf used on input line 11.
 (pdftex.def)             Requested size: 312.00119pt x 137.19974pt.
 
-<images/aalto-logo-fi.pdf, id=796, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=783, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
 Package pdftex.def Info: images/aalto-logo-fi.pdf used on input line 12.
 (pdftex.def)             Requested size: 312.00119pt x 145.97571pt.
 
-<images/aalto-logo-se.pdf, id=797, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=784, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-se.pdf>
@@ -1041,13 +1041,13 @@ Package rerunfilecheck Info: File `thesis-example.out' has not changed.
 (rerunfilecheck)             Checksum: 22353160BD99ADE7A29F76367BD6C664;5727.
  ) 
 Here is how much of TeX's memory you used:
- 19072 strings out of 493921
- 361215 string characters out of 3147273
- 471886 words of memory out of 3000000
- 21713 multiletter control sequences out of 15000+200000
+ 19047 strings out of 493921
+ 360870 string characters out of 3147273
+ 471788 words of memory out of 3000000
+ 21694 multiletter control sequences out of 15000+200000
  12723 words of font info for 46 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 56i,12n,57p,2123b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,12n,57p,2130b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -1063,9 +1063,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmtt12.pfb>
-Output written on thesis-example.pdf (51 pages, 1023235 bytes).
+Output written on thesis-example.pdf (51 pages, 1018073 bytes).
 PDF statistics:
- 916 PDF objects out of 1000 (max. 8388607)
- 220 named destinations out of 1000 (max. 500000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 214 named destinations out of 1000 (max. 500000)
  602 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,21 +1,21 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis-example.aux
 The style file: acm.bst
 Database file #1: sources.bib
-I was expecting a `,' or a `}'---line 35 of file sources.bib
+I was expecting a `,' or a `}'---line 43 of file sources.bib
  :   
  :   month=  06
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 43 of file sources.bib
+I was expecting a `,' or a `}'---line 51 of file sources.bib
  :   
  :   month=  12
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 126 of file sources.bib
+I was expecting a `,' or a `}'---line 127 of file sources.bib
  :   title = {Cloudera Impala} 
  :                             Open Source, Interactive SQL for Hadoop},
 I'm skipping whatever remains of this entry
-Repeated entry---line 260 of file sources.bib
+Repeated entry---line 261 of file sources.bib
  : @article{hart1992nonintrusive
  :                              ,
 I'm skipping whatever remains of this entry
