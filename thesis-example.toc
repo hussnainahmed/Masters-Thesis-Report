@@ -48,24 +48,24 @@
 \contentsline {subsubsection}{\numberline {3.3.2.4}Prototype testing with sample data}{40}{subsubsection.3.3.2.4}
 \contentsline {subsubsection}{\numberline {3.3.2.5}Stage 2 deliverables}{40}{subsubsection.3.3.2.5}
 \contentsline {subsubsection}{\numberline {3.3.2.6}Stage 2 cycles}{41}{subsubsection.3.3.2.6}
-\contentsline {subsection}{\numberline {3.3.3}Data Analysis}{41}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Stage 3 Data Analysis}{41}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}Tight integration of the platform components}{41}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Evaluation and Selection of Algorithms}{41}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Evaluation and selection of algorithms}{41}{subsubsection.3.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.3.3}Applying Analytics}{41}{subsubsection.3.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.4}Result Visualization}{41}{subsubsection.3.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.3.5}Stage 3 deliverables}{41}{subsubsection.3.3.3.5}
-\contentsline {subsubsection}{\numberline {3.3.3.6}Stage 3 Cycles}{41}{subsubsection.3.3.3.6}
-\contentsline {subsection}{\numberline {3.3.4}Documentation}{41}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Problem statement vs. results review}{41}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Document Integration}{41}{subsubsection.3.3.4.2}
-\contentsline {subsubsection}{\numberline {3.3.4.3}Process Review and discussion}{41}{subsubsection.3.3.4.3}
-\contentsline {subsubsection}{\numberline {3.3.4.4}Document Finalization}{41}{subsubsection.3.3.4.4}
-\contentsline {subsubsection}{\numberline {3.3.4.5}Stage 4 deliverables}{41}{subsubsection.3.3.4.5}
-\contentsline {subsubsection}{\numberline {3.3.4.6}Stage 4 Cycles}{41}{subsubsection.3.3.4.6}
-\contentsline {section}{\numberline {3.4}Iterations}{41}{section.3.4}
-\contentsline {chapter}{\numberline {4}Concept and Implementation of Big Data Platform}{42}{chapter.4}
-\contentsline {chapter}{\numberline {5}Data Analysis and Results}{43}{chapter.5}
-\contentsline {chapter}{\numberline {6}Discussion}{44}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{45}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{46}{chapter.8}
-\contentsline {chapter}{\numberline {A}First appendix}{50}{appendix.A}
+\contentsline {subsubsection}{\numberline {3.3.3.4}Result Visualization}{42}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.3.5}Stage 3 deliverables}{42}{subsubsection.3.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.3.6}Stage 3 Cycles}{42}{subsubsection.3.3.3.6}
+\contentsline {subsection}{\numberline {3.3.4}Stage 4 Documentation}{42}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Problem statement vs. results review}{43}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Document Integration}{43}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Process Review and discussion}{43}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Document Finalization}{43}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}Stage 4 deliverables}{43}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}Stage 4 Cycles}{43}{subsubsection.3.3.4.6}
+\contentsline {section}{\numberline {3.4}Iterations}{43}{section.3.4}
+\contentsline {chapter}{\numberline {4}Concept and Implementation of Big Data Platform}{44}{chapter.4}
+\contentsline {chapter}{\numberline {5}Data Analysis and Results}{45}{chapter.5}
+\contentsline {chapter}{\numberline {6}Discussion}{46}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{47}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{48}{chapter.8}
+\contentsline {chapter}{\numberline {A}First appendix}{52}{appendix.A}

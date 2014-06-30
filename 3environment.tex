@@ -31,7 +31,7 @@ Kumiega-Van Vliet Trading System Development Methodology \((K|V)\) was developed
  \section{Adaptation of Kumiega- Van Vliet Model}\label{adaptation}
  \((K|V)\) model is designed for software research  and development in domain of financial services. With the built in stage gate controls it requires some scale of hierarchical organizational structure to support the model. For our highly academic research case we have made certain adjustments. The most notable adaptation was to use deliverables and team reviews of respective deliverables as the main control for moving from one stage to other instead of stage gate approvals in \((K|V)\) model. The waterfall model alike stages helped in keeping our focus on the solution for our problem statement. The spiral model cycles enabled us to iterate within a stage and improve the deliverables quality. Typically the decision of additional cycles was based on the feedback during the team review sessions. The inter stage iteration channels helped us in improving our overall quality. The lessons learnt or the new directions identified during one iteration was include in the scope of research for next iteration. It also allowed us to include supplementary topics in our scope without losing focus on mandatory issues.
  
- In our approach, we have divided complete scope of research in four basic stages. Within each stage we had four steps. These intera stage steps were different for each stage. These steps were corresponding to the main tasks that we discussed in start of this chapter. A typical intra stage cycle ended with a set of deliverables. The deliverables were reviewed in a team review session. If required the other stockholders like VTT was also involved in some of the review meetings. We shall be discussing it in details when we describe our stage wise proceedings. At end of each review session a decision was made to either move to next stage or try to imrove via additional cycle. Using all four intra stage steps for additional cycles was not a must. This was another minor adaptation to the \((K|V)\) model. Similarly iterations were were mostly initiated after stage three. There were three major iterations. During the iterations change of deliverables were not mandatory. However in practice it was observed that iteration had caused some major or minor changes in stage deliverables as well. Small informal team structure reduced management and communication efforts. This also helped in rapid processing during iterations. Figure~\ref{fig:kv} illustrates our approach with the adapted version of \((K|V)\) model. Stage by stage description of our research methodology is explained in next section.   
+ In our approach, we have divided complete scope of research in four basic stages. Within each stage we had four steps. These intra stage steps were different for each stage. These steps were corresponding to the main tasks that we discussed in start of this chapter. A typical intra stage cycle ended with a set of deliverables. The deliverables were reviewed in a team review session. If required the other stockholders like VTT were also involved in some of the review meetings. We shall be discussing it in details when we describe our stage wise proceedings. At end of each review session a decision was made to either move to next stage or try to improve via additional cycle. Using all four intra stage steps for additional cycles was not a must. This was another minor adaptation to the \((K|V)\) model. Similarly iterations were mostly initiated after stage three. There were three major iterations. During the iterations change of deliverables were not mandatory. However in practice it was observed that iteration had caused some major or minor changes in stage deliverables as well. Small informal team structure reduced management and communication efforts. This also helped in rapid processing during iterations. Figure~\ref{fig:kv} illustrates our approach with the adapted version of \((K|V)\) model. Stage by stage description of our research methodology is explained in next section.   
  \begin{figure}[!h]
    \begin{center}
      \includegraphics[width=\textwidth]{images/kv_method.pdf}
@@ -58,7 +58,7 @@ From the start, our research had two focus areas i.e. energy consumption and big
 \end{itemize}
 
 Literature review had been a constant step through out this stage, cycles, and iterations.
-\subsubsection{Step 2. Research quantitative methods} 
+\subsubsection{Step 2. Research quantitative methods} \label{qm}
 This step involved finding and evaluating the various quantitative methods used for measuring energy consumption and benchmarking energy efficiency. Data aggregation methods like daily, monthly consumption, and average consumption etc were evaluated. Identification and theoretical evaluation of advance analytical methods was also performed during this step.
 \subsubsection{Step 3. Conceptual Model}\label{cmodel}
 This step was dedicated for finding available open source solutions to make a conceptual model for an end to end big data analytics. This step was mandatory for the big data platform concept paper deliverable. This step was also repeated during various iterations, whenever change was required in data platform.
@@ -74,7 +74,7 @@ There were two deliverables of this stage
 
 \subsubsection{Stage 1 cycles}
 In this stage we observed two cycles i.e. cycle for producing the required deliverables and one additional cycle for modification of platform concept document. The main modification in additional cycle was the replacement of application frame work with an architecture diagram to clarify.
-\subsection{Stage 2. Implementation}
+\subsection{Stage 2. Implementation}\label{implement}
 This stage mainly includes requirement engineering and intensive software development to prototype and test the big data platform described in concept paper as a deliverable from stage 1. This stage had following four steps.
 \subsubsection{Use case definition} 
 In this step, Based on the knowledge gained from stage 1. we decomposed our problem statement into lower level requirements that can be practically implemented using big data platform concept. Use cases went through several iterations. Details of iterations will be discussed later in this chapter. However here we shall list the final list of use cases.
@@ -94,7 +94,7 @@ As mentioned before, real life energy consumption data was provided by VTT. This
 \item Device level electricity consumption data of home appliances used in two apartments of Aalto Univerity campus residential housing blocks as test cases for VTT's green campus initiative.
 Real time data was also collected using the same platform to support some CIVIS projects objectives. However the real time data was not included in scope of analysis presented in this document.  
 \end{enumerate}
-\subsubsection{Prototype testing with sample data}
+\subsubsection{Prototype testing with sample data}\label{prototype}
 This step was only used during first cycle of this stage and first iteration of whole process. The purpose of this stage was to test the full flow from data collection to data visualization using the developed prototype. The sample data was the randomly selected records from hourly consumption data set. Although in this step we started with smaller sample and then kept on increasing it. The complete data set was also tested. In testing following functionalities were tested.
 \begin{enumerate}
 \item Data collection.
@@ -115,28 +115,36 @@ Following were two deliverables of implementation stage.
 Stage went through two additional cycles on top of the first mandatory cycle. Within two additional cycles all the steps were performed except data collection that was collected once during the this stage for first cycle. However data collection was repeated within iteration that will be discussed in later in this chapter.
 The major revisions inside cycles includes alteration in use cases e.g. effect of external temperature on seasonal energy pattern was identified during one of the review sessions. Within prototype and protype testing the alterations were required the adapt for changes in use cases
 
-\subsection{Data Analysis}
+\subsection{Stage 3 Data Analysis}
+In this stage we used the data platform to analyse the collected data and produce the insights based on use cases. We applied the basic and advanced analytics techniques introduced in \ref{daily},\ref{seasonal},\ref{classify},\ref{predict} sections. This stage has following four steps.
 \subsubsection{Tight integration of the platform components}
-\subsubsection{Evaluation and Selection of Algorithms}
+In section \ref{prototype} we tested all the units of the platform by manually enforcing the process i.e. taking out the  output of one module manually as in input to the other module on requirement basis. In this step we tried to automate the process by coupling the modules together in form of a single process per use case. 
+\subsubsection{Evaluation and selection of algorithms}\label{eval}
+In this step we tried to find and compare various options of advance analytics algorithms available for supporting our uses cases. It involved quantitative methods considered in section \ref{qm}. However the focus was more on the advance analytics. The techniques explained in \ref{daily},\ref{seasonal},\ref{classify},\ref{predict} sections were selected during this step. The selection criteria for each algorithm will be discussed in chapter \ref{chapter:Analysis}. For evaluating the algorithms we were using samples from collected data as our training data. 
 \subsubsection{Applying Analytics}
+In this step we applied the selected algorithm on the complete data sets. The insights generated from this steps are main results for our study. During the cycles of this stage, results from this step also affected the evaluation of algorithms in previous step, section \ref{eval}. Details related to this step will also explained in chapter \ref{chapter:Analysis}.    
 \subsubsection{Result Visualization}
+For the sake of ease to understand, the extracted insights in te previous step were visualized in form of data graphs. Different tools for visualizations were used in this steps. Visualization tools will be discussed in chapter {chapter:platform}. For data visualization we tried to implement the graphical practices discussed by Edward Tufte in his book ``The visual display of quantitative information''\cite{tufte1983visual}
 \subsubsection{Stage 3 deliverables}
+There were two deliverables of this stage.
+\begin{enumerate}
+\item Functional Platform. At the end of this stage, we had a fully functional platform capable of implementing the end to end data analytics.
+\item Results and visualization of the results. Providing required insight for the use cases. 
+\end{enumerate}
 \subsubsection{Stage 3 Cycles}
-\subsection{Documentation}
+There were several cycles in this stage. However as deviation from our adaptation of \((K|V)\) model, we just had one review session for this stage per iteration. Combination of different algorithms, their evaluation and then generating visualizations had to be repeated and tested many times. So reviewing in the intermediate cycles was very inefficient. This stage took longer time because of many cycles and the wider spiral required to produce good quality results.
+\subsection{Stage 4 Documentation}
+Documentation was an on going process throughout the stages and iterations. All of the stages had at least one deliverable in form of some document e.g. stage 1 has big data platform concept paper, stage 2 had use cases document, in stage 3 we had data analysis and insights report. The purpose of the last stage was to consolidate all the information in different documents together in shape of one single thesis report. Following were four steps for this stage. 
 \subsubsection{Problem statement vs. results review}
+This step was the check for consistency of our results with the research problem that we had in the beginning. We earlier mentioned that documentation stage was not always part of the iterations. However this stage was used during all the iterations to keep track of the main focal points, the complimentary and supplementary parts of our research.    
 \subsubsection{Document Integration}
+This step was concerned with the main task of this stage i.e. to consolidate the information together in form of one consistent story. During this stage we tried to link the inter stage documentation together along with theoretical background and explanation of the process and functional components of the project.
 \subsubsection{Process Review and discussion}
+The purpose of this step was to provide a retrospective view of the whole process. Highlight the main findings and discuss what could have been done better or more to improve the process and produce further results. This step also indicate some future directions for the relevant research areas. The considerations of this stage will be discussed further in chapter \ref{chapter:discussion}.
 \subsubsection{Document Finalization}
+This step controlled the final thesis report publishing aspects like formatting, sequencing of topics, proof reading and version control etc.  
 \subsubsection{Stage 4 deliverables}
+The final thesis report document was the mandatory deliverable  as the main output of the process and our research project. There were some supplementary deliverables like source codes, code books and procedures etc. that we intended to open source as part of our research.   
 \subsubsection{Stage 4 Cycles}
 to be written in end
-\section{Iterations}
-
-
-
-
-  
-
-  
-
- 
+\section{Iterations} \label{iteration}

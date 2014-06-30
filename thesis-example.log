@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  26 JUN 2014 00:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  1 JUL 2014 01:51
 entering extended mode
 **thesis-example.tex
 
@@ -967,57 +967,57 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Text page 36 contains only floats.
 
 [36 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja41
-/images/kv_method.pdf>] [37] [38] [39] [40])
+/images/kv_method.pdf>] [37] [38] [39] [40] [41] [42])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\4m
-ethods.tex" [41]
+ethods.tex" [43]
 Chapter 4.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\5i
-mplementation.tex" [42
+mplementation.tex" [44
 
 ]
 Chapter 5.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\6e
-valuation.tex" [43
+valuation.tex" [45
 
 ]
 Chapter 6.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\7d
-iscussion.tex" [44
+iscussion.tex" [46
 
 ]
 Chapter 7.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\8c
-onclusions.tex" [45
+onclusions.tex" [47
 
 ]
 Chapter 8.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\th
-esis-example.bbl" [46
+esis-example.bbl" [48
 
-] [47
+] [49
 
-] [48])
+] [50])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\thesispohja41\ap
-pendices.tex" [49]
+pendices.tex" [51]
 Appendix A.
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 <use images/aalto-logo-en.pdf>
 Package pdftex.def Info: images/aalto-logo-en.pdf used on input line 11.
 (pdftex.def)             Requested size: 312.00119pt x 137.19974pt.
 
-<images/aalto-logo-fi.pdf, id=783, 284.79599pt x 133.24078pt>
+<images/aalto-logo-fi.pdf, id=809, 284.79599pt x 133.24078pt>
 File: images/aalto-logo-fi.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-fi.pdf>
 Package pdftex.def Info: images/aalto-logo-fi.pdf used on input line 12.
 (pdftex.def)             Requested size: 312.00119pt x 145.97571pt.
 
-<images/aalto-logo-se.pdf, id=784, 315.62114pt x 132.96677pt>
+<images/aalto-logo-se.pdf, id=810, 315.62114pt x 132.96677pt>
 File: images/aalto-logo-se.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-se.pdf>
@@ -1025,9 +1025,9 @@ Package pdftex.def Info: images/aalto-logo-se.pdf used on input line 13.
 (pdftex.def)             Requested size: 312.00119pt x 131.45084pt.
 ) 
 AED: lastpage setting LastPage
-[50
+[52
 
-] [51 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja
+] [53 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja
 41/images/aalto-logo-fi.pdf> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Th
 esis Report/thesispohja41/images/aalto-logo-se.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
@@ -1038,13 +1038,13 @@ esis-example.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 591.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 591.
 Package rerunfilecheck Info: File `thesis-example.out' has not changed.
-(rerunfilecheck)             Checksum: 22353160BD99ADE7A29F76367BD6C664;5727.
+(rerunfilecheck)             Checksum: 2DA1BA6BF3094DA82F35D486F9B4896D;5743.
  ) 
 Here is how much of TeX's memory you used:
- 19047 strings out of 493921
- 360870 string characters out of 3147273
- 471788 words of memory out of 3000000
- 21694 multiletter control sequences out of 15000+200000
+ 19064 strings out of 493921
+ 361066 string characters out of 3147273
+ 472423 words of memory out of 3000000
+ 21706 multiletter control sequences out of 15000+200000
  12723 words of font info for 46 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  56i,12n,57p,2130b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1063,9 +1063,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmtt12.pfb>
-Output written on thesis-example.pdf (51 pages, 1018073 bytes).
+Output written on thesis-example.pdf (53 pages, 1026616 bytes).
 PDF statistics:
- 899 PDF objects out of 1000 (max. 8388607)
- 214 named destinations out of 1000 (max. 500000)
+ 929 PDF objects out of 1000 (max. 8388607)
+ 219 named destinations out of 1000 (max. 500000)
  602 words of extra memory for PDF output out of 10000 (max. 10000000)
 
