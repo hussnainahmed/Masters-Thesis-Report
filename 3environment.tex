@@ -135,7 +135,7 @@ There were two deliverables of this stage.
 There were several cycles in this stage. However as deviation from our adaptation of \((K|V)\) model, we just had one review session for this stage per iteration. Combination of different algorithms, their evaluation and then generating visualizations had to be repeated and tested many times. So reviewing in the intermediate cycles was very inefficient. This stage took longer time because of many cycles and the wider spiral required to produce good quality results.
 \subsection{Stage 4 Documentation}
 Documentation was an on going process throughout the stages and iterations. All of the stages had at least one deliverable in form of some document e.g. stage 1 has big data platform concept paper, stage 2 had use cases document, in stage 3 we had data analysis and insights report. The purpose of the last stage was to consolidate all the information in different documents together in shape of one single thesis report. Following were four steps for this stage. 
-\subsubsection{Problem statement vs. results review}
+\subsubsection{Problem statement vs. results review}\label{ps}
 This step was the check for consistency of our results with the research problem that we had in the beginning. We earlier mentioned that documentation stage was not always part of the iterations. However this stage was used during all the iterations to keep track of the main focal points, the complimentary and supplementary parts of our research.    
 \subsubsection{Document Integration}
 This step was concerned with the main task of this stage i.e. to consolidate the information together in form of one consistent story. During this stage we tried to link the inter stage documentation together along with theoretical background and explanation of the process and functional components of the project.
@@ -148,3 +148,55 @@ The final thesis report document was the mandatory deliverable  as the main outp
 \subsubsection{Stage 4 Cycles}
 to be written in end
 \section{Iterations} \label{iteration}
+Iterative processes and work models do not require full specification right from beginning. Instead the implementation can start with small part of specification. Then in a step wise approach the next scope is defined with consideration of lesson learnt and new directions found from previous iterations. This inherent characteristic of iterative processes had a vital role in our research. We started with smaller scope i.e. two simple uses case. In earlier iteration we were able to focus on big data technologies and energy efficiency concepts more than the complex advance analytics topics. Findings and practical implementation in early phase enabled us to expand our scope later. We added more use cases with more focus on data analysis and application of big data for energy efficiency. Iterations also helped us in improving the quality of research. 
+
+In our approach, we went through 3 main iteration cycles. As mentioned in section \ref{stages} each iteration did not involve the complete four stages and their respective steps. First three stages were the main contributors in the iteration with step \ref{ps} of stage 4 as main source for reviewing our proceedings against our targets. Table \ref{tab:iteration_table} list the main activities in each iteration against respective stages and steps.    
+
+%\usepackage{lscape}
+%\begin{landscape}
+\begin{table}\tiny %[!t]
+%\begin{sideways}
+\begin{tabular}{|m{2.2cm}|>{\raggedright}m{1.7cm}|>{\raggedright}m{3.4cm}|>{\raggedright}m{3.4cm}|m{3.4cm}|}
+\hline
+	\textbf{Stages} & \textbf{Steps} & \textbf{Iteration 1} & \textbf{Iteration 2} & \textbf{Iteration 3} \\ \hline
+	\multirow{4}{*}{\textbf{Conceptualization}} & Understanding  & Main Topics: Energy Efficiency, Eco-Efficiency, Demand Response, daily consumption, monthly consumption, smart grids, smart metering, NIALM, Big Data 3Vs, Parallel Batch Processing, MapReduce etc & Main Topics: Classification, clustering, K-means, Big Data Veracity and Valuation, Big Data Streaming, Lambda Architecture, Massively Parallel Processing etc. & Main Topics: Forecasting, Regression, Auto-regression, Moving Averages, ARIMA etc. \\ \cline{2-5}
+	 & Research quantitative methods
+ & Sampling, Aggregation,  Averages, Summation, standard deviation, distributions etc & Clustering,Centroid-based clustering; K-means, C-means, Distribution-based clustering; Cumulative distribution function,  Density-based clustering; DBSCAN.  & Time Series Analysis, Covariance, correlation, Regression, Auto-regression, Moving Averages, ARIMA, Random Forest etc. \\  \cline{2-5}
+	 & Conceptual Model & Model for parallel batch processing & Massively Parallel processing added for faster processing & Additional Machine learning modules (Forecasting) \\  \cline{2-5}
+	 & Evaluation of Tools & Apache; Hadoop, HDFS, Flume, Sqoop, oozie, Hive, Pig in Cloudera distribution.
+R, mahout, Tableau, D3.JS  & Cloudera Impala, Spark, Hbase, MongoDB. & Weka, Cloudera Oryx,  R (Forecast package) \\ \hline
+\multirow{4}{*}{\textbf{Implementation}} & Use case definition
+ & List of use cases:
+(1) Understanding the seasonal energy usage patterns and its sensitivity with outside temperature.
+(2) Understanding characteristics of building using daily energy consumption pattern. & List of use cases:
+(3) Calculate the base load of the building to identify non user consumption of buildings
+(4) Classify building on basis of energy efficiency and analyse seasonal shifts in this classification. & (5) Predict daily energy consumption of various house hold devices on basis of previous consumption pattern. \\ \cline{2-5}
+	 & Data analytics platform prototype
+ & Parallel batch processing with capability to collect data from data from data servers and public social media streaming API s. Machine learning modules integration . Visualization using Tableau Public. & Integration of on-line query engine with Cloudera Impala. This enabled near to real life big data processing. & Use of additional data mining and machine learning tools like Weka.  \\ \cline{2-5}
+	 & Data collection
+ & Hourly electricity and  electricity for heating consumption data from VTT's smart metering devices on pilot sites for Green Campus Initiative. & Device level electricity consumption data from VTT's NIALM devices installed in two selected residential apartments. & One month twitter data collection for Green Hackathon using collection of energy related keywords.  \\ \cline{2-5}
+	 & Prototype testing with sample data
+ & Testing with samples from hourly consumption data. Testing with complete hourly consumption data. & Testing with NIALM device data. & Testing the prediction model using NIALM device data an additional data mining and machine learning tools. Performance comparison between non parallel executing, parallel batch processing and Masively parallel processing tools. \\ \hline
+	\multirow{4}{*}{\textbf{Data Analysis}}	 & Tight integration of the platform components
+ & End to End workflow implementation i.e. from data collection, storage, preprocessing and analysis to visualization of results. Limited to batch processing only & Integration of Impala.  &  \\ \cline{2-5}
+	 & Evaluation \& Selection of Algorithms
+ & Selected quantative methods: Basic aggregations e.g. averages , summations and groupings. & Selected quantative method: K-means clustering  & Selected quantative methods:  ARIMA, linear regression and Random Forest forecasting techniques. \\ \cline{2-5}
+	 & Applying Analytics
+ & Applying basic aggregations according to use case 1 and 2. & 1) Basic Aggregation for use case 3
+2) K-means clustering for use case 4 & ARIMA and Random Forest algorithms for use case 5. \\ \cline{2-5}
+	 & Result Visualization
+ & Using Tableau Public & Using Tableau Public  & Using R plots and Weka \\ \hline
+\multirow{4}{*}{\textbf{Documentation}}	 & Problem statement vs. results review
+ & Results for use case 1 and 2 reviewed. & Results for use case 3 and 4 reviewed. & Results for use case 5 reviewed. \\ \cline{2-5}
+	 & Document Integration
+ & Step not used  & Step not used  & Integration of  platform concept paper, data analysis report and use documentation.  \\ \cline{2-5}
+	 & Process Review and discussion
+ & Step not used  & Step not used  & Theoratical background explainations and linkages to research. Future directions for related work. \\ \cline{2-5}
+	 & Document Finalization
+ & Step not used  & Step not used  & Document formating. \\ \hline
+\end{tabular}
+%\end{sideways}
+\caption{Details of the iterations}
+\label{tab:iteration_table}
+\end{table}
+%\end{landscape} 
