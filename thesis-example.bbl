@@ -1,5 +1,25 @@
 \begin{thebibliography}{10}
 
+\bibitem{flume}
+Apache flume.
+\newblock \url{http://flume.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{hive}
+Apache hive.
+\newblock \url{https://hive.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{pig}
+Apache pig.
+\newblock \url{http://pig.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{sqoop}
+Apache sqoop.
+\newblock \url{http://sqoop.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
 \bibitem{clouderaimpala}
 Cloudera impala.
 
@@ -13,6 +33,16 @@ Directive 2012/27/eu of the european parliament and of the council of 25
 \bibitem{lambdaarch}
 {Lambda Architecture} what is the lambda architecture.
 \newblock Accessed: 2014-06-09.
+
+\bibitem{avro}
+Welcome to apache avro.
+\newblock \url{http://flume.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{apachehadoop}
+Welcome to apache hadoop.
+\newblock \url{http://hadoop.apache.org/}.
+\newblock Accessed: 2014-07-04.
 
 \bibitem{arundel2009measuring}
 {\sc Arundel, A., and Kemp, R.}

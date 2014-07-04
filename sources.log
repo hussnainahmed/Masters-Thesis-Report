@@ -1,24 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  12 JUN 2014 23:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdftex 2014.5.30)  5 JUL 2014 00:18
 entering extended mode
-**C:/IDBM/Sentiment*Analysis/CIVIS/documentation/Thesis*Report/thesispohja41/so
-urces.bib
+**C:/IDBM/Sentiment*Analysis/CIVIS/documentation/Thesis*Report/Masters-Thesis-R
+eport-master/Masters-Thesis-Report-master/sources.bib
 
-("C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/thesispohja41/so
-urces.bib"
-Overfull \hbox (23.4959pt too wide) in paragraph at lines 1--7
-[]\tenrm @articlefederal2008assessment, ti-tle=Assessment of de-mand re-sponse 
-and ad-vanced me-ter-ing, au-thor=Federal|
-
-\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
-.\hbox(0.0+0.0)x20.0
-.\tenrm @
-.\tenrm a
-.\tenrm r
-.\tenrm t
-.etc.
-
-
-Overfull \hbox (15.48218pt too wide) in paragraph at lines 46--56
+("C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters-Thesis-R
+eport-master/Masters-Thesis-Report-master/sources.bib"
+Overfull \hbox (15.48218pt too wide) in paragraph at lines 54--64
 []\tenrm @articlehart1992nonintrusive, ti-tle=Nonintrusive ap-pli-ance load mon
 -i-tor-ing, au-thor=Hart, George William,|
 
@@ -31,7 +18,7 @@ Overfull \hbox (15.48218pt too wide) in paragraph at lines 46--56
 .etc.
 
 
-Overfull \hbox (11.1348pt too wide) in paragraph at lines 72--82
+Overfull \hbox (11.1348pt too wide) in paragraph at lines 80--90
 []\tenrm @articledean2008mapreduce, ti-tle=MapReduce: sim-pli-fied data pro-ces
 s-ing on large clus-ters, au-thor=Dean,|
 
@@ -44,12 +31,12 @@ s-ing on large clus-ters, au-thor=Dean,|
 .etc.
 
 ! Undefined control sequence.
-l.92   url = "\url
-                  {http://lambda-architecture.net/}",
+l.100   url = "\url
+                   {http://lambda-architecture.net/}",
 ? 
 ! Emergency stop.
-l.92   url = "\url
-                  {http://lambda-architecture.net/}",
+l.100   url = "\url
+                   {http://lambda-architecture.net/}",
 End of file on the terminal!
 
 !  ==> Fatal error occurred, no output PDF file produced!

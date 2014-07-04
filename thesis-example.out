@@ -60,9 +60,20 @@
 \BOOKMARK [3][-]{subsubsection.3.3.4.5}{3.3.4.5 Stage 4 deliverables}{subsection.3.3.4}% 60
 \BOOKMARK [3][-]{subsubsection.3.3.4.6}{3.3.4.6 Stage 4 Cycles}{subsection.3.3.4}% 61
 \BOOKMARK [1][-]{section.3.4}{3.4 Iterations}{chapter.3}% 62
-\BOOKMARK [0][]{chapter.4}{4 Concept and Implementation of Big Data Platform}{}% 63
-\BOOKMARK [0][]{chapter.5}{5 Data Analysis and Results}{}% 64
-\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 65
-\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 66
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 67
-\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 68
+\BOOKMARK [0][]{chapter.4}{4 Big Data Analytics Platform}{}% 63
+\BOOKMARK [1][-]{section.4.1}{4.1 Big data challenges}{chapter.4}% 64
+\BOOKMARK [1][-]{section.4.2}{4.2 Data Analysis work-flow}{chapter.4}% 65
+\BOOKMARK [1][-]{section.4.3}{4.3 Platform concept}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.4}{4.4 Data Core}{chapter.4}% 67
+\BOOKMARK [1][-]{section.4.5}{4.5 Data Collection}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Apache Flume}{section.4.5}% 69
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Apache Sqoop}{section.4.5}% 70
+\BOOKMARK [1][-]{section.4.6}{4.6 Data Pre-processing}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Apache Hive}{section.4.6}% 72
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Apache Pig}{section.4.6}% 73
+\BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Cloudera Impala}{section.4.6}% 74
+\BOOKMARK [0][]{chapter.5}{5 Data Analysis and Results}{}% 75
+\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 76
+\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 77
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 78
+\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 79

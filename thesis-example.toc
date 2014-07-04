@@ -63,9 +63,20 @@
 \contentsline {subsubsection}{\numberline {3.3.4.5}Stage 4 deliverables}{43}{subsubsection.3.3.4.5}
 \contentsline {subsubsection}{\numberline {3.3.4.6}Stage 4 Cycles}{43}{subsubsection.3.3.4.6}
 \contentsline {section}{\numberline {3.4}Iterations}{44}{section.3.4}
-\contentsline {chapter}{\numberline {4}Concept and Implementation of Big Data Platform}{46}{chapter.4}
-\contentsline {chapter}{\numberline {5}Data Analysis and Results}{47}{chapter.5}
-\contentsline {chapter}{\numberline {6}Discussion}{48}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{49}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{50}{chapter.8}
-\contentsline {chapter}{\numberline {A}First appendix}{54}{appendix.A}
+\contentsline {chapter}{\numberline {4}Big Data Analytics Platform}{46}{chapter.4}
+\contentsline {section}{\numberline {4.1}Big data challenges}{46}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Analysis work-flow}{48}{section.4.2}
+\contentsline {section}{\numberline {4.3}Platform concept}{48}{section.4.3}
+\contentsline {section}{\numberline {4.4}Data Core}{49}{section.4.4}
+\contentsline {section}{\numberline {4.5}Data Collection}{50}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Apache Flume}{50}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Apache Sqoop}{50}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Data Pre-processing}{50}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Apache Hive}{51}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Apache Pig}{51}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Cloudera Impala}{51}{subsection.4.6.3}
+\contentsline {chapter}{\numberline {5}Data Analysis and Results}{52}{chapter.5}
+\contentsline {chapter}{\numberline {6}Discussion}{53}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{54}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{55}{chapter.8}
+\contentsline {chapter}{\numberline {A}First appendix}{59}{appendix.A}
