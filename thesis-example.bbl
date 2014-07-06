@@ -30,6 +30,18 @@ Directive 2012/27/eu of the european parliament and of the council of 25
   \url{http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:315:0001:0056:EN:PDF}.
 \newblock Accessed: 2014-06-10.
 
+\bibitem{clouderatwitter}
+How to analyze twitter data with apache hadoop.
+\newblock
+  \url{http://blog.cloudera.com/blog/2012/09/analyzing-twitter-data-with-hadoop/}.
+\newblock Accessed: 2014-07-05.
+
+\bibitem{cimpala}
+Impala concepts and architecture.
+\newblock
+  \url{http://www.cloudera.com/content/cloudera-content/cloudera-docs/Impala/latest/Installing-and-Using-Impala/ciiu_concepts.html}.
+\newblock Accessed: 2014-07-05.
+
 \bibitem{lambdaarch}
 {Lambda Architecture} what is the lambda architecture.
 \newblock Accessed: 2014-06-09.
@@ -91,6 +103,12 @@ Welcome to apache hadoop.
   electricity industry.
 \newblock In {\em Innovative Smart Grid Technologies (ISGT), 2011 IEEE PES\/}
   (2011), IEEE, pp.~1--6.
+
+\bibitem{hanrahan2006vizql}
+{\sc Hanrahan, P.}
+\newblock Vizql: a language for query, analysis and visualization.
+\newblock In {\em Proceedings of the 2006 ACM SIGMOD international conference
+  on Management of data\/} (2006), ACM, pp.~721--721.
 
 \bibitem{hart1992nonintrusive}
 {\sc Hart, G.~W.}

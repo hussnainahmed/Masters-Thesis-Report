@@ -67,16 +67,25 @@
 \contentsline {section}{\numberline {4.1}Big data challenges}{46}{section.4.1}
 \contentsline {section}{\numberline {4.2}Data Analysis work-flow}{48}{section.4.2}
 \contentsline {section}{\numberline {4.3}Platform concept}{48}{section.4.3}
-\contentsline {section}{\numberline {4.4}Data Core}{49}{section.4.4}
-\contentsline {section}{\numberline {4.5}Data Collection}{50}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Apache Flume}{50}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Apache Sqoop}{50}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Data Pre-processing}{50}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Apache Hive}{51}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Apache Pig}{51}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Cloudera Impala}{51}{subsection.4.6.3}
-\contentsline {chapter}{\numberline {5}Data Analysis and Results}{52}{chapter.5}
-\contentsline {chapter}{\numberline {6}Discussion}{53}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{54}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{55}{chapter.8}
-\contentsline {chapter}{\numberline {A}First appendix}{59}{appendix.A}
+\contentsline {subsection}{\numberline {4.3.1}Data Core}{49}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Data Collection}{50}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Apache Flume}{50}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Apache Sqoop}{50}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Data Pre-processing}{50}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}Apache Hive}{51}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}Apache Pig}{51}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}Cloudera Impala}{51}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.4}Databases}{51}{subsubsection.4.3.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Data Mining}{52}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Presentation}{52}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Implementation}{53}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Implementation Environment}{53}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Implemented data processing work flows }{54}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Data processing for energy efficiency use cases}{55}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Social media data collection for supporting CIVIS project}{57}{subsubsection.4.4.2.2}
+\contentsline {chapter}{\numberline {5}Data Analysis and Results}{58}{chapter.5}
+\contentsline {chapter}{\numberline {6}Discussion}{59}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{60}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{61}{chapter.8}
+\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{66}{appendix.A}
+\contentsline {chapter}{\numberline {B}Platform Configurations}{67}{appendix.B}

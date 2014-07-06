@@ -64,16 +64,25 @@
 \BOOKMARK [1][-]{section.4.1}{4.1 Big data challenges}{chapter.4}% 64
 \BOOKMARK [1][-]{section.4.2}{4.2 Data Analysis work-flow}{chapter.4}% 65
 \BOOKMARK [1][-]{section.4.3}{4.3 Platform concept}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.4}{4.4 Data Core}{chapter.4}% 67
-\BOOKMARK [1][-]{section.4.5}{4.5 Data Collection}{chapter.4}% 68
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Apache Flume}{section.4.5}% 69
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Apache Sqoop}{section.4.5}% 70
-\BOOKMARK [1][-]{section.4.6}{4.6 Data Pre-processing}{chapter.4}% 71
-\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Apache Hive}{section.4.6}% 72
-\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Apache Pig}{section.4.6}% 73
-\BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Cloudera Impala}{section.4.6}% 74
-\BOOKMARK [0][]{chapter.5}{5 Data Analysis and Results}{}% 75
-\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 76
-\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 77
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 78
-\BOOKMARK [0][]{appendix.A}{A First appendix}{}% 79
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Data Core}{section.4.3}% 67
+\BOOKMARK [2][-]{subsection.4.3.2}{4.3.2 Data Collection}{section.4.3}% 68
+\BOOKMARK [3][-]{subsubsection.4.3.2.1}{4.3.2.1 Apache Flume}{subsection.4.3.2}% 69
+\BOOKMARK [3][-]{subsubsection.4.3.2.2}{4.3.2.2 Apache Sqoop}{subsection.4.3.2}% 70
+\BOOKMARK [2][-]{subsection.4.3.3}{4.3.3 Data Pre-processing}{section.4.3}% 71
+\BOOKMARK [3][-]{subsubsection.4.3.3.1}{4.3.3.1 Apache Hive}{subsection.4.3.3}% 72
+\BOOKMARK [3][-]{subsubsection.4.3.3.2}{4.3.3.2 Apache Pig}{subsection.4.3.3}% 73
+\BOOKMARK [3][-]{subsubsection.4.3.3.3}{4.3.3.3 Cloudera Impala}{subsection.4.3.3}% 74
+\BOOKMARK [3][-]{subsubsection.4.3.3.4}{4.3.3.4 Databases}{subsection.4.3.3}% 75
+\BOOKMARK [2][-]{subsection.4.3.4}{4.3.4 Data Mining}{section.4.3}% 76
+\BOOKMARK [2][-]{subsection.4.3.5}{4.3.5 Presentation}{section.4.3}% 77
+\BOOKMARK [1][-]{section.4.4}{4.4 Implementation}{chapter.4}% 78
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Implementation Environment}{section.4.4}% 79
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Implemented data processing work flows }{section.4.4}% 80
+\BOOKMARK [3][-]{subsubsection.4.4.2.1}{4.4.2.1 Data processing for energy efficiency use cases}{subsection.4.4.2}% 81
+\BOOKMARK [3][-]{subsubsection.4.4.2.2}{4.4.2.2 Social media data collection for supporting CIVIS project}{subsection.4.4.2}% 82
+\BOOKMARK [0][]{chapter.5}{5 Data Analysis and Results}{}% 83
+\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 84
+\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 85
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 86
+\BOOKMARK [0][]{appendix.A}{A List of Evaluated Platform Components}{}% 87
+\BOOKMARK [0][]{appendix.B}{B Platform Configurations}{}% 88
