@@ -54,11 +54,14 @@
 \BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Classification of buildings on basis of energy efficiency}{section.5.3}% 54
 \BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 Data processing for cluster analysis}{section.5.3}% 55
 \BOOKMARK [2][-]{subsection.5.3.6}{5.3.6 K-means clustering analysis and results}{section.5.3}% 56
-\BOOKMARK [1][-]{section.5.4}{5.4 Prediction model for forecasting energy consumption of household devices}{chapter.5}% 57
-\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 58
-\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 59
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 60
-\BOOKMARK [0][]{appendix.A}{A List of Evaluated Platform Components}{}% 61
-\BOOKMARK [0][]{appendix.B}{B Platform Configurations}{}% 62
-\BOOKMARK [0][]{appendix.C}{C Data Descriptions}{}% 63
-\BOOKMARK [0][]{appendix.D}{D Calculated Base Loads}{}% 64
+\BOOKMARK [1][-]{section.5.4}{5.4 Prediction models for forecasting energy consumption of household devices}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Important considerations for forecasting}{section.5.4}% 58
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Data processing steps}{section.5.4}% 59
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Forecasting results}{section.5.4}% 60
+\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 61
+\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 62
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 63
+\BOOKMARK [0][]{appendix.A}{A List of Evaluated Platform Components}{}% 64
+\BOOKMARK [0][]{appendix.B}{B Platform Configurations}{}% 65
+\BOOKMARK [0][]{appendix.C}{C Data Descriptions}{}% 66
+\BOOKMARK [0][]{appendix.D}{D Calculated Base Loads}{}% 67

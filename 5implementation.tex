@@ -202,7 +202,71 @@ An interactive dashboard is available for viewing the behaviour of all the build
      \caption{Energy effeciency cluster shift during 11 months}\label{fig:clustershift}
 \end{figure}
 
-\section{Prediction model for forecasting energy consumption of household devices}
-We discussed the data set collected by NIALM devices in section \ref{nialmset}. Using this data set we tried to implement a limited prediction model to forecast the usage of household appliances. There were nine different appliances included in our data set i.e. Refrigerator, Freezer, Dishwasher, Laundry machine, Coffee maker, Stove, TV or PC, and Microwave oven. Some of the devices are generally in continuous use e.g. freezer and refrigerator. While others are use on need basis e.g. stove, coffee maker, laundry machine etc. Even in such devices, frequency of usage can be different e.g. stove, coffee maker etc are usually used on daily basis while laundry machine can be used once in a week. The limited scope of our prediction model means that we are not dealing with all this diversity. Instead we forecast only for those devices which are in continuous usage e.g. freezer and refrigerator.      
+\section{Prediction models for forecasting energy consumption of household devices}
+We discussed the data set collected by NIALM devices in section \ref{nialmset}. Using this data set we tried to evaluate different prediction models using limited amount of our data set. There were nine different appliances included in our data set i.e. Refrigerator, Freezer, Dishwasher, Laundry machine, Coffee maker, Stove, TV or PC, and Microwave oven. Some of the devices are generally in continuous use e.g. freezer and refrigerator. While others are use on need basis e.g. stove, coffee maker, laundry machine etc. Even in such devices, frequency of usage can be different e.g. stove, coffee maker etc are usually used on daily basis while laundry machine can be used once in a week. The limited use of data set means that we are not dealing with all this diversity. Instead we forecast only for those devices which are in continuous usage e.g. freezer and refrigerator. The predicted values are on the daily consumption basis for a particular device.  
+\subsection{Important considerations for forecasting}
+Following were some important considerations while evluating the prediction model.
+\begin{enumerate}
+\item We collected NIALM data in two phases. First data contains consumption values from 1st May 2013 to 3rd February 2014. This data was used as training data for prediction models. While the seconds data was collected with consumption values from 4th February 2014 till 30th April 2014. This set was used as the test data to measure the accuracy of prediction model.
+\item Predictions models were evaluated using consumption data of Freezer usage.
+\item A time windows of previous 30 days was used to predict values for next 30 days with 80\% confidence interval.
+\item  The accuracy of the prediction models were compared on basis of mean absolute error (MAE).
+\end{enumerate}     
 
-    
+\subsection{Data processing steps}
+Following are the main steps that were performed to evluate prediction models.
+
+\begin{enumerate}
+\item Data was reshaped to form continuous time series. The missing daily values were filled with zero value.
+\item Data was aggregated to calculate the daily consumption for each device.
+\item  The Freezer data was extracted from the processed data set to apply prediction models.
+\item  Three forecasting models were applied on the training data i.e. Linear Regression, ARIMA, and Artificial Neural Networks (AAN). We used R for ARIMA modeling and Weka for Linear Regression and AAN. We shall discuss about the usage of these tools in next chapter \ref{chapter:discussion}. 
+\item We calculated the accuracy using test data and mean absolute error formula.  
+\end{enumerate} 
+
+\subsection{Forecasting results}
+
+Figure \ref{fig:predicted} shows the resulting forecasts from the three prediction models. In figure~\ref{fig:arima}, predicted values using ARIMA model with 80\% confidence interval  are represented by the bold blue line, while shaded geom represent the higher and lower 80\%,95\% confidence intervals respectively. Figure \ref{fig:lr} and \ref{fig:ann} illustrates the predictions using linear regression and artificial neural networks (ANN) models respectivel using 80\% confidence interval. Circular dots in the graph shows the predicted daily values while The doted line geom present the higher and lower 80\% confidence interval prediction ranges. Due to use of different analysis tools the ARIMA graph is different from the linear regression and ANN graphs. Both X axis and Y axis in all the graphs represents days and electricity consumption(Watt.hour) respectively. However label of the days in axis is in figure \ref{fig:arima} is showing respective months with year while label in figures \ref{fig:lr} and \ref{fig:ann} represents the number of the day starting from first day in the data.  
+ \\
+\begin{figure}
+        \centering
+        \begin{subfigure}[b]{\textwidth}
+                \includegraphics[width=\textwidth]{images/arima.pdf}
+                \caption{ARIMA with 30 days AR and MA}
+                \label{fig:arima}
+        \end{subfigure}
+        \\--------------------------------------------------
+        
+        
+        \begin{subfigure}[b]{\textwidth}
+                \includegraphics[width=\textwidth]{images/lr.pdf}
+                \caption{Linear Regression Model}
+                \label{fig:lr}
+        \end{subfigure}
+        \\---------------------------------------------------
+        
+        
+        \begin{subfigure}[b]{\textwidth}
+                \includegraphics[width=\textwidth]{images/ann.pdf}
+                \caption{Artificial Neural Network Model}
+                \label{fig:ann}
+        \end{subfigure}
+             \caption{Forecasting monthly energy consumption for home appliances based on previous observed monthly consumptions}\label{fig:predicted}
+\end{figure}
+
+Table \ref{tab:mae} lists the mean absolute error (MAE) values for each prediction model. Forecasting with ARIMA model shows the lowest MAE values. For this reason, we included ARIMA forecasting as part of our implemented platform. We use R to perform calculation described in section \ref{ARIMA} using packages like ``Forecast'' for fitting ARIMA model and forecasting and ``zoo'' for handling time series data structure. p,d,q values for predicting monthly values based previous 30 days were 30,0,30 respectively.
+
+\begin{center}
+\begin{table}[!ht] 
+\begin{tabular} { | l | c | c | c | } 
+
+\hline
+	 & ARIMA & ANN & Linear Regression \\ \hline
+	Mean Absolute Error (MAE) & 32.6 & 47.5 & 42.4 \\ \hline
+\end{tabular}
+\caption{Mean absolute error values for prediction models.}
+\label{tab:mae}
+\end{table}
+\end{center}
+
+  

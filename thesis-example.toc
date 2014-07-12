@@ -95,11 +95,14 @@
 \contentsline {subsection}{\numberline {5.3.4}Classification of buildings on basis of energy efficiency}{64}{subsection.5.3.4}
 \contentsline {subsection}{\numberline {5.3.5}Data processing for cluster analysis}{66}{subsection.5.3.5}
 \contentsline {subsection}{\numberline {5.3.6}K-means clustering analysis and results}{68}{subsection.5.3.6}
-\contentsline {section}{\numberline {5.4}Prediction model for forecasting energy consumption of household devices}{70}{section.5.4}
-\contentsline {chapter}{\numberline {6}Discussion}{72}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{74}{chapter.8}
-\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{79}{appendix.A}
-\contentsline {chapter}{\numberline {B}Platform Configurations}{80}{appendix.B}
-\contentsline {chapter}{\numberline {C}Data Descriptions}{81}{appendix.C}
-\contentsline {chapter}{\numberline {D}Calculated Base Loads}{82}{appendix.D}
+\contentsline {section}{\numberline {5.4}Prediction models for forecasting energy consumption of household devices}{70}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Important considerations for forecasting}{71}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Data processing steps}{71}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Forecasting results}{72}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Discussion}{74}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{75}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{76}{chapter.8}
+\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{81}{appendix.A}
+\contentsline {chapter}{\numberline {B}Platform Configurations}{82}{appendix.B}
+\contentsline {chapter}{\numberline {C}Data Descriptions}{83}{appendix.C}
+\contentsline {chapter}{\numberline {D}Calculated Base Loads}{84}{appendix.D}
