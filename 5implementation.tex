@@ -30,7 +30,7 @@ To support this data set for analysis we also collected Real Estate data that in
 \url{http://https://arska.espoo.fi/}
 
 
-\subsection{Data set 2: Device level data}
+\subsection{Data set 2: Device level data} \label{nialmset}
 This data set contains device level consumption of electricity collected from a residential apartment included as a test site for VTT's Green Campus initiative. The device level means that electricity  consumption  was collected for various home appliances used in that apartment. These appliances were differentiated on basis of their respective electric signal thumbprint using NIALM metering devices described in section \ref{greencamp}. The data was collected from 1st May 2013 to 30 th April 2014 in form of a text file from a VTT web service. The different fields in the data were separated by ``;''. The data set have following fields.
 
 "Device";"Timestamp";"Consumption(Wh)"
@@ -51,12 +51,12 @@ As listed previously in section \ref{usecases} of this document, Following are t
 
 \textbf{Use Case 5:} Predict daily energy consumption of various house hold devices on basis of previous consumption pattern.
 
-Data set 1 was used for use cases 1,2,3 and 4 while data set 2 was used only for use case 5. In the similar way we grouped the use cases into two categories for analysiss. Use case 1 to 4 were referred to as ``Energy Consumption patterns and classification of buildings on basis of energy effeciency''. While use case 4 was labeled as ``Prediction model for forecasting household energy usage''
+Data set 1 was used for use cases 1,2,3 and 4 while data set 2 was used only for use case 5. In the similar way we grouped the use cases into two categories for analysis. Use case 1 to 4 were referred to as ``Energy Consumption patterns and classification of buildings on basis of energy efficiency''. While use case 4 was labelled as ``Prediction model for forecasting energy consumption of household devices ''
 
 
 \section{Energy Consumption patterns and classification of buildings on basis of energy efficiency}
-In section \ref{ecoeff} we discussed the concept of energy efficiency in context of the ecological factors. In section \ref{seasonal} we discussed the impact of outside temperature on energy usage. Similarly we established the relationship between daily load, based load and energy efficiency in setcion \ref{daily}. Now using all these concepts together we shall try to analyse our data set 1 and try to detect the daily and seasonal trends of electricity usage in green campus imitative  test buildings. We shall also try to find out the base loads for the building to see which building is consuming more energy during the off peak hours when users are not present in the builing. Finally we shall try to classify the building on basis of energy efficiency a per section \ref{classify}. Follwoing subsections will describe the each step along with explanation of the analysis and results.
-\subsection{Data cleaning and pre-processing} 
+In section \ref{ecoeff} we discussed the concept of energy efficiency in context of the ecological factors. In section \ref{seasonal} we discussed the impact of outside temperature on energy usage. Similarly we established the relationship between daily load, based load and energy efficiency in setcion \ref{daily}. Now using all these concepts together we shall try to analyse our data set 1 and try to detect the daily and seasonal trends of electricity usage in green campus imitative  test buildings. We shall also try to find out the base loads for the building to see which building is consuming more energy during the off peak hours when users are not present in the building. Finally we shall try to classify the building on basis of energy efficiency a per section \ref{classify}. Following subsections will describe the each step along with explanation of the analysis and results.
+\subsection{Data cleaning and pre-processing} \label{cleaning}
 For preparing a tidy data set for analysis following steps were performed
 \begin{enumerate}
 \item Analysis was intended to be performed only for electricity and heating features so the relevant observations were extracted from the data. In rest of the document we shall consider these extracted observations only.
@@ -126,4 +126,83 @@ Classification on basis of energy efficiency can be used as a tool to benchmark 
     \end{center}
 \end{figure} 
 
-\subsection{Data Pre-processing for cluster analysis}
+\subsection{Data processing for cluster analysis}
+K-means algorithms needs input data in form of a matrix, where the values of each feature are defined in their respective columns while each row represents a data point that will be grouped together in forms of clusters. In our case we had two energy features i.e. electricity and electricity used for heating. While average monthly energy efficiency value for each month and each building was represented by a row in input matrix. The reason for considering average monthly values for buildings was to analyse the energy efficiency of the building through out the eleven months period. So in this way our input matrix consisted of 
+\begin{lstlisting}
+Number of rows, i = 2
+Number of columns, j = Number of buildings x 11 
+\end{lstlisting}
+Following are the main data processing steps that we performed on data for producing a tidy input matrix for our cluster analysis. These steps are performed on the data set that we had as output of the preliminary data pre-processing described in section \ref{cleaning}.
+\begin{enumerate}
+\item We segregated the electricity and electricity used for heating records from each other.
+\item We calculated the average daily consumption for each building and each energy type first and then calculated the average monthly consumption in similar way. It was important to normalize the data by taking the averages on basis of number of records available for hours within a day and then days within a month. 
+\item We then arranged calculated average monthly consumption values for each energy type in form of a matrix labelled with building and month names as separate columns. We called this matrix as ``energy consumption matrix''.   
+\item At this stage our energy consumption matrix had few buildings for which consumption values were missing for either type of energy. We removed these building to avoid inconsistency in data for cluster analysis. 
+\item We then introduced the real estate data i.e. ground floor area of the respective buildings into our energy consumption matrix. Using equation ~\ref{spec_energy}, we calculated the energy efficiency values for each energy type. We termed the resulting matrix as ``energy efficiency matrix''.
+\item Till this moment we had energy efficiency in units of Kilo Watt hour per meter square. We converted the values into Watt hour per square meter. This was an optional step and it was performed just to avoid handling small decimal values.
+\item To prepare the final input matrix we removed the labels and leaving two columns of energy efficiency values for two target types of energies.
+\item To finalize the K-means input matrix. We used R programming \textbf{scale()} function to set the unit variance for all matrix elements. This function could have also normalized the scale of measurement, However in our case it was already a similar unit for both energy types i.e. \((Wh/m^2)\).        
+\end{enumerate}
+\subsection{K-means clustering analysis and results}
+Our use case requirement was to classify the buildings into four categories of high efficiency, moderate efficiency, low efficiency and poor efficiency buildings. So we had the pre-defined K value of 4. We applied k-means clustering on our input matrix using R programming \textbf{kmeans()} function.
+
+As a post processing step we combined the resulting cluster values to the energy efficiency matrix in front of their respective labels \((Building Name + Month Name)\) and energy efficiency values \((electricity and electricity used for heating)\). We termed this matrix as  ``clustered matrix'. The clustered matrix was then fed into Tableau public as a CSV file to create interactive dashboard and visualizations. Figure~\ref{fig:kmeans} visualizes the result of clustering.  
+
+\begin{figure}[!ht]
+    \begin{center}
+      \includegraphics[width=\textwidth]{images/kmeans.pdf}
+      \caption{K-means clustering, Average monthly energy efficiency per each building.}
+      \label{fig:kmeans}
+    \end{center}
+\end{figure} 
+
+Each bubble on the graph represents a months average energy efficiency value for a particular building. The colour of the bubble represent the respective cluster or class. While size of the bubble represents the size of the building. Cluster numbers are from 1 to 4, where 4 represents the highly efficient cluster and 1 is for the most energy inefficient cluster of the buildings. Figure ~\ref{fig:kmeans_jan} shows the one month subset of the clustered values. Each buble represent average energy effeciency in month of January. 
+\begin{figure}[!ht]
+    \begin{center}
+      \includegraphics[width=\textwidth]{images/kmeans_jan.pdf}
+      \caption{K-means clustering, One month view.}
+      \label{fig:kmeans_jan}
+    \end{center}
+\end{figure} 
+
+\textbf{Insight:} Figures~\ref{fig:kmeans} and ~\ref{fig:kmeans_jan} reflect a very important insight that some of the bigger size buildings are in high or moderate efficiency clusters while some of the smaller buildings are in inefficient clusters. Such extreme case can be good targets for case studies. The low efficiency buildings may have some energy leakages, faults or inefficient usage practices while the high efficiency buildings may suggest good practices for using energy. 
+
+As part of the use case, we also studied the behaviour of buildings using same cluster analysis. Figure~\ref{fig:clustershift} illustrates the behaviour of different buildings during the 11 months period. Figuresb~\ref{fig:tri_1} and \ref{fig:tri_2} presents the behaviour of building 29 and building 7 respectively. Both the buildings shift among three different clusters. While figures \ref{fig:dbl} and \ref{fig:single} represents the buildings 16 and 24 that shows shift between two clusters and no cluster shift respectively.
+\\
+\textbf{Insight} Figure ~\ref{fig:clustershift} shows the fact that buildings are not equally energy efficient or inefficient through out the year. 
+
+An interactive dashboard is available for viewing the behaviour of all the buildings in 11 months of data via following web address undera classification tab.
+
+\url{http://catalyc.net/}
+   
+
+\begin{figure}
+        \centering
+        \begin{subfigure}[b]{0.45\textwidth}
+                \includegraphics[width=\textwidth]{images/kmeans_b29_3c.pdf}
+                \caption{Building 29:  Triple shift}
+                \label{fig:tri_1}
+        \end{subfigure}%
+        \begin{subfigure}[b]{0.45\textwidth}
+                \includegraphics[width=\textwidth]{images/kmeans_b7.pdf}
+                \caption{Building 7: Triple shift}
+                \label{fig:tri_2}
+        \end{subfigure}
+        
+        \begin{subfigure}[b]{0.45\textwidth}
+                \includegraphics[width=\textwidth]{images/kmeans_B16_2c.pdf}
+                \caption{Building 16: Double shift}
+                \label{fig:dbl}
+        \end{subfigure}
+        \begin{subfigure}[b]{0.45\textwidth}
+                        \includegraphics[width=\textwidth]{images/kmeans_b24_no.pdf}
+                        \caption{Building 24: No Shift}
+                        \label{fig:single}
+       \end{subfigure}
+     \caption{Energy effeciency cluster shift during 11 months}\label{fig:clustershift}
+\end{figure}
+
+\section{Prediction model for forecasting energy consumption of household devices}
+We discussed the data set collected by NIALM devices in section \ref{nialmset}. Using this data set we tried to implement a limited prediction model to forecast the usage of household appliances. There were nine different appliances included in our data set i.e. Refrigerator, Freezer, Dishwasher, Laundry machine, Coffee maker, Stove, TV or PC, and Microwave oven. Some of the devices are generally in continuous use e.g. freezer and refrigerator. While others are use on need basis e.g. stove, coffee maker, laundry machine etc. Even in such devices, frequency of usage can be different e.g. stove, coffee maker etc are usually used on daily basis while laundry machine can be used once in a week. The limited scope of our prediction model means that we are not dealing with all this diversity. Instead we forecast only for those devices which are in continuous usage e.g. freezer and refrigerator.      
+
+    

@@ -4,100 +4,102 @@
 \select@language {english}
 \select@language {english}
 \contentsline {chapter}{Abbreviations and Acronyms}{4}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Problem statement}{9}{section.1.1}
-\contentsline {section}{\numberline {1.2}Helpful hints}{9}{section.1.2}
-\contentsline {section}{\numberline {1.3}Structure of the Thesis}{10}{section.1.3}
-\contentsline {chapter}{\numberline {2}Background}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Smart grids }{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}CIVIS project}{12}{section.2.2}
-\contentsline {section}{\numberline {2.3}Green campus initiative}{13}{section.2.3}
-\contentsline {section}{\numberline {2.4}Big data analytics}{14}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Parallel batch processing with MapReduce and Hadoop}{16}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2} Real time big data processing }{17}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1} Lambda architecture}{17}{subsubsection.2.4.2.1}
-\contentsline {subsubsection}{\numberline {2.4.2.2}Massively parallel processing - MPP databases and query engines}{18}{subsubsection.2.4.2.2}
-\contentsline {section}{\numberline {2.5}Energy efficiency and eco-effeciency}{19}{section.2.5}
-\contentsline {section}{\numberline {2.6}Daily consumption patterns, base load and user load}{21}{section.2.6}
-\contentsline {section}{\numberline {2.7}Energy consumption seasonal patterns}{21}{section.2.7}
-\contentsline {section}{\numberline {2.8}Classification of buildings based on energy efficiency}{23}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}K-means clustering}{23}{subsection.2.8.1}
-\contentsline {section}{\numberline {2.9}Forecasting the energy consumption}{25}{section.2.9}
-\contentsline {subsection}{\numberline {2.9.1}Main conditions and Steps for Quantitative Forecasting}{26}{subsection.2.9.1}
-\contentsline {subsection}{\numberline {2.9.2}Time Series Analysis}{26}{subsection.2.9.2}
-\contentsline {subsection}{\numberline {2.9.3}Autoregression, Moving Averages and ARIMA Models}{27}{subsection.2.9.3}
-\contentsline {subsubsection}{\numberline {2.9.3.1}Regression}{28}{subsubsection.2.9.3.1}
-\contentsline {subsubsection}{\numberline {2.9.3.2}Autoregression}{28}{subsubsection.2.9.3.2}
-\contentsline {subsubsection}{\numberline {2.9.3.3}Moving Averages}{29}{subsubsection.2.9.3.3}
-\contentsline {subsubsection}{\numberline {2.9.3.4}ARIMA Model}{29}{subsubsection.2.9.3.4}
-\contentsline {chapter}{\numberline {3}Methodology}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}Kumiega-Van Vliet Model}{33}{section.3.1}
-\contentsline {section}{\numberline {3.2}Adaptation of Kumiega- Van Vliet Model}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}Stages, steps and cycles}{34}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Stage 1. Conceptualization }{36}{subsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Step 1. Understanding}{36}{subsubsection.3.3.1.1}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Step 2. Research quantitative methods}{37}{subsubsection.3.3.1.2}
-\contentsline {subsubsection}{\numberline {3.3.1.3}Step 3. Conceptual Model}{37}{subsubsection.3.3.1.3}
-\contentsline {subsubsection}{\numberline {3.3.1.4}Step 4. Evaluation of Tools}{37}{subsubsection.3.3.1.4}
-\contentsline {subsubsection}{\numberline {3.3.1.5}Delivearbles of stage 1}{37}{subsubsection.3.3.1.5}
-\contentsline {subsubsection}{\numberline {3.3.1.6}Stage 1 cycles}{37}{subsubsection.3.3.1.6}
-\contentsline {subsection}{\numberline {3.3.2}Stage 2. Implementation}{37}{subsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.2.1}Use case definition}{38}{subsubsection.3.3.2.1}
-\contentsline {subsubsection}{\numberline {3.3.2.2}Data Analytics Platform Prototype}{38}{subsubsection.3.3.2.2}
-\contentsline {subsubsection}{\numberline {3.3.2.3}Data Collection}{38}{subsubsection.3.3.2.3}
-\contentsline {subsubsection}{\numberline {3.3.2.4}Prototype testing with sample data}{39}{subsubsection.3.3.2.4}
-\contentsline {subsubsection}{\numberline {3.3.2.5}Stage 2 deliverables}{39}{subsubsection.3.3.2.5}
-\contentsline {subsubsection}{\numberline {3.3.2.6}Stage 2 cycles}{40}{subsubsection.3.3.2.6}
-\contentsline {subsection}{\numberline {3.3.3}Stage 3 Data Analysis}{40}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.1}Tight integration of the platform components}{40}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Evaluation and selection of algorithms}{40}{subsubsection.3.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.3.3}Applying Analytics}{40}{subsubsection.3.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.4}Result Visualization}{41}{subsubsection.3.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.3.5}Stage 3 deliverables}{41}{subsubsection.3.3.3.5}
-\contentsline {subsubsection}{\numberline {3.3.3.6}Stage 3 Cycles}{41}{subsubsection.3.3.3.6}
-\contentsline {subsection}{\numberline {3.3.4}Stage 4 Documentation}{41}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Problem statement vs. results review}{42}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Document Integration}{42}{subsubsection.3.3.4.2}
-\contentsline {subsubsection}{\numberline {3.3.4.3}Process Review and discussion}{42}{subsubsection.3.3.4.3}
-\contentsline {subsubsection}{\numberline {3.3.4.4}Document Finalization}{42}{subsubsection.3.3.4.4}
-\contentsline {subsubsection}{\numberline {3.3.4.5}Stage 4 deliverables}{42}{subsubsection.3.3.4.5}
-\contentsline {subsubsection}{\numberline {3.3.4.6}Stage 4 Cycles}{42}{subsubsection.3.3.4.6}
-\contentsline {section}{\numberline {3.4}Iterations}{43}{section.3.4}
-\contentsline {chapter}{\numberline {4}Big Data Analytics Platform}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Big data challenges}{45}{section.4.1}
-\contentsline {section}{\numberline {4.2}Data Analysis work-flow}{47}{section.4.2}
-\contentsline {section}{\numberline {4.3}Platform concept}{47}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data Core}{48}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Data Collection}{49}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Apache Flume}{49}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}Apache Sqoop}{49}{subsubsection.4.3.2.2}
-\contentsline {subsection}{\numberline {4.3.3}Data Pre-processing}{49}{subsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.3.1}Apache Hive}{50}{subsubsection.4.3.3.1}
-\contentsline {subsubsection}{\numberline {4.3.3.2}Apache Pig}{50}{subsubsection.4.3.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3.3}Cloudera Impala}{50}{subsubsection.4.3.3.3}
-\contentsline {subsubsection}{\numberline {4.3.3.4}Databases}{50}{subsubsection.4.3.3.4}
-\contentsline {subsection}{\numberline {4.3.4}Data Mining}{51}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Presentation}{51}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Implementation}{52}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Implementation Environment}{52}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Implemented data processing work flows }{53}{subsection.4.4.2}
-\contentsline {subsubsection}{\numberline {4.4.2.1}Data processing for energy efficiency use cases}{54}{subsubsection.4.4.2.1}
-\contentsline {subsubsection}{\numberline {4.4.2.2}Social media data collection for supporting CIVIS project}{56}{subsubsection.4.4.2.2}
-\contentsline {chapter}{\numberline {5}Data Analysis and Results}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}Data sets}{57}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Data set 1: Hourly energy consumption data}{57}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Data set 2: Device level data}{59}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Use Case Categories}{60}{section.5.2}
-\contentsline {section}{\numberline {5.3}Energy Consumption patterns and classification of buildings on basis of energy efficiency}{60}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Data cleaning and pre-processing}{61}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Seasonal variation in energy consumption}{61}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Daily trends}{63}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Classification of buildings on basis of energy efficiency}{63}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Data Pre-processing for cluster analysis}{65}{subsection.5.3.5}
-\contentsline {chapter}{\numberline {6}Discussion}{66}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{67}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{68}{chapter.8}
-\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{73}{appendix.A}
-\contentsline {chapter}{\numberline {B}Platform Configurations}{74}{appendix.B}
-\contentsline {chapter}{\numberline {C}Data Descriptions}{75}{appendix.C}
-\contentsline {chapter}{\numberline {D}Calculated Base Loads}{76}{appendix.D}
+\contentsline {chapter}{\numberline {1}Introduction}{8}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem statement}{10}{section.1.1}
+\contentsline {section}{\numberline {1.2}Helpful hints}{10}{section.1.2}
+\contentsline {section}{\numberline {1.3}Structure of the Thesis}{11}{section.1.3}
+\contentsline {chapter}{\numberline {2}Background}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Smart grids }{12}{section.2.1}
+\contentsline {section}{\numberline {2.2}CIVIS project}{13}{section.2.2}
+\contentsline {section}{\numberline {2.3}Green campus initiative}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Big data analytics}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Parallel batch processing with MapReduce and Hadoop}{17}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2} Real time big data processing }{18}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1} Lambda architecture}{18}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Massively parallel processing - MPP databases and query engines}{19}{subsubsection.2.4.2.2}
+\contentsline {section}{\numberline {2.5}Energy efficiency and eco-effeciency}{20}{section.2.5}
+\contentsline {section}{\numberline {2.6}Daily consumption patterns, base load and user load}{22}{section.2.6}
+\contentsline {section}{\numberline {2.7}Energy consumption seasonal patterns}{22}{section.2.7}
+\contentsline {section}{\numberline {2.8}Classification of buildings based on energy efficiency}{24}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}K-means clustering}{24}{subsection.2.8.1}
+\contentsline {section}{\numberline {2.9}Forecasting the energy consumption}{26}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Main conditions and Steps for Quantitative Forecasting}{27}{subsection.2.9.1}
+\contentsline {subsection}{\numberline {2.9.2}Time Series Analysis}{27}{subsection.2.9.2}
+\contentsline {subsection}{\numberline {2.9.3}Autoregression, Moving Averages and ARIMA Models}{28}{subsection.2.9.3}
+\contentsline {subsubsection}{\numberline {2.9.3.1}Regression}{29}{subsubsection.2.9.3.1}
+\contentsline {subsubsection}{\numberline {2.9.3.2}Autoregression}{29}{subsubsection.2.9.3.2}
+\contentsline {subsubsection}{\numberline {2.9.3.3}Moving Averages}{30}{subsubsection.2.9.3.3}
+\contentsline {subsubsection}{\numberline {2.9.3.4}ARIMA Model}{30}{subsubsection.2.9.3.4}
+\contentsline {chapter}{\numberline {3}Methodology}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}Kumiega-Van Vliet Model}{34}{section.3.1}
+\contentsline {section}{\numberline {3.2}Adaptation of Kumiega- Van Vliet Model}{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}Stages, steps and cycles}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Stage 1. Conceptualization }{37}{subsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Step 1. Understanding}{37}{subsubsection.3.3.1.1}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Step 2. Research quantitative methods}{38}{subsubsection.3.3.1.2}
+\contentsline {subsubsection}{\numberline {3.3.1.3}Step 3. Conceptual Model}{38}{subsubsection.3.3.1.3}
+\contentsline {subsubsection}{\numberline {3.3.1.4}Step 4. Evaluation of Tools}{38}{subsubsection.3.3.1.4}
+\contentsline {subsubsection}{\numberline {3.3.1.5}Delivearbles of stage 1}{38}{subsubsection.3.3.1.5}
+\contentsline {subsubsection}{\numberline {3.3.1.6}Stage 1 cycles}{38}{subsubsection.3.3.1.6}
+\contentsline {subsection}{\numberline {3.3.2}Stage 2. Implementation}{38}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Use case definition}{39}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Data Analytics Platform Prototype}{39}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3}Data Collection}{39}{subsubsection.3.3.2.3}
+\contentsline {subsubsection}{\numberline {3.3.2.4}Prototype testing with sample data}{40}{subsubsection.3.3.2.4}
+\contentsline {subsubsection}{\numberline {3.3.2.5}Stage 2 deliverables}{40}{subsubsection.3.3.2.5}
+\contentsline {subsubsection}{\numberline {3.3.2.6}Stage 2 cycles}{41}{subsubsection.3.3.2.6}
+\contentsline {subsection}{\numberline {3.3.3}Stage 3 Data Analysis}{41}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}Tight integration of the platform components}{41}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Evaluation and selection of algorithms}{41}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.3}Applying Analytics}{41}{subsubsection.3.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.4}Result Visualization}{42}{subsubsection.3.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.3.5}Stage 3 deliverables}{42}{subsubsection.3.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.3.6}Stage 3 Cycles}{42}{subsubsection.3.3.3.6}
+\contentsline {subsection}{\numberline {3.3.4}Stage 4 Documentation}{42}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Problem statement vs. results review}{43}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Document Integration}{43}{subsubsection.3.3.4.2}
+\contentsline {subsubsection}{\numberline {3.3.4.3}Process Review and discussion}{43}{subsubsection.3.3.4.3}
+\contentsline {subsubsection}{\numberline {3.3.4.4}Document Finalization}{43}{subsubsection.3.3.4.4}
+\contentsline {subsubsection}{\numberline {3.3.4.5}Stage 4 deliverables}{43}{subsubsection.3.3.4.5}
+\contentsline {subsubsection}{\numberline {3.3.4.6}Stage 4 Cycles}{43}{subsubsection.3.3.4.6}
+\contentsline {section}{\numberline {3.4}Iterations}{44}{section.3.4}
+\contentsline {chapter}{\numberline {4}Big Data Analytics Platform}{46}{chapter.4}
+\contentsline {section}{\numberline {4.1}Big data challenges}{46}{section.4.1}
+\contentsline {section}{\numberline {4.2}Data Analysis work-flow}{48}{section.4.2}
+\contentsline {section}{\numberline {4.3}Platform concept}{48}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Data Core}{49}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Data Collection}{50}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Apache Flume}{50}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Apache Sqoop}{50}{subsubsection.4.3.2.2}
+\contentsline {subsection}{\numberline {4.3.3}Data Pre-processing}{50}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}Apache Hive}{51}{subsubsection.4.3.3.1}
+\contentsline {subsubsection}{\numberline {4.3.3.2}Apache Pig}{51}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.3}Cloudera Impala}{51}{subsubsection.4.3.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.4}Databases}{51}{subsubsection.4.3.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Data Mining}{52}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Presentation}{52}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Implementation}{53}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Implementation Environment}{53}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Implemented data processing work flows }{54}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Data processing for energy efficiency use cases}{55}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Social media data collection for supporting CIVIS project}{57}{subsubsection.4.4.2.2}
+\contentsline {chapter}{\numberline {5}Data Analysis and Results}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}Data sets}{58}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Data set 1: Hourly energy consumption data}{58}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Data set 2: Device level data}{60}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Use Case Categories}{61}{section.5.2}
+\contentsline {section}{\numberline {5.3}Energy Consumption patterns and classification of buildings on basis of energy efficiency}{61}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Data cleaning and pre-processing}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Seasonal variation in energy consumption}{62}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Daily trends}{64}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Classification of buildings on basis of energy efficiency}{64}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Data processing for cluster analysis}{66}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}K-means clustering analysis and results}{68}{subsection.5.3.6}
+\contentsline {section}{\numberline {5.4}Prediction model for forecasting energy consumption of household devices}{70}{section.5.4}
+\contentsline {chapter}{\numberline {6}Discussion}{72}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion}{73}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{74}{chapter.8}
+\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{79}{appendix.A}
+\contentsline {chapter}{\numberline {B}Platform Configurations}{80}{appendix.B}
+\contentsline {chapter}{\numberline {C}Data Descriptions}{81}{appendix.C}
+\contentsline {chapter}{\numberline {D}Calculated Base Loads}{82}{appendix.D}

@@ -52,11 +52,13 @@
 \BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Seasonal variation in energy consumption}{section.5.3}% 52
 \BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Daily trends}{section.5.3}% 53
 \BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Classification of buildings on basis of energy efficiency}{section.5.3}% 54
-\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 Data Pre-processing for cluster analysis}{section.5.3}% 55
-\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 56
-\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 57
-\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 58
-\BOOKMARK [0][]{appendix.A}{A List of Evaluated Platform Components}{}% 59
-\BOOKMARK [0][]{appendix.B}{B Platform Configurations}{}% 60
-\BOOKMARK [0][]{appendix.C}{C Data Descriptions}{}% 61
-\BOOKMARK [0][]{appendix.D}{D Calculated Base Loads}{}% 62
+\BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 Data processing for cluster analysis}{section.5.3}% 55
+\BOOKMARK [2][-]{subsection.5.3.6}{5.3.6 K-means clustering analysis and results}{section.5.3}% 56
+\BOOKMARK [1][-]{section.5.4}{5.4 Prediction model for forecasting energy consumption of household devices}{chapter.5}% 57
+\BOOKMARK [0][]{chapter.6}{6 Discussion}{}% 58
+\BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 59
+\BOOKMARK [0][]{chapter.8}{8 Conclusions}{}% 60
+\BOOKMARK [0][]{appendix.A}{A List of Evaluated Platform Components}{}% 61
+\BOOKMARK [0][]{appendix.B}{B Platform Configurations}{}% 62
+\BOOKMARK [0][]{appendix.C}{C Data Descriptions}{}% 63
+\BOOKMARK [0][]{appendix.D}{D Calculated Base Loads}{}% 64
