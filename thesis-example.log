@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  12 JUL 2014 23:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  14 JUL 2014 21:55
 entering extended mode
 **thesis-example.tex
 
@@ -924,7 +924,7 @@ eport-master\Masters-Thesis-Report-master\thesis-example.out")
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<images/aalto-logo-en.pdf, id=282, 302.3837pt x 132.96776pt>
+<images/aalto-logo-en.pdf, id=294, 302.3837pt x 132.96776pt>
 File: images/aalto-logo-en.pdf Graphic file (type pdf)
 
 <use images/aalto-logo-en.pdf>
@@ -974,7 +974,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
  [13] [14]
-<images/3Vs.png, id=444, 479.54156pt x 449.42906pt>
+<images/3Vs.png, id=459, 479.54156pt x 449.42906pt>
 File: images/3Vs.png Graphic file (type png)
  <use images/3Vs.png>
 Package pdftex.def Info: images/3Vs.png used on input line 45.
@@ -982,7 +982,7 @@ Package pdftex.def Info: images/3Vs.png used on input line 45.
 
 [15] [16 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters-
 Thesis-Report-master/Masters-Thesis-Report-master/images/3Vs.png>] [17]
-[18] <images/lambda.png, id=481, 216.81pt x 123.5817pt>
+[18] <images/lambda.png, id=496, 216.81pt x 123.5817pt>
 File: images/lambda.png Graphic file (type png)
 
 <use images/lambda.png>
@@ -990,7 +990,7 @@ Package pdftex.def Info: images/lambda.png used on input line 71.
 (pdftex.def)             Requested size: 390.0pt x 222.32805pt.
  [19 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters-Thes
 is-Report-master/Masters-Thesis-Report-master/images/lambda.png>] [20] <images/
-eco-effeciency.png, id=510, 469.755pt x 319.1925pt>
+eco-effeciency.png, id=525, 469.755pt x 319.1925pt>
 File: images/eco-effeciency.png Graphic file (type png)
 
 <use images/eco-effeciency.png>
@@ -1002,7 +1002,7 @@ Overfull \hbox (9.08582pt too wide) in paragraph at lines 106--106
  |[]\OT1/cmr/bx/n/17.28 Daily con-sump-tion pat-terns, base load and
  []
 
-<images/baseload.png, id=524, 441.14813pt x 248.42813pt>
+<images/baseload.png, id=539, 441.14813pt x 248.42813pt>
 File: images/baseload.png Graphic file (type png)
 
 <use images/baseload.png>
@@ -1011,7 +1011,7 @@ Package pdftex.def Info: images/baseload.png used on input line 110.
  [22] [23 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters
 -Thesis-Report-master/Masters-Thesis-Report-master/images/baseload.png>] [24] [
 25] [26]
-<images/time_series.png, id=587, 430.60875pt x 322.20375pt>
+<images/time_series.png, id=602, 430.60875pt x 322.20375pt>
 File: images/time_series.png Graphic file (type png)
 
 <use images/time_series.png>
@@ -1030,7 +1030,7 @@ eport-master\Masters-Thesis-Report-master\3environment.tex" [31]
 Chapter 3.
 [32
 
-] [33] [34] <images/kv_method.pdf, id=664, 542.025pt x 722.7pt>
+] [33] [34] <images/kv_method.pdf, id=679, 542.025pt x 722.7pt>
 File: images/kv_method.pdf Graphic file (type pdf)
 
 <use images/kv_method.pdf>
@@ -1125,14 +1125,14 @@ LaTeX Warning: Reference `bigdata_intro' on page 46 undefined on input line 8.
 
 [46
 
-] <images/process.pdf, id=824, 597.6729pt x 227.6505pt>
+] <images/process.pdf, id=839, 597.6729pt x 227.6505pt>
 File: images/process.pdf Graphic file (type pdf)
 
 <use images/process.pdf>
 Package pdftex.def Info: images/process.pdf used on input line 20.
 (pdftex.def)             Requested size: 390.0pt x 148.55116pt.
  [47]
-<images/cplatform.pdf, id=834, 597.6729pt x 370.02242pt>
+<images/cplatform.pdf, id=849, 597.6729pt x 370.02242pt>
 File: images/cplatform.pdf Graphic file (type pdf)
 
 <use images/cplatform.pdf>
@@ -1142,7 +1142,7 @@ Package pdftex.def Info: images/cplatform.pdf used on input line 29.
 is-Report-master/Masters-Thesis-Report-master/images/process.pdf>] [49 <C:/IDBM
 /Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters-Thesis-Report-mas
 ter/Masters-Thesis-Report-master/images/cplatform.pdf>] [50] [51] [52] <images/
-iplatform.pdf, id=909, 597.6729pt x 370.02242pt>
+iplatform.pdf, id=924, 597.6729pt x 370.02242pt>
 File: images/iplatform.pdf Graphic file (type pdf)
 
 <use images/iplatform.pdf>
@@ -1166,7 +1166,7 @@ eport-master\Masters-Thesis-Report-master\5implementation.tex" [57]
 Chapter 5.
 [58
 
-] <images/incon.pdf, id=975, 455.30101pt x 341.35529pt>
+] <images/incon.pdf, id=990, 455.30101pt x 341.35529pt>
 File: images/incon.pdf Graphic file (type pdf)
 
 <use images/incon.pdf>
@@ -1174,7 +1174,7 @@ Package pdftex.def Info: images/incon.pdf used on input line 22.
 (pdftex.def)             Requested size: 390.0pt x 292.40869pt.
  [59] [60 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters
 -Thesis-Report-master/Masters-Thesis-Report-master/images/incon.pdf>] [61] [62]
- <images/season.pdf, id=1021, 455.30101pt x 512.1534pt>
+ <images/season.pdf, id=1036, 455.30101pt x 512.1534pt>
 File: images/season.pdf Graphic file (type pdf)
 
 <use images/season.pdf>
@@ -1182,34 +1182,34 @@ Package pdftex.def Info: images/season.pdf used on input line 74.
 (pdftex.def)             Requested size: 318.70853pt x 358.50493pt.
  [63 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters-Thes
 is-Report-master/Masters-Thesis-Report-master/images/season.pdf>] <images/db6_e
-lec.pdf, id=1039, 580.1675pt x 585.18625pt>
+lec.pdf, id=1054, 580.1675pt x 585.18625pt>
 File: images/db6_elec.pdf Graphic file (type pdf)
 
 <use images/db6_elec.pdf>
 Package pdftex.def Info: images/db6_elec.pdf used on input line 90.
 (pdftex.def)             Requested size: 175.49881pt x 177.01268pt.
 
-<images/db13_elec.pdf, id=1040, 576.1525pt x 585.18625pt>
+<images/db13_elec.pdf, id=1055, 576.1525pt x 585.18625pt>
 File: images/db13_elec.pdf Graphic file (type pdf)
 
 <use images/db13_elec.pdf>
 Package pdftex.def Info: images/db13_elec.pdf used on input line 95.
 (pdftex.def)             Requested size: 175.49881pt x 178.24492pt.
 
-<images/db6_heat.pdf, id=1041, 825.0825pt x 674.52pt>
+<images/db6_heat.pdf, id=1056, 825.0825pt x 674.52pt>
 File: images/db6_heat.pdf Graphic file (type pdf)
 
 <use images/db6_heat.pdf>
 Package pdftex.def Info: images/db6_heat.pdf used on input line 101.
 (pdftex.def)             Requested size: 175.49881pt x 143.46483pt.
 
-<images/db13_heat.pdf, id=1042, 825.0825pt x 674.52pt>
+<images/db13_heat.pdf, id=1057, 825.0825pt x 674.52pt>
 File: images/db13_heat.pdf Graphic file (type pdf)
 
 <use images/db13_heat.pdf>
 Package pdftex.def Info: images/db13_heat.pdf used on input line 106.
 (pdftex.def)             Requested size: 175.49881pt x 143.46483pt.
- <images/hr_m2.pdf, id=1052, 658.46pt x 508.90125pt>
+ <images/hr_m2.pdf, id=1067, 658.46pt x 508.90125pt>
 File: images/hr_m2.pdf Graphic file (type pdf)
 
 <use images/hr_m2.pdf>
@@ -1250,13 +1250,13 @@ $\OML/cmm/m/it/12 MonthName\OT1/cmr/m/n/12 )$ and en-ergy ef-fi-ciency val-ues
 $(\OML/cmm/m/it/12 electricityandelectricityusedforheating\OT1/cmr/m/n/12 )$.
  []
 
-<images/kmeans.pdf, id=1186, 812.03375pt x 544.0325pt>
+<images/kmeans.pdf, id=1201, 812.03375pt x 544.0325pt>
 File: images/kmeans.pdf Graphic file (type pdf)
  <use images/kmeans.pdf>
 Package pdftex.def Info: images/kmeans.pdf used on input line 153.
 (pdftex.def)             Requested size: 390.0pt x 261.28206pt.
 
-<images/kmeans_jan.pdf, id=1188, 803.0pt x 522.95375pt>
+<images/kmeans_jan.pdf, id=1203, 803.0pt x 522.95375pt>
 File: images/kmeans_jan.pdf Graphic file (type pdf)
 
 <use images/kmeans_jan.pdf>
@@ -1266,28 +1266,28 @@ Package pdftex.def Info: images/kmeans_jan.pdf used on input line 162.
 is-Report-master/Masters-Thesis-Report-master/images/kmeans.pdf>] [69 <C:/IDBM/
 Sentiment Analysis/CIVIS/documentation/Thesis Report/Masters-Thesis-Report-mast
 er/Masters-Thesis-Report-master/images/kmeans_jan.pdf>] <images/kmeans_b29_3c.p
-df, id=1254, 812.03375pt x 544.0325pt>
+df, id=1269, 812.03375pt x 544.0325pt>
 File: images/kmeans_b29_3c.pdf Graphic file (type pdf)
 
 <use images/kmeans_b29_3c.pdf>
 Package pdftex.def Info: images/kmeans_b29_3c.pdf used on input line 182.
 (pdftex.def)             Requested size: 175.49881pt x 117.5707pt.
 
-<images/kmeans_b7.pdf, id=1255, 812.03375pt x 544.0325pt>
+<images/kmeans_b7.pdf, id=1270, 812.03375pt x 544.0325pt>
 File: images/kmeans_b7.pdf Graphic file (type pdf)
 
 <use images/kmeans_b7.pdf>
 Package pdftex.def Info: images/kmeans_b7.pdf used on input line 187.
 (pdftex.def)             Requested size: 175.49881pt x 117.5707pt.
 
-<images/kmeans_B16_2c.pdf, id=1256, 812.03375pt x 544.0325pt>
+<images/kmeans_B16_2c.pdf, id=1271, 812.03375pt x 544.0325pt>
 File: images/kmeans_B16_2c.pdf Graphic file (type pdf)
 
 <use images/kmeans_B16_2c.pdf>
 Package pdftex.def Info: images/kmeans_B16_2c.pdf used on input line 193.
 (pdftex.def)             Requested size: 175.49881pt x 117.5707pt.
 
-<images/kmeans_b24_no.pdf, id=1257, 812.03375pt x 544.0325pt>
+<images/kmeans_b24_no.pdf, id=1272, 812.03375pt x 544.0325pt>
 File: images/kmeans_b24_no.pdf Graphic file (type pdf)
 
 <use images/kmeans_b24_no.pdf>
@@ -1316,19 +1316,19 @@ pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
 on/Thesis Report/Masters-Thesis-Report-master/Masters-Thesis-Report-master/imag
 es/kmeans_b24_no.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
->] [71] <images/arima.pdf, id=1368, 410.53375pt x 253.94875pt>
+>] [71] <images/arima.pdf, id=1383, 410.53375pt x 253.94875pt>
 File: images/arima.pdf Graphic file (type pdf)
 
 <use images/arima.pdf>
 Package pdftex.def Info: images/arima.pdf used on input line 234.
 (pdftex.def)             Requested size: 390.0pt x 241.24606pt.
- <images/lr.pdf, id=1369, 597.6729pt x 227.6505pt>
+ <images/lr.pdf, id=1384, 597.6729pt x 227.6505pt>
 File: images/lr.pdf Graphic file (type pdf)
 
 <use images/lr.pdf>
 Package pdftex.def Info: images/lr.pdf used on input line 242.
 (pdftex.def)             Requested size: 390.0pt x 148.55116pt.
- <images/ann.pdf, id=1370, 597.6729pt x 227.6505pt>
+ <images/ann.pdf, id=1385, 597.6729pt x 227.6505pt>
 File: images/ann.pdf Graphic file (type pdf)
 
 <use images/ann.pdf>
@@ -1348,49 +1348,49 @@ rt-master/images/lr.pdf> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Thesis
  Report/Masters-Thesis-Report-master/Masters-Thesis-Report-master/images/ann.pd
 f>]
 Chapter 6.
-)
-("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\Masters-Thesis-R
-eport-master\Masters-Thesis-Report-master\7discussion.tex" [74
+[74
 
-]
+] [75] [76])
+("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\Masters-Thesis-R
+eport-master\Masters-Thesis-Report-master\7discussion.tex" [77]
 Chapter 7.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\Masters-Thesis-R
-eport-master\Masters-Thesis-Report-master\8conclusions.tex" [75
+eport-master\Masters-Thesis-Report-master\8conclusions.tex" [78
 
 ]
 Chapter 8.
 )
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\Masters-Thesis-R
-eport-master\Masters-Thesis-Report-master\thesis-example.bbl" [76
+eport-master\Masters-Thesis-Report-master\thesis-example.bbl" [79
 
-] [77
+] [80
 
 ]
-[78] [79])
+[81] [82])
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Thesis Report\Masters-Thesis-R
-eport-master\Masters-Thesis-Report-master\appendices.tex" [80]
+eport-master\Masters-Thesis-Report-master\appendices.tex" [83]
 Appendix A.
 
 Overfull \hbox (0.83484pt too wide) in paragraph at lines 1--1
 |\OT1/cmr/bx/n/24.88 List of Eval-u-ated Plat-form Com-
  []
 
-[81
+[84
 
 ]
 Appendix B.
-[82
+[85
 
 ]
 Appendix C.
-[83
+[86
 
 ]
 Appendix D.
 ) 
 AED: lastpage setting LastPage
-[84
+[87
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 604.
@@ -1401,17 +1401,17 @@ eport-master\Masters-Thesis-Report-master\thesis-example.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 604.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 604.
 Package rerunfilecheck Info: File `thesis-example.out' has not changed.
-(rerunfilecheck)             Checksum: 3AE81D987F1709F2AAD79FC59F5AE4E2;5297.
+(rerunfilecheck)             Checksum: E6728BC2DBFA6560A07345791990C054;5546.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22071 strings out of 493921
- 408134 string characters out of 3147273
- 529897 words of memory out of 3000000
- 24529 multiletter control sequences out of 15000+200000
+ 22082 strings out of 493921
+ 408242 string characters out of 3147273
+ 529995 words of memory out of 3000000
+ 24534 multiletter control sequences out of 15000+200000
  13035 words of font info for 47 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  56i,13n,57p,2130b,994s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1432,9 +1432,9 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 msfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
 2.pfb>
-Output written on thesis-example.pdf (84 pages, 3220856 bytes).
+Output written on thesis-example.pdf (87 pages, 3233082 bytes).
 PDF statistics:
- 1604 PDF objects out of 1728 (max. 8388607)
- 350 named destinations out of 1000 (max. 500000)
- 679 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1636 PDF objects out of 1728 (max. 8388607)
+ 356 named destinations out of 1000 (max. 500000)
+ 703 words of extra memory for PDF output out of 10000 (max. 10000000)
 

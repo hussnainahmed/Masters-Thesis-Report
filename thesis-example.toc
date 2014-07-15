@@ -100,9 +100,12 @@
 \contentsline {subsection}{\numberline {5.4.2}Data processing steps}{71}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Forecasting results}{72}{subsection.5.4.3}
 \contentsline {chapter}{\numberline {6}Discussion}{74}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusion}{75}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{76}{chapter.8}
-\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{81}{appendix.A}
-\contentsline {chapter}{\numberline {B}Platform Configurations}{82}{appendix.B}
-\contentsline {chapter}{\numberline {C}Data Descriptions}{83}{appendix.C}
-\contentsline {chapter}{\numberline {D}Calculated Base Loads}{84}{appendix.D}
+\contentsline {section}{\numberline {6.1}Big Data tools and techniques}{74}{section.6.1}
+\contentsline {section}{\numberline {6.2}Big Data Analytics}{76}{section.6.2}
+\contentsline {section}{\numberline {6.3}Using BIG Data analytics for energy efficiency}{76}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusion}{78}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{79}{chapter.8}
+\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{84}{appendix.A}
+\contentsline {chapter}{\numberline {B}Platform Configurations}{85}{appendix.B}
+\contentsline {chapter}{\numberline {C}Data Descriptions}{86}{appendix.C}
+\contentsline {chapter}{\numberline {D}Calculated Base Loads}{87}{appendix.D}
