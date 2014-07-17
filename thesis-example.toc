@@ -104,8 +104,8 @@
 \contentsline {section}{\numberline {6.2}Big Data Analytics}{76}{section.6.2}
 \contentsline {section}{\numberline {6.3}Using BIG Data analytics for energy efficiency}{76}{section.6.3}
 \contentsline {chapter}{\numberline {7}Conclusion}{78}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{79}{chapter.8}
-\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{84}{appendix.A}
-\contentsline {chapter}{\numberline {B}Platform Configurations}{85}{appendix.B}
-\contentsline {chapter}{\numberline {C}Data Descriptions}{86}{appendix.C}
-\contentsline {chapter}{\numberline {D}Calculated Base Loads}{87}{appendix.D}
+\contentsline {chapter}{\numberline {8}Conclusions}{80}{chapter.8}
+\contentsline {chapter}{\numberline {A}List of Evaluated Platform Components}{85}{appendix.A}
+\contentsline {chapter}{\numberline {B}Platform Configurations}{86}{appendix.B}
+\contentsline {chapter}{\numberline {C}Data Descriptions}{87}{appendix.C}
+\contentsline {chapter}{\numberline {D}Calculated Base Loads}{88}{appendix.D}
