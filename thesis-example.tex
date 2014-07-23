@@ -10,6 +10,8 @@
 % your own copy. When redistributing the example thesis file, please
 % retain all the comments for the benefit of other thesis writers! 
 % ==================================================================
+\pagenumbering{gobble}
+
 % Compilation instructions: 
 % ------------------------------------------------------------------
 % Use pdflatex to compile! Input images are expected as PDF files.
@@ -292,7 +294,7 @@
 %\newcommand{\FSUPERVISOR}{Professori Antti Ylä-Jääski}
 %\newcommand{\SSUPERVISOR}{Professor Antti Ylä-Jääski}
 % Example of twosupervisors:
-\newcommand{\SUPERVISOR}{Professor Matti Vartiainen\\
+\newcommand{\SUPERVISOR}{Professor Matti Vartiainen,
   Professor Jukka Nurminen}
 %\newcommand{\FSUPERVISOR}{Professor Matti Vartiainen\\
  % Professor Jukka Nurminen}
@@ -411,7 +413,7 @@
 % Options: finnish, english, and swedish
 % These control in which language the cover-page information is shown
 \coverpage{english}
-
+\pagenumbering{gobble}
 
 % Abstracts
 % ------------------------------------------------------------------
@@ -421,33 +423,17 @@
 % Abstract in English
 % ------------------------------------------------------------------
 \thesisabstract{english}{
-A dissertation or thesis is a document submitted in support of candidature
-for a degree or professional qualification presenting the author's research and
-findings. In some countries/universities, the word thesis or a cognate is used
-as part of a bachelor's or master's course, while dissertation is normally
-applied to a doctorate, whilst, in others, the reverse is true.
+Global energy requirements are continuously increasing. Conventional methods of producing more energy to meet this growth pose a great threat to environment. CO2 emissions and other bi-products of the energy production and distribution processes have dire consequences for the environment. Efficient use of energy is one of the main tools to restrain the energy consumption growth without compromising on the customer requirements. Improving energy efficiency requires understanding the usage patterns and practices. Smart energy grids, pervasive computing, and communication technologies have enabled the stakeholders in energy industry to collect large amounts of useful and highly granular energy usage data. This data is generated in large volumes and in variety of different formats depending on the purpose and collection process. The volume and diversity of data also increases with time. All these data characteristics refer to the application of Big Data. 
 
-\fixme{Abstract text goes here (and this is an example how to use fixme).} 
-Fixme is a command that helps you identify parts of your thesis that still
-require some work. When compiled in the custom \texttt{mydraft} mode, text
-parts tagged with fixmes are shown in bold and with fixme tags around them. When
-compiled in normal mode, the fixme-tagged text is shown normally (without
-special formatting). The draft mode also causes the ``Draft'' text to appear on
-the front page, alongside with the document compilation date. The custom
-\texttt{mydraft} mode is selected by the \texttt{mydraft} option given for the
-package \texttt{aalto-thesis}, near the top of the \texttt{thesis-example.tex}
-file.
+This thesis focuses on harnessing the power of Big Data tools and techniques like MapReduce and Apache Hadoop ecosystem tools to collect, process and analyse energy data and generate insights that can be useful to improve energy efficiency. Furthermore, it also includes studying the energy efficiency to formulate use cases, studying Big Data technologies to present a conceptual model for an end to end Big Data analytics platform , implementation of a part of the conceptual model with capacity to handle energy efficiency use cases and performing data analysis to generate useful insights.   
 
-The thesis example file (\texttt{thesis-example.tex}), all the chapter content
-files (\texttt{1introduction.tex} and so on), and the Aalto style file
-(\texttt{aalto-thesis.sty}) are commented with explanations on how the Aalto
-thesis works. The files also contain some examples on how to customize various
-details of the thesis layout, and of course the example text works as an
-example in itself. Please read the comments and the example text; that should
-get you well on your way!}
+The analysis was performed on two data sets. The first data set contained hourly consumption of electricity consumed by a set of different buildings. The data was analysed to discover the seasonal and daily usage trends. The analysis also includes the classification of buildings on basis of energy efficiency while observing the seasonal impacts on this classification. This analysis was used to build a model for segregating the energy inefficient buildings from energy efficient buildings. The second data set contained device level electricity consumption of various home appliances used in an apartment. This data was used to evaluate different prediction models to forecast future consumption on basis of previous usage.
+ 
+The main purpose of this research was to provide basis for enabling data driven decision making in organizations working to improve energy efficiency.          
+}
 
 % Abstract in Finnish
-% ------------------------------------------------------------------
+%and communicatios ------------------------------------------------------------------
 %\thesisabstract{finnish}{
 %Kivi on materiaali, joka muodostuu mineraaleista ja luokitellaan
 %mineraalisisältönsä mukaan. Kivet luokitellaan yleensä ne muodostaneiden
