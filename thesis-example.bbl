@@ -1,27 +1,10 @@
 \begin{thebibliography}{10}
 
-\bibitem{flume}
-Apache flume.
-\newblock \url{http://flume.apache.org/}.
-\newblock Accessed: 2014-07-04.
-
-\bibitem{hive}
-Apache hive.
-\newblock \url{https://hive.apache.org/}.
-\newblock Accessed: 2014-07-04.
-
-\bibitem{pig}
-Apache pig.
-\newblock \url{http://pig.apache.org/}.
-\newblock Accessed: 2014-07-04.
-
-\bibitem{sqoop}
-Apache sqoop.
-\newblock \url{http://sqoop.apache.org/}.
-\newblock Accessed: 2014-07-04.
-
 \bibitem{clouderaimpala}
-Cloudera impala.
+The cloudera impala - open source, interactive sql for hadoop.
+\newblock
+  \url{http://www.cloudera.com/content/cloudera/en/products-and-services/cdh/impala.html}.
+\newblock Accessed: 2014-06-09.
 
 \bibitem{eu2012ee}
 Directive 2012/27/eu of the european parliament and of the council of 25
@@ -30,7 +13,7 @@ Directive 2012/27/eu of the european parliament and of the council of 25
   \url{http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:315:0001:0056:EN:PDF}.
 \newblock Accessed: 2014-06-10.
 
-\bibitem{clouderatwitter}
+\bibitem{Clouderatwitter}
 How to analyze twitter data with apache hadoop.
 \newblock
   \url{http://blog.cloudera.com/blog/2012/09/analyzing-twitter-data-with-hadoop/}.
@@ -51,9 +34,29 @@ Welcome to apache avro.
 \newblock \url{http://flume.apache.org/}.
 \newblock Accessed: 2014-07-04.
 
-\bibitem{apachehadoop}
+\bibitem{flume}
+Welcome to apache flume.
+\newblock \url{http://flume.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{Apachehadoop}
 Welcome to apache hadoop.
 \newblock \url{http://hadoop.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{hive}
+Welcome to apache hive.
+\newblock \url{https://hive.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{pig}
+Welcome to apache pig.
+\newblock \url{http://pig.apache.org/}.
+\newblock Accessed: 2014-07-04.
+
+\bibitem{sqoop}
+Welcome to apache sqoop.
+\newblock \url{http://sqoop.apache.org/}.
 \newblock Accessed: 2014-07-04.
 
 \bibitem{arundel2009measuring}
@@ -61,6 +64,12 @@ Welcome to apache hadoop.
 \newblock Measuring eco-innovation.
 \newblock {\em United Nations University Working Paper Series}, 2009/017
   (2009), 1--40.
+
+\bibitem{balijepalli2011review}
+{\sc Balijepalli, V.~M., Pradhan, V., Khaparde, S., and Shereef, R.}
+\newblock Review of demand response under smart grid paradigm.
+\newblock In {\em Innovative Smart Grid Technologies-India (ISGT India), 2011
+  IEEE PES\/} (2011), IEEE, pp.~236--243.
 
 \bibitem{Boehm}
 {\sc Boehm, B.}

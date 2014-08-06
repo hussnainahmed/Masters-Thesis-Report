@@ -8,10 +8,10 @@
 \BOOKMARK [0][]{chapter.2}{2 Background}{}% 8
 \BOOKMARK [1][-]{section.2.1}{2.1 Smart grids }{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.2}{2.2 The CIVIS project}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.3}{2.3 \040The Green Campus initiative}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{2.3 The Green Campus initiative}{chapter.2}% 11
 \BOOKMARK [1][-]{section.2.4}{2.4 Big Data analytics}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Parallel batch processing with MapReduce and Hadoop}{section.2.4}% 13
-\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 \040Real time Big Data processing }{section.2.4}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Parallel batch processing with Hadoop}{section.2.4}% 13
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Real time Big Data processing }{section.2.4}% 14
 \BOOKMARK [1][-]{section.2.5}{2.5 Energy efficiency and eco-effeciency}{chapter.2}% 15
 \BOOKMARK [1][-]{section.2.6}{2.6 Daily consumption patterns, base load and user load}{chapter.2}% 16
 \BOOKMARK [1][-]{section.2.7}{2.7 Energy consumption seasonal patterns}{chapter.2}% 17
@@ -27,8 +27,8 @@
 \BOOKMARK [1][-]{section.3.3}{3.3 Stages, steps and cycles}{chapter.3}% 27
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Stage 1. Conceptualization }{section.3.3}% 28
 \BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Stage 2. Implementation}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Stage 3 Data Analysis}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Stage 4 Documentation}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Stage 3. Data Analysis}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Stage 4. Documentation}{section.3.3}% 31
 \BOOKMARK [1][-]{section.3.4}{3.4 Iterations}{chapter.3}% 32
 \BOOKMARK [0][]{chapter.4}{4 Big Data Analytics Platform}{}% 33
 \BOOKMARK [1][-]{section.4.1}{4.1 Big Data challenges}{chapter.4}% 34
@@ -47,14 +47,14 @@
 \BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Data set 1: Hourly energy consumption data}{section.5.1}% 47
 \BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Data set 2: Device level data}{section.5.1}% 48
 \BOOKMARK [1][-]{section.5.2}{5.2 Use Case Categories}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.3}{5.3 Energy Consumption patterns and classification of the buildings on the basis of energy efficiency}{chapter.5}% 50
+\BOOKMARK [1][-]{section.5.3}{5.3 Energy consumption patterns and energy efficiency classification}{chapter.5}% 50
 \BOOKMARK [2][-]{subsection.5.3.1}{5.3.1 Data cleaning and pre-processing}{section.5.3}% 51
 \BOOKMARK [2][-]{subsection.5.3.2}{5.3.2 Seasonal variation in energy consumption}{section.5.3}% 52
 \BOOKMARK [2][-]{subsection.5.3.3}{5.3.3 Daily trends}{section.5.3}% 53
 \BOOKMARK [2][-]{subsection.5.3.4}{5.3.4 Classification of buildings on basis of energy efficiency}{section.5.3}% 54
 \BOOKMARK [2][-]{subsection.5.3.5}{5.3.5 Data processing for cluster analysis}{section.5.3}% 55
 \BOOKMARK [2][-]{subsection.5.3.6}{5.3.6 K-means clustering analysis and results}{section.5.3}% 56
-\BOOKMARK [1][-]{section.5.4}{5.4 Prediction models for forecasting energy consumption of household devices}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.4}{5.4 Forecasting energy consumption of household devices}{chapter.5}% 57
 \BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Important considerations for forecasting}{section.5.4}% 58
 \BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Data processing steps}{section.5.4}% 59
 \BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Forecasting results}{section.5.4}% 60
@@ -63,7 +63,10 @@
 \BOOKMARK [1][-]{section.6.2}{6.2 Big Data Analytics}{chapter.6}% 63
 \BOOKMARK [1][-]{section.6.3}{6.3 Using Big Data analytics for energy efficiency}{chapter.6}% 64
 \BOOKMARK [0][]{chapter.7}{7 Conclusion}{}% 65
-\BOOKMARK [0][]{appendix.A}{A List of Evaluated Platform Components}{}% 66
-\BOOKMARK [0][]{appendix.B}{B Platform Configurations}{}% 67
-\BOOKMARK [0][]{appendix.C}{C Data Descriptions}{}% 68
-\BOOKMARK [0][]{appendix.D}{D Detailed Results}{}% 69
+\BOOKMARK [0][]{appendix.A}{A List of evaluated tools}{}% 66
+\BOOKMARK [0][]{appendix.B}{B Data Descriptions}{}% 67
+\BOOKMARK [1][-]{section.B.1}{B.1 Hourly consumption data}{appendix.B}% 68
+\BOOKMARK [1][-]{section.B.2}{B.2 NIALM Device Data}{appendix.B}% 69
+\BOOKMARK [0][]{appendix.C}{C Detailed Results}{}% 70
+\BOOKMARK [1][-]{section.C.1}{C.1 K-means clustering}{appendix.C}% 71
+\BOOKMARK [1][-]{section.C.2}{C.2 Base loads}{appendix.C}% 72

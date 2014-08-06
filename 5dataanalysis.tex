@@ -54,7 +54,7 @@ As listed previously in the section \ref{usecases}, the following are the main u
 Data set 1 was used for the use cases 1,2,3 and 4, while data set 2 was used only for the use case 5. In a similar way we grouped the use cases into two categories for analysis. Use cases 1 to 4 were referred to as ``Energy Consumption patterns and classification of the buildings on the basis of energy efficiency''. While use case 4 was labelled as ``Prediction model for forecasting  the energy consumption of the household devices ''
 
 
-\section{Energy Consumption patterns and classification of the buildings on the basis of energy efficiency}
+\section{Energy consumption patterns and energy  efficiency classification}
 In the section \ref{ecoeff}, we have discussed the concept of energy efficiency in context of the ecological factors. In the section \ref{seasonal}, we have discussed the impact of outside temperature on energy usage. Similarly we have established the relationship between daily load, base load and energy efficiency in the section \ref{daily}. Now using all these concepts together, we try to analyse data set 1 and detect the daily and seasonal trends for energy usage. We also try to find out the base loads for the buildings to see which building is consuming more energy during the off peak hours when users are not present in the building. Finally we attempt to classify the building on the basis of energy efficiency as per section \ref{classify}. The following subsections will describe the each step along with explanation of the analysis and results.
 \subsection{Data cleaning and pre-processing} \label{cleaning}
 For preparing a tidy data set for the analysis, the following steps were performed:
@@ -201,15 +201,15 @@ An interactive dashboard is available for viewing the behaviour of all the build
 
 \url{http://catalyc.net/}
 
-\section{Prediction models for forecasting energy consumption of household devices}
+\section{Forecasting energy consumption of household devices}
 We discussed the data set collected by NIALM devices in section \ref{nialmset}. Using this data set we tried to evaluate different prediction models using limited amount of our data set. There were nine different appliances included in our data set i.e. Refrigerator, Freezer, Dishwasher, Laundry machine, Coffee maker, Stove, TV or PC, and Microwave oven. Some of the devices are generally in the continuous use e.g. freezer and refrigerator. While others are used on the need basis e.g. stove, coffee maker, laundry machine etc. Even in such devices, frequency of usage can be different e.g. stove, coffee maker etc. are usually used on daily basis while laundry machine can be used once in a week. The limited use of the data set means that we are not dealing with all this diversity. Instead we forecast only for those devices which are in continuous usage e.g. freezer and the refrigerator. The predicted values are on the daily consumption basis for a particular device.  
 \subsection{Important considerations for forecasting}
 Following were some of the important considerations while evaluating the prediction model.
 \begin{enumerate}
 \item We collected NIALM data in two phases. The first data set contained consumption values from 1st May 2013 to 3rd February 2014. This data was used as training data for prediction models. While the seconds data was collected with consumption values from 4th February 2014 till 30th April 2014. This set was used as the test data to measure the accuracy of the prediction model.
 \item Predictions models were evaluated using consumption data of the freezer usage.
-\item A time window of previous 30 days was used to predict the values for next 30 days with 80\% confidence interval.
-\item  The accuracy of the prediction models were compared on basis of mean absolute error (MAE).
+\item A time window of previous 30 days was used to predict the values for the next 30 days with 80\% confidence interval.
+\item  The accuracy of the prediction models were compared on the basis of Mean Absolute Error (MAE).
 \end{enumerate}     
 
 \subsection{Data processing steps}
