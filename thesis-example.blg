@@ -1,34 +1,30 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis-example.aux
 The style file: acm.bst
 Database file #1: sources.bib
-I was expecting a `,' or a `}'---line 53 of file sources.bib
- :   
- :   month=  06
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 61 of file sources.bib
+I was expecting a `,' or a `}'---line 56 of file sources.bib
  :   
  :   month=  12
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 271 of file sources.bib
+Repeated entry---line 266 of file sources.bib
  : @article{hart1992nonintrusive
  :                              ,
 I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in civisproposal
 Warning--to sort, need author or key in lambdaarch
 Warning--to sort, need author or key in clouderaimpala
 Warning--to sort, need author or key in eu2012ee
-Warning--to sort, need author or key in Apachehadoop
+Warning--to sort, need author or key in apachehadoop
 Warning--to sort, need author or key in flume
 Warning--to sort, need author or key in avro
 Warning--to sort, need author or key in sqoop
 Warning--to sort, need author or key in hive
 Warning--to sort, need author or key in pig
 Warning--to sort, need author or key in cimpala
-Warning--to sort, need author or key in Clouderatwitter
+Warning--to sort, need author or key in clouderatwitter
 Warning--empty journal in federal2008assessment
 Warning--empty journal in forsstrommeasuring
 Warning--empty publisher in hyndman2014forecasting
 Warning--can't use both volume and number fields in macqueen1967some
 Warning--empty journal in mujumdarstochastic
-(There were 3 error messages)
+(There were 2 error messages)

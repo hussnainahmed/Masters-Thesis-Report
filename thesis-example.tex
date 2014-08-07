@@ -206,6 +206,7 @@
 % a bit smaller than what is the default. You can fine-tune the 
 % title fonts and sizes by using the package options. See the package
 % documentation.
+\usepackage{setspace}
 \usepackage[medium]{titlesec}
 
 % The TikZ package allows you to create professional technical figures.
@@ -233,9 +234,10 @@
 %                     first page of the first chapter
 %   twoinstructors  - changes the title of instructors to plural form
 %   twosupervisors  - changes the title of supervisors to plural form
-\usepackage[mydraft,twosupervisors]{aalto-thesis}
+\usepackage[twosupervisors]{aalto-thesis}
 %\usepackage[mydraft,doublenumbering]{aalto-thesis}
 %\usepackage{aalto-thesis}
+
 
 
 % Hyperref
@@ -275,13 +277,13 @@
 % You can just fix the texts there. Just remember to check all the language
 % variants you use (they are all there in the same place). 
 % ------------------------------------------------------------------
-\newcommand{\TITLE}{Using Big Data Analytics for Measuring Energy Consumption Patterns:}
+\newcommand{\TITLE}{Applying Big Data Analytics For Energy Efficiency }
 %\newcommand{\FTITLE}{Ohjelmistoprosessit mänteille:}
 %\newcommand{\STITLE}{Den stora stygga vargen:}
-\newcommand{\SUBTITLE}{Applying Big Data for energy efficiency }
+\newcommand{\SUBTITLE}{}
 %\newcommand{\FSUBTITLE}{Uusi organisaatio, uudet pyörät}
 %\newcommand{\SSUBTITLE}{Lilla Vargens universum}
-\newcommand{\DATE}{June, 2014}
+\newcommand{\DATE}{August, 2014}
 %\newcommand{\FDATE}{18. kesäkuuta 2011}
 %\newcommand{\SDATE}{Den 18 Juni 2011}
 
@@ -320,7 +322,7 @@
 % of the supervisors in the cover page. If the following command is defined,
 % then the supervisor names shown here are printed in the cover page. Otherwise,
 % the supervisor names defined above are used.
-\newcommand{\COVERSUPERVISOR}{Professor Professor Matti Vartiainen, Aalto University\\
+\newcommand{\COVERSUPERVISOR}{Professor Matti Vartiainen, Aalto University\\
   Professor Jukka Nurminen, Aalto University}
 
 % The same option is for the instructors, if you have multiple instructors.
@@ -330,11 +332,11 @@
 
 % Other stuff
 % ------------------------------------------------------------------
-\newcommand{\PROFESSORSHIP}{Data Communication Software}
+\newcommand{\PROFESSORSHIP}{Työpsykologia ja johtaminen}
 %\newcommand{\FPROFESSORSHIP}{Tietoliikenneohjelmistot}
 %\newcommand{\SPROFESSORSHIP}{Datakommunikationsprogram}
 % Professorship code is the same in all languages
-\newcommand{\PROFCODE}{T-110}
+\newcommand{\PROFCODE}{TU-53}
 \newcommand{\KEYWORDS}{Big Data, energy, smart grid, energy efficiency, hadoop, analytics, machine learning, classification, CIVIS}
 %\newcommand{\FKEYWORDS}{Big Data, energy, smart grid,energy efficiency, hadoop, analytics,machine learning, classification, CIVIS}
 %\newcommand{\SKEYWORDS}{Big Data, energy, smart grid,energy efficiency, hadoop, analytics,machine learning, classification, CIVIS}
@@ -355,6 +357,8 @@
 \hypersetup{pdfkeywords={\KEYWORDS}}
 % Set the PDF subject
 \hypersetup{pdfsubject={Master's Thesis}}
+
+
 
 
 % Layout settings
@@ -426,7 +430,7 @@
 % Abstract in English
 % ------------------------------------------------------------------
 \thesisabstract{english}{
-Global energy requirements are continuously increasing. Conventional methods of producing more energy to meet this growth pose a great threat to the environment. CO\(_{2}\) emissions and other bi-products of energy production and distribution processes have dire consequences for the environment. Efficient use of energy is one of the main tools to restrain energy consumption growth without compromising on the customers requirements. Improving energy efficiency requires understanding of the usage patterns and practices. Smart energy grids, pervasive computing, and communication technologies have enabled the stakeholders in the energy industry to collect large amounts of useful and highly granular energy usage data. This data is generated in large volumes and in a variety of different formats depending on its purpose and systems used to collect it. The volume and diversity of data also increase with time. All these data characteristics refer to the application of Big Data. 
+Global energy requirements are continuously increasing. Conventional methods of producing more energy to meet this growth pose a great threat to the environment. CO\(_{2}\) emissions and other bi-products of energy production and distribution processes have dire consequences for the environment. Efficient use of energy is one of the main tools to restrain energy consumption growth without compromising on the customers requirements. Improving energy efficiency requires understanding of the usage patterns and practices. Smart energy grids, pervasive computing, and communication technologies have enabled the stakeholders in the energy industry to collect large amounts of useful and highly granular energy usage data. This data is generated in large volumes and in a variety of different formats depending on its purpose and systems used to collect it. The volume and diversity of data also increase with time.\ All these data characteristics refer to the application of Big Data. 
 
 This thesis focuses on harnessing the power of Big Data tools and techniques such as MapReduce and Apache Hadoop ecosystem tools to collect, process and analyse energy data and generate insights that can be used to improve energy efficiency. Furthermore, it also includes studying energy efficiency to formulate the use cases, studying Big Data technologies to present a conceptual model for an end-to-end Big Data analytics platform, implementation of a part of the conceptual model with the capacity to handle energy efficiency use cases and performing data analysis to generate useful insights.   
 
@@ -494,11 +498,20 @@ The main purpose of this research is to provide the basis for enabling data driv
 % show up in the TOC
 \chapter*{Acknowledgements}
 
-I wish to thank all students who use \LaTeX\ for formatting their theses,
-because theses formatted with \LaTeX\ are just so nice.
+\begin{center}
+\emph{"All praises be to God, on whom we depend for sustenance and guidance."}
+\end{center}
 
-Thank you, and keep up the good work!
+\begin{spacing}{1.5}
+I would like to express my sincere gratitude to my supervisor Professor Matti Vartiainen and advisor Professor Jukka Nurminen for their continuous motivation, support and guidance. I would also like to give very special thanks to my instructor Ms. Sanja Scepanovic for taking keen interest in this research and providing conscientious directions throughout the process.
+
+I would take this opportunity to highlight CIVIS project and VTT's Green Campus initiative as the main source of inspiration for my work. I would like to extend my special thanks to Mr. Janne Peltonen from VTT for his counselling and efforts in arranging the data for my research. 
+
+Last but not the least, I would like to mention the contribution of my family as the main source of strength in my life. I am grateful for a wife who believes in me more than I do myself, the unconditional support and affection of my parents and most of all for the refreshing energy that my little fairy, Zeenia, induces in me.       
+
+Thank you all again, and keep up the good work!
 \vskip 10mm
+\end{spacing}
 
 \noindent Espoo, \DATE
 \vskip 5mm
@@ -562,7 +575,6 @@ Thank you, and keep up the good work!
 \input{4implementation.tex}
  
 \input{5dataanalysis.tex}
-
 \input{6discussion.tex}
  
 \input{7conclusion.tex}

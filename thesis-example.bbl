@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{civisproposal}
+{CIVIS Project - European Union 7th framework programme}.
+\newblock Accessed: 2014-06-09.
+
 \bibitem{clouderaimpala}
 The cloudera impala - open source, interactive sql for hadoop.
 \newblock
@@ -13,7 +17,7 @@ Directive 2012/27/eu of the european parliament and of the council of 25
   \url{http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2012:315:0001:0056:EN:PDF}.
 \newblock Accessed: 2014-06-10.
 
-\bibitem{Clouderatwitter}
+\bibitem{clouderatwitter}
 How to analyze twitter data with apache hadoop.
 \newblock
   \url{http://blog.cloudera.com/blog/2012/09/analyzing-twitter-data-with-hadoop/}.
@@ -39,7 +43,7 @@ Welcome to apache flume.
 \newblock \url{http://flume.apache.org/}.
 \newblock Accessed: 2014-07-04.
 
-\bibitem{Apachehadoop}
+\bibitem{apachehadoop}
 Welcome to apache hadoop.
 \newblock \url{http://hadoop.apache.org/}.
 \newblock Accessed: 2014-07-04.
@@ -90,10 +94,10 @@ Welcome to apache sqoop.
 \newblock Mapreduce: simplified data processing on large clusters.
 \newblock {\em Communications of the ACM 51}, 1 (2008), 107--113.
 
-\bibitem{civisproposal}
-{\sc {European Union 7th framework programme}}.
-\newblock Proposal part b - cities as drivers of social change civis project -
-  ict-2013.6.4 optimising energy systems in smart citiese, 2013.
+\bibitem{referencing}
+{\sc Dr. Chryssis~Georgiou, U. o.~C.}
+\newblock Reference guide: Acm style.
+\newblock Accessed: 2014-06-09.
 
 \bibitem{farhangi2010path}
 {\sc Farhangi, H.}
@@ -206,13 +210,6 @@ Welcome to apache sqoop.
 {\sc Mujumdar, P.}
 \newblock Stochastic hydrology-video course.
 
-\bibitem{neville2012referencing}
-{\sc Neville, C., Gatti, P.~J., Sekhon, B.~S., Patil, J., Korachagaon, A.,
-  Shiralashetti, S., Marapur, S., Archana, R., Basavaraj, B., Bharath, S.,
-  et~al.}
-\newblock Referencing: Principles, practice and problems.
-\newblock {\em RGUHS J Pharm Sci 2\/} (2012), 1--8.
-
 \bibitem{ng2000cs229}
 {\sc Ng, A.}
 \newblock Cs229 lecture notes.
@@ -228,20 +225,9 @@ Welcome to apache sqoop.
 \newblock The case for shared nothing.
 \newblock {\em IEEE Database Eng. Bull. 9}, 1 (1986), 4--9.
 
-\bibitem{tso2003study}
-{\sc Tso, G.~K., and Yau, K.~K.}
-\newblock A study of domestic energy usage patterns in hong kong.
-\newblock {\em Energy 28}, 15 (2003), 1671--1682.
-
 \bibitem{tufte1983visual}
 {\sc Tufte, E.~R., and Graves-Morris, P.}
 \newblock {\em The visual display of quantitative information}, vol.~2.
 \newblock Graphics press Cheshire, CT, 1983.
-
-\bibitem{yohanis2008real}
-{\sc Yohanis, Y.~G., Mondol, J.~D., Wright, A., and Norton, B.}
-\newblock Real-life energy use in the uk: How occupancy and dwelling
-  characteristics affect domestic electricity use.
-\newblock {\em Energy and Buildings 40}, 6 (2008), 1053--1059.
 
 \end{thebibliography}
