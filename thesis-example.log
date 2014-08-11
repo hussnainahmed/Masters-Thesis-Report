@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  8 AUG 2014 01:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.10)  11 AUG 2014 11:06
 entering extended mode
 **thesis-example.tex
 
@@ -1259,67 +1259,54 @@ Package pdftex.def Info: images/season.pdf used on input line 73.
 
 [52] [53 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-
 master/images/season.pdf>]
-<images/db6_elec.pdf, id=1063, 580.1675pt x 585.18625pt>
-File: images/db6_elec.pdf Graphic file (type pdf)
+<images/b6_daily_elec.png, id=1063, 687.56876pt x 658.46pt>
+File: images/b6_daily_elec.png Graphic file (type png)
 
-<use images/db6_elec.pdf>
-Package pdftex.def Info: images/db6_elec.pdf used on input line 89.
-(pdftex.def)             Requested size: 188.21288pt x 189.84396pt.
+<use images/b6_daily_elec.png>
+Package pdftex.def Info: images/b6_daily_elec.png used on input line 89.
+(pdftex.def)             Requested size: 188.21288pt x 180.23811pt.
 
-<images/db13_elec.pdf, id=1064, 576.1525pt x 585.18625pt>
-File: images/db13_elec.pdf Graphic file (type pdf)
+<images/b13_daily_elec.png, id=1064, 679.53876pt x 658.46pt>
+File: images/b13_daily_elec.png Graphic file (type png)
 
-<use images/db13_elec.pdf>
-Package pdftex.def Info: images/db13_elec.pdf used on input line 94.
-(pdftex.def)             Requested size: 188.21288pt x 191.16548pt.
+<use images/b13_daily_elec.png>
+Package pdftex.def Info: images/b13_daily_elec.png used on input line 94.
+(pdftex.def)             Requested size: 188.21288pt x 182.36813pt.
 
-<images/db6_heat.pdf, id=1065, 825.0825pt x 674.52pt>
-File: images/db6_heat.pdf Graphic file (type pdf)
+<images/b6_daily_heat.png, id=1065, 952.55875pt x 562.1pt>
+File: images/b6_daily_heat.png Graphic file (type png)
 
-<use images/db6_heat.pdf>
-Package pdftex.def Info: images/db6_heat.pdf used on input line 100.
-(pdftex.def)             Requested size: 188.21288pt x 153.86008pt.
+<use images/b6_daily_heat.png>
+Package pdftex.def Info: images/b6_daily_heat.png used on input line 100.
+(pdftex.def)             Requested size: 188.21288pt x 111.06285pt.
 
-<images/db13_heat.pdf, id=1066, 825.0825pt x 674.52pt>
-File: images/db13_heat.pdf Graphic file (type pdf)
+<images/b13_daily_heat.png, id=1066, 952.55875pt x 562.1pt>
+File: images/b13_daily_heat.png Graphic file (type png)
 
-<use images/db13_heat.pdf>
-Package pdftex.def Info: images/db13_heat.pdf used on input line 105.
-(pdftex.def)             Requested size: 188.21288pt x 153.86008pt.
+<use images/b13_daily_heat.png>
+Package pdftex.def Info: images/b13_daily_heat.png used on input line 105.
+(pdftex.def)             Requested size: 188.21288pt x 111.06285pt.
  [54 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-mast
-er/images/db6_elec.pdf> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters
--Thesis-Report-master/images/db13_elec.pdf
-
-pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
-on/Masters-Thesis-Report-master/images/db13_elec.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
-> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-master/
-images/db6_heat.pdf
-
-pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
-on/Masters-Thesis-Report-master/images/db6_heat.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
-> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-master/
-images/db13_heat.pdf
-
-pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
-on/Masters-Thesis-Report-master/images/db13_heat.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->] <images/hr_m2.pdf, id=1167, 658.46pt x 508.90125pt>
+er/images/b6_daily_elec.png (PNG copy)> <C:/IDBM/Sentiment Analysis/CIVIS/docum
+entation/Masters-Thesis-Report-master/images/b13_daily_elec.png (PNG copy)> <C:
+/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-master/image
+s/b6_daily_heat.png (PNG copy)> <C:/IDBM/Sentiment Analysis/CIVIS/documentation
+/Masters-Thesis-Report-master/images/b13_daily_heat.png (PNG copy)>] <images/hr
+_m2.pdf, id=1082, 658.46pt x 508.90125pt>
 File: images/hr_m2.pdf Graphic file (type pdf)
- <use images/hr_m2.pdf>
+
+<use images/hr_m2.pdf>
 Package pdftex.def Info: images/hr_m2.pdf used on input line 124.
 (pdftex.def)             Requested size: 395.07906pt x 305.34311pt.
-
-[55] [56 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-
-master/images/hr_m2.pdf>]
-<images/kmeans.pdf, id=1201, 812.03375pt x 544.0325pt>
+ [55] [56 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report
+-master/images/hr_m2.pdf>]
+<images/kmeans.pdf, id=1117, 812.03375pt x 544.0325pt>
 File: images/kmeans.pdf Graphic file (type pdf)
  <use images/kmeans.pdf>
 Package pdftex.def Info: images/kmeans.pdf used on input line 154.
 (pdftex.def)             Requested size: 418.25368pt x 280.20892pt.
 
-<images/kmeans_jan.pdf, id=1204, 803.0pt x 522.95375pt>
+<images/kmeans_jan.pdf, id=1120, 803.0pt x 522.95375pt>
 File: images/kmeans_jan.pdf Graphic file (type pdf)
 
 <use images/kmeans_jan.pdf>
@@ -1331,33 +1318,37 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [58 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-maste
 r/images/kmeans.pdf>]
-<images/kmeans_b29_3c.pdf, id=1252, 812.03375pt x 544.0325pt>
-File: images/kmeans_b29_3c.pdf Graphic file (type pdf)
+<images/b29_kmeans_allmonths.png, id=1167, 987.69pt x 587.19376pt>
+File: images/b29_kmeans_allmonths.png Graphic file (type png)
 
-<use images/kmeans_b29_3c.pdf>
-Package pdftex.def Info: images/kmeans_b29_3c.pdf used on input line 178.
-(pdftex.def)             Requested size: 188.21288pt x 126.08778pt.
+<use images/b29_kmeans_allmonths.png>
+Package pdftex.def Info: images/b29_kmeans_allmonths.png used on input line 178
+.
+(pdftex.def)             Requested size: 188.21288pt x 111.89052pt.
 
-<images/kmeans_b7.pdf, id=1253, 812.03375pt x 544.0325pt>
-File: images/kmeans_b7.pdf Graphic file (type pdf)
+<images/b7_kmeans_allmonths.png, id=1168, 987.69pt x 587.19376pt>
+File: images/b7_kmeans_allmonths.png Graphic file (type png)
 
-<use images/kmeans_b7.pdf>
-Package pdftex.def Info: images/kmeans_b7.pdf used on input line 183.
-(pdftex.def)             Requested size: 188.21288pt x 126.08778pt.
+<use images/b7_kmeans_allmonths.png>
+Package pdftex.def Info: images/b7_kmeans_allmonths.png used on input line 183.
 
-<images/kmeans_B16_2c.pdf, id=1254, 812.03375pt x 544.0325pt>
-File: images/kmeans_B16_2c.pdf Graphic file (type pdf)
+(pdftex.def)             Requested size: 188.21288pt x 111.89052pt.
 
-<use images/kmeans_B16_2c.pdf>
-Package pdftex.def Info: images/kmeans_B16_2c.pdf used on input line 189.
-(pdftex.def)             Requested size: 188.21288pt x 126.08778pt.
+<images/b16_kmeans_allmonths.png, id=1169, 987.69pt x 587.19376pt>
+File: images/b16_kmeans_allmonths.png Graphic file (type png)
 
-<images/kmeans_b24_no.pdf, id=1255, 812.03375pt x 544.0325pt>
-File: images/kmeans_b24_no.pdf Graphic file (type pdf)
+<use images/b16_kmeans_allmonths.png>
+Package pdftex.def Info: images/b16_kmeans_allmonths.png used on input line 189
+.
+(pdftex.def)             Requested size: 188.21288pt x 111.89052pt.
 
-<use images/kmeans_b24_no.pdf>
-Package pdftex.def Info: images/kmeans_b24_no.pdf used on input line 194.
-(pdftex.def)             Requested size: 188.21288pt x 126.08778pt.
+<images/b24_kmeans_allmonths.png, id=1170, 987.69pt x 587.19376pt>
+File: images/b24_kmeans_allmonths.png Graphic file (type png)
+
+<use images/b24_kmeans_allmonths.png>
+Package pdftex.def Info: images/b24_kmeans_allmonths.png used on input line 194
+.
+(pdftex.def)             Requested size: 188.21288pt x 111.89052pt.
  [59 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-mast
 er/images/kmeans_jan.pdf>]
 Overfull \hbox (4.48004pt too wide) in paragraph at lines 206--206
@@ -1365,37 +1356,24 @@ Overfull \hbox (4.48004pt too wide) in paragraph at lines 206--206
  []
 
 [60 <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-maste
-r/images/kmeans_b29_3c.pdf> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Mas
-ters-Thesis-Report-master/images/kmeans_b7.pdf
-
-pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
-on/Masters-Thesis-Report-master/images/kmeans_b7.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
-> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-master/
-images/kmeans_B16_2c.pdf
-
-pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
-on/Masters-Thesis-Report-master/images/kmeans_B16_2c.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-master/
-images/kmeans_b24_no.pdf
-
-pdfTeX warning: pdflatex.exe (file C:/IDBM/Sentiment Analysis/CIVIS/documentati
-on/Masters-Thesis-Report-master/images/kmeans_b24_no.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->] <images/arima.pdf, id=1382, 410.53375pt x 253.94875pt>
+r/images/b29_kmeans_allmonths.png (PNG copy)> <C:/IDBM/Sentiment Analysis/CIVIS
+/documentation/Masters-Thesis-Report-master/images/b7_kmeans_allmonths.png (PNG
+ copy)> <C:/IDBM/Sentiment Analysis/CIVIS/documentation/Masters-Thesis-Report-m
+aster/images/b16_kmeans_allmonths.png (PNG copy)> <C:/IDBM/Sentiment Analysis/C
+IVIS/documentation/Masters-Thesis-Report-master/images/b24_kmeans_allmonths.png
+ (PNG copy)>] <images/arima.pdf, id=1212, 410.53375pt x 253.94875pt>
 File: images/arima.pdf Graphic file (type pdf)
 
 <use images/arima.pdf>
 Package pdftex.def Info: images/arima.pdf used on input line 235.
 (pdftex.def)             Requested size: 418.25368pt x 258.72205pt.
- <images/lr.pdf, id=1383, 597.6729pt x 227.6505pt>
+ <images/lr.pdf, id=1213, 597.6729pt x 227.6505pt>
 File: images/lr.pdf Graphic file (type pdf)
 
 <use images/lr.pdf>
 Package pdftex.def Info: images/lr.pdf used on input line 243.
 (pdftex.def)             Requested size: 418.25368pt x 159.31256pt.
- <images/ann.pdf, id=1384, 597.6729pt x 227.6505pt>
+ <images/ann.pdf, id=1214, 597.6729pt x 227.6505pt>
 File: images/ann.pdf Graphic file (type pdf)
 
 <use images/ann.pdf>
@@ -1433,7 +1411,7 @@ hesis-example.bbl" [69] [70
 ("C:\IDBM\Sentiment Analysis\CIVIS\documentation\Masters-Thesis-Report-master\a
 ppendices.tex" [73]
 Appendix A.
-<images/appenda.pdf, id=1499, 324.4923pt x 384.23549pt>
+<images/appenda.pdf, id=1335, 324.4923pt x 384.23549pt>
 File: images/appenda.pdf Graphic file (type pdf)
 
 <use images/appenda.pdf>
@@ -1448,7 +1426,7 @@ Appendix B.
 
 ] [76]
 Appendix C.
-<images/appendd1.pdf, id=1542, 324.4923pt x 199.22429pt>
+<images/appendd1.pdf, id=1378, 324.4923pt x 199.22429pt>
 File: images/appendd1.pdf Graphic file (type pdf)
 
 <use images/appendd1.pdf>
@@ -1508,11 +1486,11 @@ hesis-example.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
 Package rerunfilecheck Info: File `thesis-example.out' has not changed.
-(rerunfilecheck)             Checksum: 9CBB73CBDB751376117A7D481EE6FE48;5654.
+(rerunfilecheck)             Checksum: 16D2605C4C40B2DFF7B2C4121761736A;5655.
  ) 
 Here is how much of TeX's memory you used:
  22564 strings out of 493921
- 413780 string characters out of 3147273
+ 414035 string characters out of 3147273
  542949 words of memory out of 3000000
  24998 multiletter control sequences out of 15000+200000
  12257 words of font info for 44 fonts, out of 3000000 for 9000
@@ -1533,9 +1511,9 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX
 ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb>
-Output written on thesis-example.pdf (85 pages, 3140354 bytes).
+Output written on thesis-example.pdf (85 pages, 2352862 bytes).
 PDF statistics:
- 1694 PDF objects out of 1728 (max. 8388607)
+ 1530 PDF objects out of 1728 (max. 8388607)
  361 named destinations out of 1000 (max. 500000)
  729 words of extra memory for PDF output out of 10000 (max. 10000000)
 

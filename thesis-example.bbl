@@ -1,7 +1,8 @@
 \begin{thebibliography}{10}
 
 \bibitem{civisproposal}
-{CIVIS Project - European Union 7th framework programme}.
+Civis project - european union 7th framework programme.
+\newblock \url{http://www.civisproject.eu/}.
 \newblock Accessed: 2014-06-09.
 
 \bibitem{clouderaimpala}
@@ -31,6 +32,7 @@ Impala concepts and architecture.
 
 \bibitem{lambdaarch}
 {Lambda Architecture} what is the lambda architecture.
+\newblock \url{http://lambda-architecture.net/}.
 \newblock Accessed: 2014-06-09.
 
 \bibitem{avro}
@@ -97,6 +99,7 @@ Welcome to apache sqoop.
 \bibitem{referencing}
 {\sc Dr. Chryssis~Georgiou, U. o.~C.}
 \newblock Reference guide: Acm style.
+\newblock \url{http://www.cs.ucy.ac.cy/~chryssis/specs/ACM-refguide.pdf}.
 \newblock Accessed: 2014-06-09.
 
 \bibitem{farhangi2010path}
